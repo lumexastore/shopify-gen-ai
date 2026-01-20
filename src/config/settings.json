@@ -1,0 +1,4 @@
+{
+    "shop": "aistore-9901.myshopify.com",
+    "scopes": "write_products,read_products,write_themes,read_themes,write_files,read_files,write_content,read_content,write_inventory,read_inventory,write_orders,read_orders,write_script_tags,read_script_tags,write_shipping,read_shipping,write_locales,read_locales"
+}
