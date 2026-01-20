@@ -1,0 +1,268 @@
+{
+  "url": "https://www.haphoriz.com/products/necksupportw",
+  "scannedAt": "2026-01-20T15:45:13.798Z",
+  "screenshot": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\full_page_1768923907841.png",
+  "data": {
+    "brandDNA": {
+      "primaryButtonColor": "rgb(109, 56, 139)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "typography": {
+        "body": "Poppins, sans-serif",
+        "h1": "Poppins, sans-serif",
+        "h2": "Poppins, sans-serif"
+      }
+    },
+    "structure": {
+      "mainContainers": [
+        {
+          "tag": "MAIN",
+          "className": "content-for-layout focus-none",
+          "width": "1920px",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "isGridOrFlex": false
+        },
+        {
+          "tag": "SECTION",
+          "className": "shopify-section section",
+          "width": "1920px",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "isGridOrFlex": false
+        },
+        {
+          "tag": "SECTION",
+          "className": "shopify-section section",
+          "width": "1920px",
+          "padding": "0px",
+          "margin": "0px",
+          "display": "block",
+          "isGridOrFlex": false
+        },
+        {
+          "tag": "SECTION",
+          "className": "page-width section-template--19467744116934__main-padding",
+          "width": "1400px",
+          "padding": "36px 50px",
+          "margin": "0px",
+          "display": "block",
+          "isGridOrFlex": false
+        },
+        {
+          "tag": "DIV",
+          "className": "product__info-wrapper grid__item product__column-sticky product__info-wrapper--top-padding",
+          "width": "585px",
+          "padding": "0px 0px 0px 50px",
+          "margin": "0px",
+          "display": "block",
+          "isGridOrFlex": false
+        }
+      ]
+    },
+    "assets": {
+      "detectedImages": [
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/image-Photoroom_67_8c4bff73-2095-4e0f-91ad-492b34764b84.png?v=1740035882&width=500",
+          "alt": "Haphoriz",
+          "width": 1920,
+          "height": 1044
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ProdImagesNeckSupport1_b4c5f759-74c7-4f7c-be09-c9b5fcfbb711.png?v=1767424385&width=1946",
+          "alt": "",
+          "width": 715,
+          "height": 715
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ProdImagesNeckSupport3_09209c9f-c48a-408c-8c56-a075db8ab15e.png?v=1767424385&width=1946",
+          "alt": "",
+          "width": 715,
+          "height": 715
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/17670859406247.png?v=1767424385&width=1946",
+          "alt": "",
+          "width": 715,
+          "height": 715
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ezgif-2cc0bfd528fef3.webp?v=1767424385&width=1946",
+          "alt": "",
+          "width": 695,
+          "height": 695
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/NS-black-side_fb543c21-35bd-4009-a36b-86f19c936900.jpg?v=1767424385&width=1946",
+          "alt": "",
+          "width": 650,
+          "height": 650
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/17670859829454_fa4d03bd-8afb-4c87-98fe-46092cc51ceb.png?v=1767424385&width=1946",
+          "alt": "",
+          "width": 715,
+          "height": 715
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ProdImagesNeckSupport1_b4c5f759-74c7-4f7c-be09-c9b5fcfbb711.png?v=1767424385&width=416",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 248,
+          "height": 248
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ProdImagesNeckSupport3_09209c9f-c48a-408c-8c56-a075db8ab15e.png?v=1767424385&width=416",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 248,
+          "height": 248
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/17670859406247.png?v=1767424385&width=416",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 248,
+          "height": 248
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ezgif-2cc0bfd528fef3.webp?v=1767424385&width=416",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 248,
+          "height": 248
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/NS-black-side_fb543c21-35bd-4009-a36b-86f19c936900.jpg?v=1767424385&width=416",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 248,
+          "height": 248
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/17670859829454_fa4d03bd-8afb-4c87-98fe-46092cc51ceb.png?v=1767424385&width=416",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 248,
+          "height": 248
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/17670869364217.webp?v=1767425539&width=1500",
+          "alt": "",
+          "width": 650,
+          "height": 144
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ProdImagesNeckSupport1_b4c5f759-74c7-4f7c-be09-c9b5fcfbb711.png?v=1767424385&width=500",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 500,
+          "height": 500
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/17670879013107.png?v=1767087912&width=1500",
+          "alt": "",
+          "width": 415,
+          "height": 297
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/17670881456139.png?v=1767088212&width=1500",
+          "alt": "",
+          "width": 415,
+          "height": 292
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/17670882998413.png?v=1767088312&width=1500",
+          "alt": "",
+          "width": 415,
+          "height": 300
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/DM_20251230180054_001.png?v=1767088969&width=1500",
+          "alt": "",
+          "width": 650,
+          "height": 650
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/DM_20251230180219_001.gif?v=1767088973&width=1500",
+          "alt": "",
+          "width": 650,
+          "height": 650
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/DM_20251230180219_002.png?v=1767088970&width=1500",
+          "alt": "",
+          "width": 650,
+          "height": 633
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/DM_20251230181455_001.png?v=1767089722&width=1420",
+          "alt": "",
+          "width": 295,
+          "height": 295
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/DM_20251230181455_003.png?v=1767089724&width=1420",
+          "alt": "",
+          "width": 295,
+          "height": 295
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/DM_20251230181455_004.png?v=1767089724&width=1420",
+          "alt": "",
+          "width": 295,
+          "height": 295
+        },
+        {
+          "src": "https://www.mrinlare.com/cdn/shop/files/DM_20251230181455_002.png?v=1767089722&width=1420",
+          "alt": "",
+          "width": 295,
+          "height": 295
+        },
+        {
+          "src": "https://tryvitavix.com/cdn/shop/files/20240408_095956_1.jpg?v=1745487260",
+          "alt": "Graphics",
+          "width": 1793,
+          "height": 1252
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ProdImagesNeckSupport1_b4c5f759-74c7-4f7c-be09-c9b5fcfbb711.png?v=1767424385&width=1445",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 1568,
+          "height": 1568
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ProdImagesNeckSupport3_09209c9f-c48a-408c-8c56-a075db8ab15e.png?v=1767424385&width=1445",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 1568,
+          "height": 1568
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/17670859406247.png?v=1767424385&width=1445",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 1700,
+          "height": 1700
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/ezgif-2cc0bfd528fef3.webp?v=1767424385&width=1445",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 1700,
+          "height": 1700
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/NS-black-side_fb543c21-35bd-4009-a36b-86f19c936900.jpg?v=1767424385&width=1445",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 1700,
+          "height": 1700
+        },
+        {
+          "src": "https://www.haphoriz.com/cdn/shop/files/17670859829454_fa4d03bd-8afb-4c87-98fe-46092cc51ceb.png?v=1767424385&width=1445",
+          "alt": "NESLEMY™ - Never snore again",
+          "width": 1700,
+          "height": 1700
+        }
+      ]
+    },
+    "productInfo": {
+      "title": "NESLEMY™ - Never snore again",
+      "price": "Regular price\n$32.99 \nSale price\n$99.00\nSAVE 66%",
+      "description": "\n                  <p>✅Based on observational study<br>✅250+ participants per study<br>✅World class doctors &amp; researchers</p>\n                "
+    }
+  },
+  "createdProductId": 7788549013546,
+  "createdProductHandle": "neslemy™-never-snore-again"
+}

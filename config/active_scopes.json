@@ -1,0 +1,8 @@
+[
+    "read_products",
+    "write_products",
+    "read_themes",
+    "write_themes",
+    "read_files",
+    "write_files"
+]
