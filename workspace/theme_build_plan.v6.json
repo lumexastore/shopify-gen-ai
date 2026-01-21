@@ -1,0 +1,147 @@
+{
+    "templateSuffix": "cloned-v1",
+    "sections": [
+        {
+            "sectionId": "sec_1dbf36e393",
+            "target": {
+                "type": "main-product",
+                "settings": {
+                    "enable_sticky_info": true,
+                    "gallery_layout": "thumbnail",
+                    "media_size": "large",
+                    "mobile_thumbnails": "show",
+                    "hide_variants": false
+                },
+                "blocks": [
+                    {
+                        "type": "title",
+                        "settings": {}
+                    },
+                    {
+                        "type": "price",
+                        "settings": {}
+                    },
+                    {
+                        "type": "variant_picker",
+                        "settings": {
+                            "picker_type": "button"
+                        }
+                    },
+                    {
+                        "type": "quantity_selector",
+                        "settings": {}
+                    },
+                    {
+                        "type": "buy_buttons",
+                        "settings": {}
+                    },
+                    {
+                        "type": "description",
+                        "settings": {}
+                    },
+                    {
+                        "type": "rating",
+                        "settings": {}
+                    }
+                ],
+                "blockOrder": [
+                    "title",
+                    "price",
+                    "variant_picker",
+                    "buy_buttons",
+                    "description"
+                ]
+            },
+            "assetUploads": [],
+            "qaExpectations": [
+                "Product title matches",
+                "Price visible",
+                "Add to cart works"
+            ]
+        },
+        {
+            "sectionId": "sec_0f85b56f3e",
+            "target": {
+                "type": "rich-text",
+                "settings": {
+                    "color_scheme": "background-1",
+                    "full_width": true,
+                    "padding_top": 36,
+                    "padding_bottom": 36
+                },
+                "blocks": [
+                    {
+                        "type": "heading",
+                        "settings": {
+                            "heading": "Join 100,000 + Happy Customers Today",
+                            "heading_size": "h1"
+                        }
+                    }
+                ]
+            },
+            "assetUploads": [],
+            "qaExpectations": [
+                "Heading visible"
+            ]
+        },
+        {
+            "sectionId": "sec_testimonials_slider",
+            "target": {
+                "type": "multicolumn",
+                "settings": {
+                    "title": "What Experts Say",
+                    "image_width": "full",
+                    "image_ratio": "adapt",
+                    "columns_desktop": 3,
+                    "swipe_on_mobile": true
+                },
+                "blocks": [
+                    {
+                        "type": "column",
+                        "settings": {
+                            "title": "Prof. Lukas Fischer",
+                            "text": "<p>Sports Medicine Expert, Switzerland. NESLEMY is my top recommendation.</p>"
+                        }
+                    },
+                    {
+                        "type": "column",
+                        "settings": {
+                            "title": "Dr. Clara Maller",
+                            "text": "<p>Pain Management specialist, Germany. Safe, effective.</p>"
+                        }
+                    }
+                ]
+            },
+            "assetUploads": [],
+            "qaExpectations": [
+                "Testimonials visible"
+            ]
+        },
+        {
+            "sectionId": "sec_faq",
+            "target": {
+                "type": "collapsible-content",
+                "settings": {
+                    "heading": "Frequently Asked Questions",
+                    "layout": "row"
+                },
+                "blocks": [
+                    {
+                        "type": "collapsible_row",
+                        "settings": {
+                            "heading": "How does it work?",
+                            "row_content": "It aligns your neck..."
+                        }
+                    }
+                ]
+            },
+            "assetUploads": [],
+            "qaExpectations": [
+                "FAQ expandable"
+            ]
+        }
+    ],
+    "diagnostics": {
+        "customSectionsNeeded": []
+    }
+}

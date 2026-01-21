@@ -1,0 +1,51 @@
+[
+    {
+        "id": "sec_228bef6d7c",
+        "label": "header",
+        "confidence": 1.0
+    },
+    {
+        "id": "sec_1dbf36e393",
+        "label": "main-product",
+        "confidence": 1.0,
+        "reasons": [
+            "buy buttons",
+            "price",
+            "gallery"
+        ]
+    },
+    {
+        "id": "sec_0f85b56f3e",
+        "label": "trust_banner",
+        "confidence": 0.9,
+        "reasons": [
+            "Happy Customers",
+            "numbers"
+        ]
+    },
+    {
+        "id": "sec_features_1",
+        "label": "features_grid",
+        "confidence": 0.8
+    },
+    {
+        "id": "sec_testimonials_slider",
+        "label": "testimonials",
+        "confidence": 0.9,
+        "reasons": [
+            "stars",
+            "author name",
+            "slider"
+        ]
+    },
+    {
+        "id": "sec_faq",
+        "label": "faq",
+        "confidence": 0.9
+    },
+    {
+        "id": "sec_footer",
+        "label": "footer",
+        "confidence": 1.0
+    }
+]

@@ -1,0 +1,718 @@
+{
+  "planVersion": "1.0",
+  "generatedAt": "2026-01-20T17:28:33.835Z",
+  "source": {
+    "url": "https://www.haphoriz.com/products/necksupportw",
+    "passportVersion": "5.0"
+  },
+  "designTokens": {
+    "colors": {
+      "background": "rgb(255, 255, 255)",
+      "text": "rgba(18, 18, 18, 0.9)",
+      "primaryButtonColor": "rgb(109, 56, 139)"
+    },
+    "typography": {
+      "body": "Poppins, sans-serif",
+      "h1": "Poppins, sans-serif",
+      "h2": "Poppins, sans-serif"
+    }
+  },
+  "pageInfo": {
+    "title": "NESLEMY™ - Never snore again",
+    "priceText": "Regular price\n$32.99",
+    "descriptionHtml": "\n                  <p>✅Based on observational study<br>✅250+ participants per study<br>✅World class doctors &amp; researchers</p>\n                "
+  },
+  "sections": [
+    {
+      "sourceSectionId": "s_f8f2f1f4a1e5",
+      "sourceType": "faq",
+      "confidence": 0.99,
+      "dawnType": "collapsible-content",
+      "intent": {
+        "kind": "faq",
+        "title": "FAQ",
+        "items": []
+      },
+      "assets": [
+        {
+          "assetId": "a_image_09e41476f116d4f8",
+          "role": "illustration"
+        },
+        {
+          "assetId": "a_svg_cc28614e6d020070",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_6a6d0362878fd93c",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_55bb6a28c89648b0",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_4f23467078978874",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_a8a04c2a8d3ef8d2",
+          "role": "icon"
+        }
+      ]
+    },
+    {
+      "sourceSectionId": "s_48e19813a37a",
+      "sourceType": "hero_banner",
+      "confidence": 0.99,
+      "dawnType": "image-banner",
+      "intent": {
+        "kind": "hero",
+        "heading": "NESLEMY™ - Never snore again",
+        "text": "Skip to product information\nNESLEMY™ - Never snore again\n (8963 Reviews)\n\ncheck_circle\nThe NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem!\n\ncheck_circle\nJoin thousands of customers who have gotten rid of sn",
+        "cta": null,
+        "heroBgAssetId": "a_image_609f4c68a2c01342"
+      },
+      "assets": [
+        {
+          "assetId": "a_image_609f4c68a2c01342",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_349517eefe43237d",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_e38fcfa6195806b1",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_51f74666aa09cacb",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_735c418f8ca4ff38",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_54529d27d6e6b032",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_609f4c68a2c01342",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_349517eefe43237d",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_e38fcfa6195806b1",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_51f74666aa09cacb",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_735c418f8ca4ff38",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_54529d27d6e6b032",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_eae5819158beeea2",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_34e7003f88694ab8",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_609f4c68a2c01342",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_cdc62c423d87658b",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_cdc62c423d87658b",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_cdc62c423d87658b",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_cdc62c423d87658b",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_cdc62c423d87658b",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_823abd0eecf86c92",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_823abd0eecf86c92",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_823abd0eecf86c92",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_823abd0eecf86c92",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_823abd0eecf86c92",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_1cccb1eb51525dfe",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_0d5323db95a7bbce",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_0d5323db95a7bbce",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_0d5323db95a7bbce",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_0d5323db95a7bbce",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_0d5323db95a7bbce",
+          "role": "hero_bg"
+        }
+      ]
+    },
+    {
+      "sourceSectionId": "s_8e7f0fcacb9b",
+      "sourceType": "slideshow",
+      "confidence": 0.6666666666666666,
+      "dawnType": "slideshow",
+      "intent": {
+        "kind": "slideshow",
+        "title": "",
+        "slides": [
+          {
+            "imageAssetId": "a_svg_14c864caa95fda86",
+            "heading": "",
+            "text": "",
+            "order": 1
+          },
+          {
+            "imageAssetId": "a_svg_14c864caa95fda86",
+            "heading": "",
+            "text": "",
+            "order": 2
+          },
+          {
+            "imageAssetId": "a_svg_14c864caa95fda86",
+            "heading": "",
+            "text": "",
+            "order": 3
+          },
+          {
+            "imageAssetId": "a_svg_14c864caa95fda86",
+            "heading": "",
+            "text": "",
+            "order": 4
+          },
+          {
+            "imageAssetId": "a_svg_e971acaf9c73522d",
+            "heading": "",
+            "text": "",
+            "order": 5
+          },
+          {
+            "imageAssetId": "a_svg_e971acaf9c73522d",
+            "heading": "",
+            "text": "",
+            "order": 6
+          }
+        ]
+      },
+      "assets": [
+        {
+          "assetId": "a_svg_14c864caa95fda86",
+          "role": "gallery"
+        },
+        {
+          "assetId": "a_svg_14c864caa95fda86",
+          "role": "gallery"
+        },
+        {
+          "assetId": "a_svg_14c864caa95fda86",
+          "role": "gallery"
+        },
+        {
+          "assetId": "a_svg_14c864caa95fda86",
+          "role": "gallery"
+        },
+        {
+          "assetId": "a_svg_e971acaf9c73522d",
+          "role": "gallery"
+        },
+        {
+          "assetId": "a_svg_e971acaf9c73522d",
+          "role": "gallery"
+        }
+      ]
+    },
+    {
+      "sourceSectionId": "s_6b2eeccb0777",
+      "sourceType": "hero_banner",
+      "confidence": 0.5,
+      "dawnType": "image-banner",
+      "intent": {
+        "kind": "hero",
+        "heading": "Complete Relief: Quiet, Comfortable, Restful Nights",
+        "text": "Complete Relief: Quiet, Comfortable, Restful Nights\nSleep apnea\nSnoring\nNeck tension\n \n92% of participants noticed a decrease in their sleep apnea after 2 nights\n\n✅Based on observational study\n✅250+ participants per study\n✅World class doctors & researchers",
+        "cta": null,
+        "heroBgAssetId": "a_image_e80795724ce16e28"
+      },
+      "assets": [
+        {
+          "assetId": "a_image_e80795724ce16e28",
+          "role": "hero_bg"
+        }
+      ]
+    },
+    {
+      "sourceSectionId": "s_f4b35e263688",
+      "sourceType": "hero_banner",
+      "confidence": 0.6666666666666666,
+      "dawnType": "image-banner",
+      "intent": {
+        "kind": "hero",
+        "heading": "Whether you're struggling with snoring issues or sleep apnea, our Deep Sleep Posture Transformer is your answer to a peaceful and tranquil night.",
+        "text": "Whether you're struggling with snoring issues or sleep apnea, our Deep Sleep Posture Transformer is your answer to a peaceful and tranquil night.\n\nWith an ergonomic design that conforms to the contours of your neck, this advanced support ensures optimal alignment of the cervical",
+        "cta": null,
+        "heroBgAssetId": "a_image_d024c4078c7694f6"
+      },
+      "assets": [
+        {
+          "assetId": "a_image_d024c4078c7694f6",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_1564a20be9a158d1",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_8b7a5ad939168b90",
+          "role": "hero_bg"
+        }
+      ]
+    },
+    {
+      "sourceSectionId": "s_4ed4f2d270f2",
+      "sourceType": "hero_banner",
+      "confidence": 0.6666666666666666,
+      "dawnType": "image-banner",
+      "intent": {
+        "kind": "hero",
+        "heading": "Not all Deep Sleep Posture Transformer are Created Equal",
+        "text": "Not all Deep Sleep Posture Transformer are Created Equal\n\nThe Deep Sleep Posture Transformer is engineered with advanced ergonomic features not typically found in standard pillows or cheap imitations.\n\n \t\t\t\nNo Side Effects\t\n\t\n\t\n\nSuperior Comfort Guaranteed\t\n\t\n\t\n\nAll-Natural Solut",
+        "cta": null,
+        "heroBgAssetId": "a_image_b5962be1e802eb7d"
+      },
+      "assets": [
+        {
+          "assetId": "a_image_b5962be1e802eb7d",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_4d029fa2441f93d1",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_3a669189c1eae413",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_1576183305520d0c",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_1576183305520d0c",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_1576183305520d0c",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_1576183305520d0c",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_1576183305520d0c",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_1576183305520d0c",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_svg_77202cb2dcfe0956",
+          "role": "hero_bg"
+        }
+      ]
+    },
+    {
+      "sourceSectionId": "s_537272cacf86",
+      "sourceType": "features_grid",
+      "confidence": 0.5,
+      "dawnType": "multicolumn",
+      "intent": {
+        "kind": "features",
+        "title": "",
+        "columns": 4,
+        "items": [
+          {
+            "iconAssetId": "a_svg_706834f9a1a6929a",
+            "title": "",
+            "text": "",
+            "order": 1
+          },
+          {
+            "iconAssetId": "a_svg_706834f9a1a6929a",
+            "title": "",
+            "text": "",
+            "order": 2
+          },
+          {
+            "iconAssetId": "a_svg_706834f9a1a6929a",
+            "title": "",
+            "text": "",
+            "order": 3
+          },
+          {
+            "iconAssetId": "a_svg_706834f9a1a6929a",
+            "title": "",
+            "text": "",
+            "order": 4
+          },
+          {
+            "iconAssetId": "a_svg_706834f9a1a6929a",
+            "title": "",
+            "text": "",
+            "order": 5
+          },
+          {
+            "iconAssetId": "a_svg_62b3972565ae574f",
+            "title": "",
+            "text": "",
+            "order": 6
+          }
+        ]
+      },
+      "assets": [
+        {
+          "assetId": "a_image_c2b97c90b0c6a05b",
+          "role": "illustration"
+        },
+        {
+          "assetId": "a_image_947052bb36115112",
+          "role": "illustration"
+        },
+        {
+          "assetId": "a_image_5496c2fdf3cec0dc",
+          "role": "illustration"
+        },
+        {
+          "assetId": "a_image_e1203d0219d12513",
+          "role": "illustration"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_5519c6efdbbcef43",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_3a263f377cb0f9d1",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_cfc9d6f8cb2aeceb",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_706834f9a1a6929a",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        },
+        {
+          "assetId": "a_svg_62b3972565ae574f",
+          "role": "icon"
+        }
+      ]
+    },
+    {
+      "sourceSectionId": "s_7bcc46b22e1d",
+      "sourceType": "hero_banner",
+      "confidence": 0.6666666666666666,
+      "dawnType": "image-banner",
+      "intent": {
+        "kind": "hero",
+        "heading": "Why the Deep Sleep Posture Transformer Matters",
+        "text": "Why the Deep Sleep Posture Transformer Matters\n\nRelieves Neck Pain & Tension\n\nStops Snoring\n\nEases Sleep Apnea\n\nAdaptive Memory Foam\n\nPortable & Washable\n\nExperience a better night’s sleep withNESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while",
+        "cta": null,
+        "heroBgAssetId": "a_image_6d870124af1b795b"
+      },
+      "assets": [
+        {
+          "assetId": "a_image_6d870124af1b795b",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_6bd56e80e14de419",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_91854a36f61a4b0f",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_1da5d6e139e5d0ce",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_e511814b9f5f066f",
+          "role": "hero_bg"
+        },
+        {
+          "assetId": "a_image_42aae76a2f27bbfa",
+          "role": "hero_bg"
+        }
+      ]
+    },
+    {
+      "sourceSectionId": "s_e0d00e2cd810",
+      "sourceType": "faq",
+      "confidence": 0.6666666666666666,
+      "dawnType": "collapsible-content",
+      "intent": {
+        "kind": "faq",
+        "title": "FAQ",
+        "items": []
+      },
+      "assets": []
+    },
+    {
+      "sourceSectionId": "s_ac6c68794f61",
+      "sourceType": "rich_text",
+      "confidence": 0.3,
+      "dawnType": "rich-text",
+      "intent": {
+        "kind": "rich_text",
+        "heading": "",
+        "html": "\n                  <p>✅Based on observational study<br>✅250+ participants per study<br>✅World class doctors &amp; researchers</p>\n                "
+      },
+      "assets": []
+    }
+  ],
+  "diagnostics": {
+    "includedSections": 10,
+    "notes": [
+      "This is an intent-level plan. template-builder will adapt intents to the actual Dawn schemas in the current main theme."
+    ]
+  }
+}

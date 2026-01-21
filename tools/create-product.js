@@ -4,17 +4,36 @@ const shopify = require('../src/services/shopifyClient');
 const logger = require('../src/utils/logger') || console;
 
 const PASSPORT_FILE = path.join(__dirname, '../workspace/donor_passport.json');
+const PASSPORT_V5_FILE = path.join(__dirname, '../workspace/donor_passport.v5.json');
 
 async function createProduct() {
     try {
         console.log("🚀 Starting Product Creation...");
 
-        // 1. Read Passport
-        if (!fs.existsSync(PASSPORT_FILE)) {
-            throw new Error(`Passport file not found at ${PASSPORT_FILE}`);
+        // 1. Read Passport (prefer V5)
+        let passport = null;
+        let passportFormat = 'v4';
+
+        if (fs.existsSync(PASSPORT_V5_FILE)) {
+            passport = await fs.readJson(PASSPORT_V5_FILE);
+            passportFormat = 'v5';
+        } else if (fs.existsSync(PASSPORT_FILE)) {
+            passport = await fs.readJson(PASSPORT_FILE);
+        } else {
+            throw new Error(`Passport file not found at ${PASSPORT_V5_FILE} or ${PASSPORT_FILE}`);
         }
-        const passport = await fs.readJson(PASSPORT_FILE);
-        const { productInfo, assets } = passport.data;
+
+        const productInfo = passportFormat === 'v5'
+            ? {
+                title: passport.pageInfo?.title || passport.capture?.domSnapshot?.title || 'Unknown Product',
+                price: passport.pageInfo?.priceText || '0.00',
+                description: passport.pageInfo?.descriptionHtml || ''
+            }
+            : passport.data.productInfo;
+
+        const assets = passportFormat === 'v5'
+            ? passport.assets
+            : passport.data.assets;
 
         // 2. Prepare Data
         // Price Parsing
@@ -37,19 +56,41 @@ async function createProduct() {
             }
         }
 
-        // Image Filtering
+        // Image Filtering (role-aware)
         // distinct URLs, width > 500
         const seenUrls = new Set();
-        const images = (assets.detectedImages || [])
-            .filter(img => {
-                if (img.width < 500) return false;
-                // Normalize URL to avoid query param creates duplicates
-                const url = img.src.split('?')[0];
-                if (seenUrls.has(url)) return false;
-                seenUrls.add(url);
-                return true;
-            })
-            .map(img => ({ src: img.src }));
+        let images = [];
+
+        if (passportFormat === 'v5') {
+            // Only gallery/illustration assets should become product images.
+            const allowedRoles = new Set(['gallery', 'illustration']);
+            const usageList = Array.isArray(assets.usages) ? assets.usages : [];
+            const allowedAssetIds = new Set(
+                usageList.filter(u => allowedRoles.has(u.role)).map(u => u.assetId)
+            );
+
+            images = Array.from(allowedAssetIds)
+                .map(assetId => assets.items?.[assetId])
+                .filter(item => item && item.kind === 'image' && item.sourceUrl)
+                .filter(item => {
+                    if ((item.width || 0) < 500) return false;
+                    const url = item.normalizedUrl || item.sourceUrl.split('?')[0];
+                    if (seenUrls.has(url)) return false;
+                    seenUrls.add(url);
+                    return true;
+                })
+                .map(item => ({ src: item.sourceUrl }));
+        } else {
+            images = (assets.detectedImages || [])
+                .filter(img => {
+                    if (img.width < 500) return false;
+                    const url = img.src.split('?')[0];
+                    if (seenUrls.has(url)) return false;
+                    seenUrls.add(url);
+                    return true;
+                })
+                .map(img => ({ src: img.src }));
+        }
 
         console.log(`📦 Prepared Data: 
         - Title: ${productInfo.title}
@@ -88,10 +129,17 @@ async function createProduct() {
             console.log(`🆔 ID: ${result.product.id}`);
             console.log(`🔗 Handle: ${result.product.handle}`);
 
-            // Save Product ID to passport for next steps?
+            // Save Product ID to passport for next steps (both formats if present)
             passport.createdProductId = result.product.id;
             passport.createdProductHandle = result.product.handle;
-            await fs.writeJson(PASSPORT_FILE, passport, { spaces: 2 });
+
+            if (passportFormat === 'v5') {
+                await fs.writeJson(PASSPORT_V5_FILE, passport, { spaces: 2 });
+            }
+            // Keep legacy file updated if it exists (or if user relies on it elsewhere)
+            if (fs.existsSync(PASSPORT_FILE)) {
+                await fs.writeJson(PASSPORT_FILE, passport, { spaces: 2 });
+            }
         } else {
             console.error("❌ Failed to create product", result);
         }
