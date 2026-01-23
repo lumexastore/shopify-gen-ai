@@ -109,7 +109,16 @@ class ShopifyClient {
     _handleError(err, url) {
         if (err.response) {
             logger.error(`API Error [${url}]: ${err.response.status} - ${JSON.stringify(err.response.data)}`);
-            throw new Error(`Shopify API Error: ${err.response.statusText}`);
+            const status = err.response.status;
+            const statusText = err.response.statusText || 'Unknown';
+            let detail = '';
+            try {
+                const s = JSON.stringify(err.response.data);
+                detail = s ? ` - ${s.slice(0, 1200)}` : '';
+            } catch (_) {
+                detail = '';
+            }
+            throw new Error(`Shopify API Error: ${status} ${statusText}${detail}`);
         }
         logger.error(`Network/Client Error [${url}]: ${err.message}`);
         throw err;

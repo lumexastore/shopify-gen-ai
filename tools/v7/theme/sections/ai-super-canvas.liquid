@@ -1,0 +1,52 @@
+{% comment %}
+  ai-super-canvas
+  Purpose: "Joker" section to unlock pixel-perfect custom builds.
+  Strategy: render user-provided HTML + optional scoped CSS.
+  Notes:
+  - We do NOT rely on Tailwind runtime in Shopify.
+  - All styles should be included via `custom_css` (scoped).
+{% endcomment %}
+
+{%- assign scope_id = 'ai-super-canvas-' | append: section.id -%}
+
+<section id="{{ scope_id }}" class="ai-super-canvas">
+  {%- if section.settings.custom_css != blank -%}
+    <style>
+      /* Scoped custom CSS for {{ scope_id }} */
+      #{{ scope_id }} {
+        /* container reset */
+      }
+      {{ section.settings.custom_css }}
+    </style>
+  {%- endif -%}
+
+  <div class="ai-super-canvas__inner">
+    {{ section.settings.html }}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AI Super Canvas (V7)",
+  "tag": "section",
+  "class": "section ai-super-canvas",
+  "settings": [
+    {
+      "type": "html",
+      "id": "html",
+      "label": "HTML",
+      "default": "<div style=\"padding: 24px; text-align: center;\">AI Super Canvas</div>"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS (scoped)",
+      "default": "/* Add scoped CSS here */"
+    }
+  ],
+  "presets": [
+    { "name": "AI Super Canvas (V7)" }
+  ]
+}
+{% endschema %}
+

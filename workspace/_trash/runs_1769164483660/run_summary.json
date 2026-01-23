@@ -1,0 +1,49 @@
+{
+  "runId": "run_1769163335403_1b65",
+  "startedAt": "2026-01-23T10:15:35.405Z",
+  "endedAt": "2026-01-23T10:19:45.782Z",
+  "ok": true,
+  "mode": "clone_product",
+  "url": "https://www.haphoriz.com/products/necksupportw",
+  "targetId": null,
+  "suffix": "haphoriz-cloned-v3",
+  "nodeVersion": "v22.20.0",
+  "models": {
+    "VISION_PRO": "openai/gpt-4o",
+    "ARCHITECT": "openai/gpt-4o",
+    "BUILDER": "anthropic/claude-3.5-sonnet",
+    "CRITIC": "openai/gpt-4o"
+  },
+  "outputs": {
+    "capturePackPath": "C:\\Cursor project\\Shopify\\workspace\\capture_pack.v6.json",
+    "capturedUrl": "https://www.haphoriz.com/products/necksupportw",
+    "passportV5Path": "C:\\Cursor project\\Shopify\\workspace\\donor_passport.v5.json",
+    "v7PlanPath": "C:\\Cursor project\\Shopify\\workspace\\dawn_layout_plan.v7.json"
+  },
+  "qa": {
+    "ok": true,
+    "reportPath": "C:\\Cursor project\\Shopify\\workspace\\runs\\latest\\qa_report.json",
+    "report": {
+      "overall": "fail",
+      "topDiscrepancies": [
+        {
+          "issue": "Missing sections such as customer testimonials, detailed product comparisons, and FAQ.",
+          "severity": 9,
+          "hint": "Add sections for testimonials, comparisons, and FAQs to match the donor layout."
+        },
+        {
+          "issue": "Trust badges and additional product information are absent.",
+          "severity": 8,
+          "hint": "Include trust badges and detailed product benefits."
+        },
+        {
+          "issue": "Grid layout for related products differs significantly.",
+          "severity": 7,
+          "hint": "Adjust the grid layout to match the donor's style."
+        }
+      ],
+      "cssPatch": ""
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,19 @@
+{
+  "runId": "run_1769012058451_ad8a",
+  "startedAt": "2026-01-21T16:14:18.454Z",
+  "steps": {
+    "theme.capabilities": {
+      "startedAt": "2026-01-21T16:14:18.471Z",
+      "durationMs": 2996,
+      "ok": true,
+      "endedAt": "2026-01-21T16:14:21.465Z"
+    },
+    "knowledge.capsule": {
+      "startedAt": "2026-01-21T16:14:21.478Z",
+      "durationMs": 7,
+      "ok": true,
+      "endedAt": "2026-01-21T16:14:21.484Z"
+    }
+  },
+  "counters": {}
+}

@@ -1,0 +1,141 @@
+{
+  "planVersion": "v7.0",
+  "generatedAt": "2026-01-23T10:58:09.024Z",
+  "runId": "run_1769165504168_e4f5",
+  "source": {
+    "url": "https://www.haphoriz.com/products/necksupportw"
+  },
+  "sections": [
+    {
+      "sourceSectionId": "sec_3ba83af6fb",
+      "order": 3,
+      "label": "gallery",
+      "confidence": 0.9,
+      "dawnType": "ai-super-canvas",
+      "intent": {
+        "kind": "custom_html",
+        "html": "<section class=\"testimonials-section\">\n  <div class=\"container\">\n    <div class=\"heading-wrapper\">\n      <h2 class=\"section-heading\">Join <span class=\"highlight\">100,000</span> + Happy Customers Today</h2>\n    </div>\n    <div class=\"testimonials-slider\">\n      <button class=\"nav-button prev\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\"><path d=\"M11.3 3.3L5.6 9l5.7 5.7.7-.7L7.1 9l5-5-.8-.7z\"/></svg></button>\n      <div class=\"testimonials-wrapper\">\n        <div class=\"testimonial-card\">\n          <div class=\"testimonial-image\">\n            <img src=\"testimonial-1.jpg\" alt=\"Customer testimonial\" />\n          </div>\n          <div class=\"rating\">\n            <svg width=\"50\" height=\"25\" viewBox=\"0 0 50 25\"><path d=\"M25 0l6.53 13.23L50 15.36l-12.5 12.18L40.45 45 25 37.23 9.55 45l2.95-17.46L0 15.36l18.47-2.13L25 0z\"/></svg>\n          </div>\n        </div>\n        <div class=\"testimonial-card\">\n          <div class=\"testimonial-image\">\n            <img src=\"testimonial-2.jpg\" alt=\"Customer testimonial\" />\n          </div>\n          <div class=\"rating\">\n            <svg width=\"50\" height=\"25\" viewBox=\"0 0 50 25\"><path d=\"M25 0l6.53 13.23L50 15.36l-12.5 12.18L40.45 45 25 37.23 9.55 45l2.95-17.46L0 15.36l18.47-2.13L25 0z\"/></svg>\n          </div>\n        </div>\n        <div class=\"testimonial-card\">\n          <div class=\"testimonial-image\">\n            <img src=\"testimonial-3.jpg\" alt=\"Customer testimonial\" />\n          </div>\n          <div class=\"rating\">\n            <svg width=\"50\" height=\"25\" viewBox=\"0 0 50 25\"><path d=\"M25 0l6.53 13.23L50 15.36l-12.5 12.18L40.45 45 25 37.23 9.55 45l2.95-17.46L0 15.36l18.47-2.13L25 0z\"/></svg>\n          </div>\n        </div>\n        <div class=\"testimonial-card\">\n          <div class=\"testimonial-image\">\n            <img src=\"testimonial-4.jpg\" alt=\"Customer testimonial\" />\n          </div>\n          <div class=\"rating\">\n            <svg width=\"50\" height=\"25\" viewBox=\"0 0 50 25\"><path d=\"M25 0l6.53 13.23L50 15.36l-12.5 12.18L40.45 45 25 37.23 9.55 45l2.95-17.46L0 15.36l18.47-2.13L25 0z\"/></svg>\n          </div>\n        </div>\n      </div>\n      <button class=\"nav-button next\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\"><path d=\"M6.7 3.3L12.4 9l-5.7 5.7-.7-.7L10.9 9l-5-5 .8-.7z\"/></svg></button>\n    </div>\n  </div>\n</section>",
+        "custom_css": ".testimonials-section {\n  padding: 60px 20px;\n  background: #fff;\n}\n\n.container {\n  max-width: 1400px;\n  margin: 0 auto;\n}\n\n.heading-wrapper {\n  text-align: center;\n  margin-bottom: 40px;\n}\n\n.section-heading {\n  font-size: 36px;\n  font-weight: 700;\n  color: #000;\n}\n\n.highlight {\n  color: #8b44ef;\n}\n\n.testimonials-slider {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n\n.testimonials-wrapper {\n  display: flex;\n  gap: 28px;\n  overflow: hidden;\n  padding: 20px 0;\n}\n\n.testimonial-card {\n  flex: 0 0 304px;\n  background: #fff;\n  border-radius: 8px;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n  overflow: hidden;\n}\n\n.testimonial-image {\n  width: 100%;\n  height: 450px;\n  overflow: hidden;\n}\n\n.testimonial-image img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n.rating {\n  padding: 15px;\n  text-align: center;\n}\n\n.rating svg {\n  fill: #ffd700;\n}\n\n.nav-button {\n  width: 30px;\n  height: 30px;\n  border: none;\n  border-radius: 50%;\n  background: #fff;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.15);\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: absolute;\n  z-index: 1;\n}\n\n.nav-button.prev {\n  left: 20px;\n}\n\n.nav-button.next {\n  right: 20px;\n}\n\n.nav-button svg {\n  fill: #666;\n}\n\n@media (max-width: 1024px) {\n  .testimonial-card {\n    flex: 0 0 280px;\n  }\n}\n\n@media (max-width: 768px) {\n  .section-heading {\n    font-size: 28px;\n  }\n  \n  .testimonial-card {\n    flex: 0 0 240px;\n  }\n  \n  .testimonial-image {\n    height: 380px;\n  }\n}\n\n@media (max-width: 480px) {\n  .testimonial-card {\n    flex: 0 0 200px;\n  }\n  \n  .testimonial-image {\n    height: 320px;\n  }\n}"
+      },
+      "assets": []
+    },
+    {
+      "sourceSectionId": "sec_972d0e05ab",
+      "order": 4,
+      "label": "image_text_split",
+      "confidence": 0.95,
+      "dawnType": "ai-super-canvas",
+      "intent": {
+        "kind": "custom_html",
+        "html": "<section class='relief-section'>\n  <div class='container'>\n    <div class='content-wrapper'>\n      <div class='text-content'>\n        <h2>Complete Relief: Quiet, Comfortable, Restful Nights</h2>\n        <div class='buttons-group'>\n          <button class='tag-button active'>Sleep apnea</button>\n          <button class='tag-button'>Snoring</button>\n          <button class='tag-button'>Neck tension</button>\n        </div>\n        <div class='stats-content'>\n          <h2 class='stat-heading'>92% of participants noticed a decrease in their sleep apnea after 2 nights</h2>\n          <p class='verification-points'>\n            ✅Based on observational study<br>\n            ✅250+ participants per study<br>\n            ✅World class doctors & researchers\n          </p>\n        </div>\n      </div>\n      <div class='image-content'>\n        <img src='https://www.mrinlare.com/cdn/shop/files/17670879013107.png?v=1767087912&width=750' alt='Sleep Apnea Graph' class='graph-image'>\n      </div>\n    </div>\n  </div>\n</section>",
+        "custom_css": ".relief-section {\n  padding: 4rem 0;\n  background-color: #fff;\n}\n\n.container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 20px;\n}\n\n.content-wrapper {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 2rem;\n  flex-wrap: wrap;\n}\n\n.text-content, .image-content {\n  flex: 1;\n  min-width: 300px;\n}\n\nh2 {\n  color: #333;\n  font-size: 2.5rem;\n  margin-bottom: 1.5rem;\n  line-height: 1.2;\n}\n\n.buttons-group {\n  display: flex;\n  gap: 0.5rem;\n  margin-bottom: 2rem;\n  flex-wrap: wrap;\n}\n\n.tag-button {\n  padding: 8px 16px;\n  border: 1px solid #8b5cf6;\n  border-radius: 20px;\n  background: transparent;\n  color: #8b5cf6;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.tag-button.active {\n  background: #8b5cf6;\n  color: white;\n}\n\n.tag-button:hover {\n  background: #8b5cf6;\n  color: white;\n}\n\n.stat-heading {\n  color: #8b5cf6;\n  font-size: 2rem;\n  margin-bottom: 1rem;\n}\n\n.verification-points {\n  color: #666;\n  line-height: 1.8;\n}\n\n.graph-image {\n  max-width: 100%;\n  height: auto;\n  display: block;\n}\n\n@media (max-width: 768px) {\n  .content-wrapper {\n    flex-direction: column;\n  }\n  \n  h2 {\n    font-size: 2rem;\n  }\n  \n  .stat-heading {\n    font-size: 1.5rem;\n  }\n  \n  .text-content, .image-content {\n    width: 100%;\n  }\n}"
+      },
+      "assets": []
+    },
+    {
+      "sourceSectionId": "sec_90052b4f61",
+      "order": 5,
+      "label": "image_text_split",
+      "confidence": 0.95,
+      "dawnType": "ai-super-canvas",
+      "intent": {
+        "kind": "custom_html",
+        "html": "<section class=\"product-features\">\n  <div class=\"container\">\n    <div class=\"feature-row\">\n      <div class=\"feature-image\">\n        <img src=\"https://www.mrinlare.com/cdn/shop/files/DM_20251230180054_001.png?v=1767088969&width=750\" alt=\"Product features diagram\" />\n      </div>\n      <div class=\"feature-content\">\n        <h2>Whether you're struggling with snoring issues or sleep apnea, our Deep Sleep Posture Transformer is your answer to a <span class=\"highlight\">peaceful and tranquil night</span>.</h2>\n        <p>With an ergonomic design that conforms to the contours of your neck, this advanced support ensures optimal alignment of the cervical spine during sleep.</p>\n      </div>\n    </div>\n\n    <div class=\"feature-row reverse\">\n      <div class=\"feature-content\">\n        <h2>Get your good night's <span class=\"highlight\">sleep back!</span></h2>\n        <p>With the NESLEMY™ Deep Sleep Posture Transformer, a good night's sleep becomes a natural part of your life again. You'll notice waking up in the morning with renewed energy and a sense of refreshment.</p>\n      </div>\n      <div class=\"feature-image\">\n        <img src=\"https://www.mrinlare.com/cdn/shop/files/DM_20251230180219_001.gif?v=1767088973&width=750\" alt=\"Product demonstration\" />\n      </div>\n    </div>\n  </div>\n</section>",
+        "custom_css": ".product-features {\n  padding: 4rem 0;\n  background-color: #fff;\n}\n\n.container {\n  max-width: 1300px;\n  margin: 0 auto;\n  padding: 0 20px;\n}\n\n.feature-row {\n  display: flex;\n  align-items: center;\n  gap: 50px;\n  margin-bottom: 4rem;\n}\n\n.feature-row.reverse {\n  flex-direction: row-reverse;\n}\n\n.feature-image {\n  flex: 1;\n}\n\n.feature-image img {\n  max-width: 100%;\n  height: auto;\n  display: block;\n}\n\n.feature-content {\n  flex: 1;\n}\n\n.feature-content h2 {\n  font-size: 2.5rem;\n  margin-bottom: 1.5rem;\n  line-height: 1.2;\n}\n\n.feature-content p {\n  font-size: 1.1rem;\n  line-height: 1.6;\n  color: #4a4a4a;\n}\n\n.highlight {\n  color: #6b46c1;\n}\n\n@media (max-width: 768px) {\n  .feature-row {\n    flex-direction: column;\n  }\n\n  .feature-row.reverse {\n    flex-direction: column;\n  }\n\n  .feature-content h2 {\n    font-size: 2rem;\n  }\n\n  .feature-image,\n  .feature-content {\n    width: 100%;\n  }\n}"
+      },
+      "assets": []
+    },
+    {
+      "sourceSectionId": "sec_973f0d2f52",
+      "order": 6,
+      "label": "comparison",
+      "confidence": 0.95,
+      "dawnType": "ai-super-canvas",
+      "intent": {
+        "kind": "custom_html",
+        "html": "<section class=\"comparison-section\">\n  <div class=\"container\">\n    <div class=\"content-wrapper\">\n      <div class=\"text-content\">\n        <h2>Not all Deep Sleep Posture Transformer are <span class=\"highlight\">Created Equal</span></h2>\n        <p>The Deep Sleep Posture Transformer is engineered with advanced ergonomic features not typically found in standard pillows or cheap imitations.</p>\n      </div>\n      <div class=\"comparison-table\">\n        <div class=\"product-images\">\n          <img src=\"https://www.mrinlare.com/cdn/shop/files/The-Product_1_2f7df5b1-0406-464f-a407-7b45b7f89b12.jpg?v=1767088894&width=352\" alt=\"Original product\">\n          <img src=\"https://www.mrinlare.com/cdn/shop/files/DM_20251230181027_001.png?v=1767089450&width=352\" alt=\"Competitor 1\">\n          <img src=\"https://www.mrinlare.com/cdn/shop/files/DM_20251230181126_001.png?v=1767089500&width=352\" alt=\"Competitor 2\">\n        </div>\n        <div class=\"features-list\">\n          <div class=\"feature-row\">\n            <div class=\"feature-name\">No Side Effects</div>\n            <div class=\"check\">✓</div>\n            <div class=\"cross\">✗</div>\n            <div class=\"cross\">✗</div>\n          </div>\n          <div class=\"feature-row\">\n            <div class=\"feature-name\">Superior Comfort Guaranteed</div>\n            <div class=\"check\">✓</div>\n            <div class=\"cross\">✗</div>\n            <div class=\"cross\">✗</div>\n          </div>\n          <div class=\"feature-row\">\n            <div class=\"feature-name\">All-Natural Solution</div>\n            <div class=\"check\">✓</div>\n            <div class=\"cross\">✗</div>\n            <div class=\"cross\">✗</div>\n          </div>\n          <div class=\"feature-row\">\n            <div class=\"feature-name\">Recommended by Experts</div>\n            <div class=\"check\">✓</div>\n            <div class=\"cross\">✗</div>\n            <div class=\"cross\">✗</div>\n          </div>\n          <div class=\"feature-row\">\n            <div class=\"feature-name\">Breathable</div>\n            <div class=\"check\">✓</div>\n            <div class=\"cross\">✗</div>\n            <div class=\"cross\">✗</div>\n          </div>\n          <div class=\"feature-row\">\n            <div class=\"feature-name\">60-Day Money-Back Guarantee</div>\n            <div class=\"check\">✓</div>\n            <div class=\"cross\">✗</div>\n            <div class=\"cross\">✗</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+        "custom_css": ".comparison-section {\n  padding: 60px 20px;\n  background-color: #fff;\n}\n\n.container {\n  max-width: 1400px;\n  margin: 0 auto;\n}\n\n.content-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.text-content {\n  text-align: center;\n  max-width: 625px;\n  margin-bottom: 40px;\n}\n\nh2 {\n  font-size: 36px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.highlight {\n  color: #6b46c1;\n  font-style: italic;\n}\n\np {\n  font-size: 18px;\n  line-height: 1.6;\n  color: #4a5568;\n}\n\n.comparison-table {\n  width: 100%;\n  max-width: 1300px;\n}\n\n.product-images {\n  display: flex;\n  justify-content: flex-end;\n  gap: 20px;\n  margin-bottom: 20px;\n}\n\n.product-images img {\n  width: 70px;\n  height: auto;\n  object-fit: contain;\n}\n\n.features-list {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n}\n\n.feature-row {\n  display: grid;\n  grid-template-columns: 1fr 70px 70px 70px;\n  align-items: center;\n  gap: 20px;\n}\n\n.feature-name {\n  background-color: #6b46c1;\n  color: white;\n  padding: 15px 20px;\n  border-radius: 5px;\n  text-align: center;\n}\n\n.check {\n  color: #22c55e;\n  font-size: 20px;\n  text-align: center;\n}\n\n.cross {\n  color: #ef4444;\n  font-size: 20px;\n  text-align: center;\n}\n\n@media (max-width: 768px) {\n  .feature-row {\n    grid-template-columns: 1fr 50px 50px 50px;\n    gap: 10px;\n  }\n\n  .feature-name {\n    padding: 10px;\n    font-size: 14px;\n  }\n\n  .product-images img {\n    width: 50px;\n  }\n}\n\n@media (max-width: 480px) {\n  h2 {\n    font-size: 24px;\n  }\n\n  p {\n    font-size: 16px;\n  }\n\n  .feature-row {\n    grid-template-columns: 1fr 40px 40px 40px;\n    gap: 5px;\n  }\n}"
+      },
+      "assets": []
+    },
+    {
+      "sourceSectionId": "sec_c54ffe8094",
+      "order": 7,
+      "label": "testimonials",
+      "confidence": 0.95,
+      "dawnType": "ai-super-canvas",
+      "intent": {
+        "kind": "custom_html",
+        "html": "<section class=\"experts-section\">\n  <h2 class=\"section-title\">Meet the Minds Transforming Stop the ache</h2>\n  <div class=\"experts-grid\">\n    <div class=\"expert-card\">\n      <img src=\"https://www.mrinlare.com/cdn/shop/files/DM_20251230181455_001.png?v=1767089722&width=550\" alt=\"Expert\" class=\"expert-image\">\n      <div class=\"expert-content\">\n        <div class=\"rating\">\n          <span class=\"star\">★</span>\n          <span class=\"star\">★</span>\n          <span class=\"star\">★</span>\n          <span class=\"star\">★</span>\n          <span class=\"star\">★</span>\n        </div>\n        <h3>Vascular Specialist, France</h3>\n        <p class=\"quote\">NESLEMY™ Deep Sleep Posture Transformer provides excellent products that significantly enhance daily wellbeing.</p>\n        <p class=\"expert-name\">Dr. Philippe Moreau</p>\n      </div>\n    </div>\n    <div class=\"expert-card\">\n      <img src=\"https://www.mrinlare.com/cdn/shop/files/DM_20251230181455_003.png?v=1767089724&width=550\" alt=\"Expert\" class=\"expert-image\">\n      <div class=\"expert-content\">\n        <div class=\"rating\">\n          <span class=\"star\">★</span>\n          <span class=\"star\">★</span>\n          <span class=\"star\">★</span>\n          <span class=\"star\">★</span>\n          <span class=\"star\">★</span>\n        </div>\n        <h3>Sports Medicine Expert, Switzerland</h3>\n        <p class=\"quote\">For reliable, drug-free Stop the ache. NESLEMY is my top recommendation.</p>\n        <p class=\"expert-name\">Prof. Lukas Fischer</p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "custom_css": ".experts-section {\n  padding: 60px 20px;\n  max-width: 1400px;\n  margin: 0 auto;\n}\n\n.section-title {\n  text-align: center;\n  font-size: 32px;\n  margin-bottom: 40px;\n  color: #333;\n}\n\n.experts-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n  gap: 40px;\n  justify-items: center;\n}\n\n.expert-card {\n  background: #f8f8f8;\n  border-radius: 12px;\n  overflow: hidden;\n  width: 100%;\n  max-width: 350px;\n  box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n}\n\n.expert-image {\n  width: 100%;\n  height: 295px;\n  object-fit: cover;\n}\n\n.expert-content {\n  padding: 20px;\n}\n\n.rating {\n  color: #ffd700;\n  margin-bottom: 15px;\n}\n\n.star {\n  font-size: 20px;\n}\n\nh3 {\n  font-size: 20px;\n  margin-bottom: 15px;\n  color: #333;\n}\n\n.quote {\n  font-size: 16px;\n  line-height: 1.6;\n  color: #666;\n  margin-bottom: 15px;\n}\n\n.expert-name {\n  font-weight: bold;\n  color: #333;\n  font-size: 14px;\n}\n\n@media (max-width: 768px) {\n  .experts-grid {\n    grid-template-columns: 1fr;\n  }\n  \n  .section-title {\n    font-size: 24px;\n  }\n  \n  .expert-card {\n    max-width: 100%;\n  }\n}"
+      },
+      "assets": []
+    },
+    {
+      "sourceSectionId": "sec_7af17d5bdb",
+      "order": 8,
+      "label": "image_text_split",
+      "confidence": 0.9,
+      "dawnType": "ai-super-canvas",
+      "intent": {
+        "kind": "custom_html",
+        "html": "<section class=\"benefits-section\">\n  <div class=\"benefits-container\">\n    <h2>Why the Deep Sleep Posture Transformer Matters</h2>\n    <div class=\"benefits-features\">\n      <div class=\"feature\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0778/3258/5540/files/1s.svg?v=1744189624\" alt=\"Feature 1\">\n        <p>Relieves Neck<br>Pain & Tension</p>\n      </div>\n      <div class=\"feature\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0778/3258/5540/files/2s.svg?v=1744189624\" alt=\"Feature 2\">\n        <p>Stops Snoring</p>\n      </div>\n      <div class=\"feature\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0778/3258/5540/files/3s.svg?v=1744189624\" alt=\"Feature 3\">\n        <p>Eases Sleep<br>Apnea</p>\n      </div>\n      <div class=\"feature\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0778/3258/5540/files/4s.svg?v=1744189624\" alt=\"Feature 4\">\n        <p>Adaptive Memory<br>Foam</p>\n      </div>\n      <div class=\"feature\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0778/3258/5540/files/5s.svg?v=1744189624\" alt=\"Feature 5\">\n        <p>Portable &<br>Washable</p>\n      </div>\n    </div>\n    <div class=\"benefits-content\">\n      <div class=\"benefits-text\">\n        <p>Experience a better night's sleep with NESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while reducing pain, snoring, and sleep apnea symptoms for natural, lasting relief.</p>\n      </div>\n      <div class=\"benefits-image\">\n        <img src=\"https://tryvitavix.com/cdn/shop/files/20240408_095956_1.jpg?v=1745487260\" alt=\"Deep Sleep Posture Transformer\">\n      </div>\n    </div>\n  </div>\n</section>",
+        "custom_css": ".benefits-section {\n  padding: 60px 0;\n  background-color: #fff;\n}\n\n.benefits-container {\n  max-width: 1350px;\n  margin: 0 auto;\n  padding: 0 20px;\n}\n\nh2 {\n  font-size: 36px;\n  color: #333;\n  text-align: left;\n  margin-bottom: 40px;\n}\n\n.benefits-features {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 40px;\n  flex-wrap: wrap;\n}\n\n.feature {\n  text-align: center;\n  flex: 0 1 auto;\n  margin: 10px;\n}\n\n.feature img {\n  width: 38px;\n  height: 38px;\n  margin-bottom: 10px;\n}\n\n.feature p {\n  font-size: 14px;\n  color: #333;\n  margin: 0;\n  line-height: 1.4;\n}\n\n.benefits-content {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 40px;\n}\n\n.benefits-text {\n  flex: 0 1 45%;\n}\n\n.benefits-text p {\n  font-size: 16px;\n  line-height: 1.6;\n  color: #333;\n}\n\n.benefits-image {\n  flex: 0 1 55%;\n}\n\n.benefits-image img {\n  width: 100%;\n  height: auto;\n  border-radius: 12px;\n}\n\n@media (max-width: 768px) {\n  .benefits-content {\n    flex-direction: column;\n  }\n\n  .benefits-text,\n  .benefits-image {\n    flex: 0 1 100%;\n  }\n\n  .benefits-features {\n    justify-content: center;\n  }\n\n  h2 {\n    font-size: 28px;\n    text-align: center;\n  }\n\n  .feature {\n    flex: 0 1 calc(50% - 20px);\n  }\n}\n\n@media (max-width: 480px) {\n  .feature {\n    flex: 0 1 100%;\n  }\n}"
+      },
+      "assets": []
+    },
+    {
+      "sourceSectionId": "sec_c4a13e67e6",
+      "order": 9,
+      "label": "faq",
+      "confidence": 0.95,
+      "dawnType": "collapsible-content",
+      "intent": {
+        "kind": "faq",
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "q": "How long does it take to see results with the NESLEMY™ Deep Sleep Posture Transformer?",
+            "a": "Experiences may vary, but many users report an improvement in sleep quality and a reduction in snoring issues after just a few nights. However, it may take some time for the body to adjust."
+          },
+          {
+            "q": "Is the NESLEMY™ Deep Sleep Posture Transformer effective for all forms of snoring?",
+            "a": "While every individual is different, many users have reported positive results in reducing snoring issues with the Deep Sleep Posture Transformer."
+          },
+          {
+            "q": "What are the benefits of this product compared to other stop snoring solutions?",
+            "a": "The NESLEMY™ Deep Sleep Posture Transformer offers unique benefits such as adaptive memory foam and portability, making it a versatile solution for various snoring issues."
+          },
+          {
+            "q": "Is this product suitable for everyone?",
+            "a": "The product is designed to be suitable for most users, but individual experiences may vary."
+          },
+          {
+            "q": "How often should I use it?",
+            "a": "For best results, it is recommended to use the Deep Sleep Posture Transformer every night."
+          }
+        ]
+      },
+      "assets": []
+    },
+    {
+      "sourceSectionId": "sec_5daff9d20a",
+      "order": 10,
+      "label": "hero",
+      "confidence": 0.9,
+      "dawnType": "ai-super-canvas",
+      "intent": {
+        "kind": "custom_html",
+        "html": "<main class=\"product-section\">\n  <div class=\"product-container\">\n    <a href=\"#product-info\" class=\"skip-link\">Skip to product information</a>\n    <div class=\"product-header\">\n      <h1>NESLEMY™ - Never snore again</h1>\n      <div class=\"reviews\">\n        <span class=\"review-count\">(8963 Reviews)</span>\n      </div>\n    </div>\n    <div class=\"product-feature\">\n      <span class=\"check-icon\">✓</span>\n      <p>The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses</p>\n    </div>\n  </div>\n</main>",
+        "custom_css": ".product-section {\n  width: 100%;\n  max-width: 1440px;\n  margin: 0 auto;\n  padding: 20px;\n}\n\n.product-container {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n\n.skip-link {\n  position: absolute;\n  left: -9999px;\n  z-index: 999;\n  padding: 1em;\n  background-color: white;\n  color: black;\n  text-decoration: none;\n}\n\n.skip-link:focus {\n  left: 50%;\n  transform: translateX(-50%);\n}\n\n.product-header {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\nh1 {\n  font-size: 2rem;\n  font-weight: bold;\n  margin: 0;\n}\n\n.reviews {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n}\n\n.review-count {\n  color: #666;\n  font-size: 1rem;\n}\n\n.product-feature {\n  display: flex;\n  align-items: flex-start;\n  gap: 10px;\n  padding: 10px 0;\n}\n\n.check-icon {\n  color: #4CAF50;\n  font-size: 1.2rem;\n}\n\n@media (max-width: 768px) {\n  .product-section {\n    padding: 15px;\n  }\n\n  h1 {\n    font-size: 1.5rem;\n  }\n\n  .product-feature {\n    font-size: 0.9rem;\n  }\n}\n\n@media (max-width: 480px) {\n  .product-section {\n    padding: 10px;\n  }\n\n  h1 {\n    font-size: 1.25rem;\n  }\n}"
+      },
+      "assets": []
+    }
+  ],
+  "diagnostics": {
+    "notes": [
+      "This plan was generated from V6 capture_pack and OpenRouter models.",
+      "It is compatible with tools/template-builder.js (schema-aware compile)."
+    ]
+  }
+}

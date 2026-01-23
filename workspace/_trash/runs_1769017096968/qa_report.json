@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "iteration": 1,
+  "criticModel": "openai/gpt-4o",
+  "report": {
+    "overall": "fail",
+    "topDiscrepancies": [
+      {
+        "issue": "Completely different content and layout.",
+        "severity": 10,
+        "hint": "Ensure the content and layout match the donor image."
+      }
+    ],
+    "cssPatch": ""
+  },
+  "rawText": "{\n    \"overall\": \"fail\",\n    \"topDiscrepancies\": [\n        {\n            \"issue\": \"Completely different content and layout.\",\n            \"severity\": 10,\n            \"hint\": \"Ensure the content and layout match the donor image.\"\n        }\n    ],\n    \"cssPatch\": \"\"\n}"
+}

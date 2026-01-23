@@ -1,0 +1,6 @@
+{"ts":"2026-01-21T15:53:10.838Z","level":"info","runId":"run_1769010790821_9cc3","step":null,"msg":"run.start","data":{"mode":"smoke","url":"about:blank","targetId":"smoke","suffix":"smoke"}}
+{"ts":"2026-01-21T15:53:10.844Z","level":"info","runId":"run_1769010790821_9cc3","step":"smoke.step","msg":"step.start","data":{"name":"smoke.step"}}
+{"ts":"2026-01-21T15:53:10.846Z","level":"info","runId":"run_1769010790821_9cc3","step":"smoke.step","msg":"writing artifacts","data":null}
+{"ts":"2026-01-21T15:53:10.849Z","level":"success","runId":"run_1769010790821_9cc3","step":"smoke.step","msg":"artifact written","data":{"path":"c:\\Cursor project\\Shopify\\workspace\\runs\\latest\\artifacts\\smoke_artifact.json"}}
+{"ts":"2026-01-21T15:53:10.850Z","level":"success","runId":"run_1769010790821_9cc3","step":"smoke.step","msg":"step.end","data":{"name":"smoke.step","durationMs":6}}
+{"ts":"2026-01-21T15:53:10.872Z","level":"info","runId":"run_1769010790821_9cc3","step":"finalize","msg":"run.finalize","data":{"ok":true,"qa":{"status":"not_applicable"}}}

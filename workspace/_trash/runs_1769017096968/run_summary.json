@@ -1,0 +1,31 @@
+{
+  "runId": "run_1769013585820_3db0",
+  "startedAt": "2026-01-21T16:39:45.824Z",
+  "endedAt": "2026-01-21T16:40:10.501Z",
+  "ok": true,
+  "mode": "clone_product",
+  "url": "https://example.com",
+  "targetId": "7790744535082",
+  "suffix": "cloned-v7-test",
+  "nodeVersion": "v22.20.0",
+  "models": {
+    "CRITIC": "openai/gpt-4o"
+  },
+  "outputs": {},
+  "qa": {
+    "ok": true,
+    "reportPath": "c:\\Cursor project\\Shopify\\workspace\\runs\\latest\\qa_report.json",
+    "report": {
+      "overall": "fail",
+      "topDiscrepancies": [
+        {
+          "issue": "Completely different content and layout.",
+          "severity": 10,
+          "hint": "Ensure the content and layout match the donor image."
+        }
+      ],
+      "cssPatch": ""
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,165 @@
+{% comment %}
+  smart-grid
+  Purpose: flexible grid container for feature cards / icon+text patterns.
+  Strategy: schema-driven blocks (editable in Theme Editor) + simple CSS grid.
+{% endcomment %}
+
+{%- assign scope_id = 'smart-grid-' | append: section.id -%}
+
+<section id="{{ scope_id }}" class="smart-grid section">
+  {%- if section.settings.custom_css != blank -%}
+    <style>
+      /* Scoped custom CSS for {{ scope_id }} */
+      {{ section.settings.custom_css }}
+    </style>
+  {%- endif -%}
+
+  <div class="smart-grid__container page-width">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="smart-grid__heading {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+
+    <div
+      class="smart-grid__grid"
+      style="
+        --sg-cols-desktop: {{ section.settings.columns_desktop }};
+        --sg-cols-mobile: {{ section.settings.columns_mobile }};
+        --sg-gap: {{ section.settings.gap }}px;
+        --sg-padding-y: {{ section.settings.padding_y }}px;
+      "
+    >
+      {%- for block in section.blocks -%}
+        <div class="smart-grid__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.image != blank -%}
+            <div class="smart-grid__media">
+              {{ block.settings.image | image_url: width: 240 | image_tag: loading: 'lazy', alt: block.settings.title }}
+            </div>
+          {%- endif -%}
+
+          {%- if block.settings.title != blank -%}
+            <h3 class="smart-grid__title">{{ block.settings.title }}</h3>
+          {%- endif -%}
+
+          {%- if block.settings.text != blank -%}
+            <div class="smart-grid__text rte">{{ block.settings.text }}</div>
+          {%- endif -%}
+
+          {%- if block.settings.link_label != blank and block.settings.link_url != blank -%}
+            <a class="smart-grid__link" href="{{ block.settings.link_url }}">{{ block.settings.link_label }}</a>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<style>
+  #{{ scope_id }} {
+    padding: var(--sg-padding-y, 24px) 0;
+  }
+  #{{ scope_id }} .smart-grid__grid {
+    display: grid;
+    grid-template-columns: repeat(var(--sg-cols-mobile, 1), minmax(0, 1fr));
+    gap: var(--sg-gap, 16px);
+  }
+  @media screen and (min-width: 750px) {
+    #{{ scope_id }} .smart-grid__grid {
+      grid-template-columns: repeat(var(--sg-cols-desktop, 3), minmax(0, 1fr));
+    }
+  }
+  #{{ scope_id }} .smart-grid__item {
+    background: rgba(255, 255, 255, 0.0);
+  }
+  #{{ scope_id }} .smart-grid__media img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Smart Grid (V7)",
+  "tag": "section",
+  "class": "section smart-grid",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Smart Grid"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "default": "h1",
+      "options": [
+        { "value": "h2", "label": "H2" },
+        { "value": "h1", "label": "H1" },
+        { "value": "h0", "label": "H0" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Columns (desktop)",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "columns_mobile",
+      "label": "Columns (mobile)",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "label": "Gap (px)",
+      "min": 0,
+      "max": 48,
+      "step": 2,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding_y",
+      "label": "Vertical padding (px)",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "default": 24
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS (scoped)",
+      "default": "/* Add scoped CSS here */"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image / Icon" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "richtext", "id": "text", "label": "Text" },
+        { "type": "text", "id": "link_label", "label": "Link label" },
+        { "type": "url", "id": "link_url", "label": "Link URL" }
+      ]
+    }
+  ],
+  "max_blocks": 24,
+  "presets": [
+    { "name": "Smart Grid (V7)", "blocks": [ { "type": "item" }, { "type": "item" }, { "type": "item" } ] }
+  ]
+}
+{% endschema %}
+

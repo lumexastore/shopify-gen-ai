@@ -1,0 +1,32 @@
+{"ts":"2026-01-23T09:52:28.905Z","level":"info","runId":"run_1769161948895_a5bf","step":null,"msg":"run.start","data":{"mode":"clone_product","url":"https://www.haphoriz.com/products/necksupportw","targetId":null,"suffix":"haphoriz-cloned-v2"}}
+{"ts":"2026-01-23T09:52:28.906Z","level":"info","runId":"run_1769161948895_a5bf","step":"capture-pack","msg":"step.start","data":{"name":"capture-pack"}}
+{"ts":"2026-01-23T09:52:52.157Z","level":"success","runId":"run_1769161948895_a5bf","step":"capture-pack","msg":"capture-pack complete","data":{"path":"C:\\Cursor project\\Shopify\\workspace\\capture_pack.v6.json","emittedSections":11,"sections":11,"packUrl":"https://www.haphoriz.com/products/necksupportw"}}
+{"ts":"2026-01-23T09:52:52.191Z","level":"success","runId":"run_1769161948895_a5bf","step":"capture-pack","msg":"step.end","data":{"name":"capture-pack","durationMs":23285}}
+{"ts":"2026-01-23T09:52:52.199Z","level":"info","runId":"run_1769161948895_a5bf","step":"deep-inspector","msg":"step.start","data":{"name":"deep-inspector"}}
+{"ts":"2026-01-23T09:53:46.148Z","level":"success","runId":"run_1769161948895_a5bf","step":"deep-inspector","msg":"passport v5 complete","data":{"path":"C:\\Cursor project\\Shopify\\workspace\\donor_passport.v5.json"}}
+{"ts":"2026-01-23T09:53:46.153Z","level":"success","runId":"run_1769161948895_a5bf","step":"deep-inspector","msg":"step.end","data":{"name":"deep-inspector","durationMs":53954}}
+{"ts":"2026-01-23T09:53:46.163Z","level":"info","runId":"run_1769161948895_a5bf","step":"create-product","msg":"step.start","data":{"name":"create-product"}}
+{"ts":"2026-01-23T09:53:46.420Z","level":"info","runId":"run_1769161948895_a5bf","step":"create-product","msg":"donor product fetched","data":{"jsUrl":"https://www.haphoriz.com/products/necksupportw.js","donorHandle":"necksupportw"}}
+{"ts":"2026-01-23T09:53:53.020Z","level":"success","runId":"run_1769161948895_a5bf","step":"create-product","msg":"product cloned","data":{"productId":"7791429779498","handle":"necksupportw-clone-1","images":6,"variants":3}}
+{"ts":"2026-01-23T09:53:53.021Z","level":"success","runId":"run_1769161948895_a5bf","step":"create-product","msg":"created product from donor","data":{"productId":"7791429779498","handle":"necksupportw-clone-1","donorHandle":"necksupportw"}}
+{"ts":"2026-01-23T09:53:53.022Z","level":"success","runId":"run_1769161948895_a5bf","step":"create-product","msg":"step.end","data":{"name":"create-product","durationMs":6859}}
+{"ts":"2026-01-23T09:53:53.032Z","level":"info","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"step.start","data":{"name":"theme.capabilities"}}
+{"ts":"2026-01-23T09:53:53.276Z","level":"info","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"fetching section schema","data":{"type":"image-banner","key":"sections/image-banner.liquid"}}
+{"ts":"2026-01-23T09:53:53.541Z","level":"info","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"fetching section schema","data":{"type":"multicolumn","key":"sections/multicolumn.liquid"}}
+{"ts":"2026-01-23T09:53:53.794Z","level":"info","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"fetching section schema","data":{"type":"rich-text","key":"sections/rich-text.liquid"}}
+{"ts":"2026-01-23T09:53:54.034Z","level":"info","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"fetching section schema","data":{"type":"slideshow","key":"sections/slideshow.liquid"}}
+{"ts":"2026-01-23T09:53:54.268Z","level":"info","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"fetching section schema","data":{"type":"collapsible-content","key":"sections/collapsible-content.liquid"}}
+{"ts":"2026-01-23T09:53:54.517Z","level":"info","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"fetching section schema","data":{"type":"ai-super-canvas","key":"sections/ai-super-canvas.liquid"}}
+{"ts":"2026-01-23T09:53:54.761Z","level":"info","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"fetching section schema","data":{"type":"smart-grid","key":"sections/smart-grid.liquid"}}
+{"ts":"2026-01-23T09:53:55.008Z","level":"success","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"theme_capabilities.json written","data":{"path":"C:\\Cursor project\\Shopify\\workspace\\runs\\latest\\theme_capabilities.json","ok":true}}
+{"ts":"2026-01-23T09:53:55.009Z","level":"success","runId":"run_1769161948895_a5bf","step":"theme.capabilities","msg":"step.end","data":{"name":"theme.capabilities","durationMs":1977}}
+{"ts":"2026-01-23T09:53:55.019Z","level":"info","runId":"run_1769161948895_a5bf","step":"knowledge.capsule","msg":"step.start","data":{"name":"knowledge.capsule"}}
+{"ts":"2026-01-23T09:53:55.023Z","level":"success","runId":"run_1769161948895_a5bf","step":"knowledge.capsule","msg":"knowledge_capsule.json written","data":{"path":"C:\\Cursor project\\Shopify\\workspace\\runs\\latest\\knowledge_capsule.json"}}
+{"ts":"2026-01-23T09:53:55.023Z","level":"success","runId":"run_1769161948895_a5bf","step":"knowledge.capsule","msg":"step.end","data":{"name":"knowledge.capsule","durationMs":4}}
+{"ts":"2026-01-23T09:53:55.033Z","level":"info","runId":"run_1769161948895_a5bf","step":"plan.v7","msg":"step.start","data":{"name":"plan.v7"}}
+{"ts":"2026-01-23T09:53:55.048Z","level":"info","runId":"run_1769161948895_a5bf","step":"plan.v7","msg":"skipping capture section","data":{"sectionId":"sec_228bef6d7c","order":1,"reason":"tag:header"}}
+{"ts":"2026-01-23T09:53:55.049Z","level":"info","runId":"run_1769161948895_a5bf","step":"plan.v7","msg":"skipping capture section","data":{"sectionId":"sec_f41b51b64d","order":2,"reason":"dom:main_section"}}
+{"ts":"2026-01-23T09:53:55.050Z","level":"info","runId":"run_1769161948895_a5bf","step":"plan.v7","msg":"planning section","data":{"sectionId":"sec_3ba83af6fb","order":3}}
+{"ts":"2026-01-23T09:54:04.374Z","level":"info","runId":"run_1769161948895_a5bf","step":"plan.v7","msg":"planning section","data":{"sectionId":"sec_972d0e05ab","order":4}}
+{"ts":"2026-01-23T09:54:20.791Z","level":"info","runId":"run_1769161948895_a5bf","step":"plan.v7","msg":"planning section","data":{"sectionId":"sec_90052b4f61","order":5}}
+{"ts":"2026-01-23T09:54:31.269Z","level":"error","runId":"run_1769161948895_a5bf","step":"plan.v7","msg":"step.error","data":{"name":"plan.v7","durationMs":36236,"message":"Request failed with status code 400"}}

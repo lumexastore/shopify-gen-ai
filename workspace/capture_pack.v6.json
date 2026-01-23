@@ -1,6 +1,6 @@
 {
   "capturePackVersion": "6.0",
-  "generatedAt": "2026-01-21T11:40:10.836Z",
+  "generatedAt": "2026-01-23T10:52:08.772Z",
   "url": "https://www.haphoriz.com/products/necksupportw",
   "doc": {
     "title": "NESLEMY™ - Never snore again – Haphoriz",
@@ -12,7 +12,7 @@
     "height": 900,
     "deviceScaleFactor": 1
   },
-  "fullPageScreenshot": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\donor_full_v6_1768995593918.png",
+  "fullPageScreenshot": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\donor_full_v6.png",
   "sections": [
     {
       "id": "sec_228bef6d7c",
@@ -25,7 +25,7 @@
         "w": 1400,
         "h": 122
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\1_sec_228bef6d7c.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\01_sec_228bef6d7c.png",
       "textSample": "Home Clothing Contact Us FAQs Log in Cart",
       "nodes": [
         {
@@ -661,7 +661,7 @@
       ]
     },
     {
-      "id": "sec_1dbf36e393",
+      "id": "sec_f41b51b64d",
       "order": 2,
       "tag": "section",
       "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__main.shopify-section.section",
@@ -669,9 +669,9 @@
         "x": 0,
         "y": 232,
         "w": 1440,
-        "h": 1140
+        "h": 1190
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\2_sec_1dbf36e393.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\02_sec_f41b51b64d.png",
       "textSample": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. ",
       "nodes": [
         {
@@ -680,10 +680,10 @@
             "x": 0,
             "y": 232,
             "w": 1440,
-            "h": 8164
+            "h": 8214
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -710,10 +710,10 @@
             "x": 0,
             "y": 232,
             "w": 1440,
-            "h": 1140
+            "h": 1190
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__main.shopify-section.section",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -740,10 +740,10 @@
             "x": 20,
             "y": 232,
             "w": 1400,
-            "h": 1140
+            "h": 1190
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__main.shopify-section.section>section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -770,10 +770,10 @@
             "x": 70,
             "y": 268,
             "w": 1300,
-            "h": 1068
+            "h": 1118
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__main.shopify-section.section>section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -1400,10 +1400,10 @@
             "x": 785,
             "y": 268,
             "w": 585,
-            "h": 1068
+            "h": 1118
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__main.shopify-section.section>section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium>div.product__info-wrapper.grid__item",
-          "text": "NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pay with PAY WITH DEBIT/CREDIT",
+          "text": "NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again A",
           "href": null,
           "src": null,
           "alt": null,
@@ -2000,10 +2000,10 @@
             "x": 835,
             "y": 707,
             "w": 535,
-            "h": 38
+            "h": 30
           },
           "domPath": "main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__main.shopify-section.section>section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>div#price-template--19467744116934__main.no-js-hidden.product-page-price",
-          "text": "Regular price $32.99",
+          "text": "Regular price $32.99 Sale price $99.00 SAVE 66%",
           "href": null,
           "src": null,
           "alt": null,
@@ -2030,10 +2030,10 @@
             "x": 835,
             "y": 707,
             "w": 535,
-            "h": 38
+            "h": 30
           },
           "domPath": "section#shopify-section-template--19467744116934__main.shopify-section.section>section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>div#price-template--19467744116934__main.no-js-hidden.product-page-price>div.price.price--large",
-          "text": "Regular price $32.99",
+          "text": "Regular price $32.99 Sale price $99.00 SAVE 66%",
           "href": null,
           "src": null,
           "alt": null,
@@ -2059,11 +2059,11 @@
           "bbox": {
             "x": 835,
             "y": 707,
-            "w": 91,
-            "h": 38
+            "w": 145,
+            "h": 30
           },
           "domPath": "section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>div#price-template--19467744116934__main.no-js-hidden.product-page-price>div.price.price--large>div.price__container",
-          "text": "Regular price $32.99",
+          "text": "Regular price $32.99 Sale price $99.00",
           "href": null,
           "src": null,
           "alt": null,
@@ -2088,19 +2088,19 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 707,
-            "w": 91,
-            "h": 38
+            "y": 708,
+            "w": 145,
+            "h": 28
           },
-          "domPath": "div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>div#price-template--19467744116934__main.no-js-hidden.product-page-price>div.price.price--large>div.price__container>div.price__regular",
-          "text": "Regular price $32.99",
+          "domPath": "div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>div#price-template--19467744116934__main.no-js-hidden.product-page-price>div.price.price--large>div.price__container>div.price__sale",
+          "text": "Regular price $32.99 Sale price $99.00",
           "href": null,
           "src": null,
           "alt": null,
           "ariaLabel": null,
           "bgUrl": null,
           "style": {
-            "display": "block",
+            "display": "inline",
             "position": "static",
             "fontFamily": "Poppins, sans-serif",
             "fontSize": "20px",
@@ -2115,15 +2115,45 @@
           }
         },
         {
+          "tag": "svg",
+          "bbox": {
+            "x": 997,
+            "y": 716,
+            "w": 12,
+            "h": 12
+          },
+          "domPath": "div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>div#price-template--19467744116934__main.no-js-hidden.product-page-price>div.price.price--large>span.badge.price__badge-sale>svg.[object.SVGAnimatedString]",
+          "text": null,
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "lineHeight": "21px",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "center",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 760,
+            "y": 752,
             "w": 535,
-            "h": 209
+            "h": 266
           },
           "domPath": "section#shopify-section-template--19467744116934__main.shopify-section.section>section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks",
-          "text": "BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99",
+          "text": "BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297",
           "href": null,
           "src": null,
           "alt": null,
@@ -2148,12 +2178,12 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 760,
+            "y": 752,
             "w": 535,
-            "h": 209
+            "h": 266
           },
           "domPath": "section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks>div.quantity-breaks.quantity-breaks--normal",
-          "text": "BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99",
+          "text": "BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297",
           "href": null,
           "src": null,
           "alt": null,
@@ -2178,7 +2208,7 @@
           "tag": "h3",
           "bbox": {
             "x": 835,
-            "y": 760,
+            "y": 752,
             "w": 535,
             "h": 14
           },
@@ -2208,12 +2238,12 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 787,
+            "y": 779,
             "w": 535,
-            "h": 182
+            "h": 239
           },
           "domPath": "div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks>div.quantity-breaks.quantity-breaks--normal>div.quantity-breaks-container",
-          "text": "1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99",
+          "text": "1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297",
           "href": null,
           "src": null,
           "alt": null,
@@ -2238,12 +2268,12 @@
           "tag": "div",
           "bbox": {
             "x": 877,
-            "y": 806,
+            "y": 799,
             "w": 474,
-            "h": 16
+            "h": 35
           },
           "domPath": "product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks>div.quantity-breaks.quantity-breaks--normal>div.quantity-breaks-container>label.quantity-break>div.quantity-break__content",
-          "text": "1x Deep Sleep Posture Transformer $32.99",
+          "text": "1x Deep Sleep Posture Transformer $32.99 $99",
           "href": null,
           "src": null,
           "alt": null,
@@ -2268,7 +2298,7 @@
           "tag": "div",
           "bbox": {
             "x": 877,
-            "y": 806,
+            "y": 808,
             "w": 314,
             "h": 16
           },
@@ -2298,12 +2328,12 @@
           "tag": "div",
           "bbox": {
             "x": 1291,
-            "y": 806,
+            "y": 799,
             "w": 59,
-            "h": 16
+            "h": 35
           },
           "domPath": "variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks>div.quantity-breaks.quantity-breaks--normal>div.quantity-breaks-container>label.quantity-break>div.quantity-break__content>div.quantity-break__right.dynamic-price",
-          "text": "$32.99",
+          "text": "$32.99 $99",
           "href": null,
           "src": null,
           "alt": null,
@@ -2328,7 +2358,7 @@
           "tag": "p",
           "bbox": {
             "x": 1206,
-            "y": 838,
+            "y": 849,
             "w": 173,
             "h": 33
           },
@@ -2358,12 +2388,12 @@
           "tag": "div",
           "bbox": {
             "x": 877,
-            "y": 870,
+            "y": 881,
             "w": 474,
-            "h": 16
+            "h": 35
           },
           "domPath": "product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks>div.quantity-breaks.quantity-breaks--normal>div.quantity-breaks-container>label.quantity-break>div.quantity-break__content",
-          "text": "2x Deep Sleep Posture Transformer $49.99",
+          "text": "2x Deep Sleep Posture Transformer $49.99 $198",
           "href": null,
           "src": null,
           "alt": null,
@@ -2388,7 +2418,7 @@
           "tag": "div",
           "bbox": {
             "x": 877,
-            "y": 870,
+            "y": 891,
             "w": 318,
             "h": 16
           },
@@ -2418,12 +2448,12 @@
           "tag": "div",
           "bbox": {
             "x": 1289,
-            "y": 870,
+            "y": 881,
             "w": 61,
-            "h": 16
+            "h": 35
           },
           "domPath": "variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks>div.quantity-breaks.quantity-breaks--normal>div.quantity-breaks-container>label.quantity-break>div.quantity-break__content>div.quantity-break__right.dynamic-price",
-          "text": "$49.99",
+          "text": "$49.99 $198",
           "href": null,
           "src": null,
           "alt": null,
@@ -2448,12 +2478,12 @@
           "tag": "div",
           "bbox": {
             "x": 877,
-            "y": 933,
+            "y": 964,
             "w": 474,
-            "h": 16
+            "h": 35
           },
           "domPath": "product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks>div.quantity-breaks.quantity-breaks--normal>div.quantity-breaks-container>label.quantity-break>div.quantity-break__content",
-          "text": "3x Deep Sleep Posture Transformer $59.99",
+          "text": "3x Deep Sleep Posture Transformer $59.99 $297",
           "href": null,
           "src": null,
           "alt": null,
@@ -2478,7 +2508,7 @@
           "tag": "div",
           "bbox": {
             "x": 877,
-            "y": 933,
+            "y": 973,
             "w": 318,
             "h": 16
           },
@@ -2508,12 +2538,12 @@
           "tag": "div",
           "bbox": {
             "x": 1290,
-            "y": 933,
+            "y": 964,
             "w": 61,
-            "h": 16
+            "h": 35
           },
           "domPath": "variant-selects#variant-selects-template--19467744116934__main.no-js-hidden>div.product-form__input.product-form__input--quantity-breaks>div.quantity-breaks.quantity-breaks--normal>div.quantity-breaks-container>label.quantity-break>div.quantity-break__content>div.quantity-break__right.dynamic-price",
-          "text": "$59.99",
+          "text": "$59.99 $297",
           "href": null,
           "src": null,
           "alt": null,
@@ -2538,7 +2568,7 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 984,
+            "y": 1033,
             "w": 370,
             "h": 67
           },
@@ -2568,7 +2598,7 @@
           "tag": "button",
           "bbox": {
             "x": 836,
-            "y": 1004,
+            "y": 1054,
             "w": 45,
             "h": 45
           },
@@ -2598,7 +2628,7 @@
           "tag": "button",
           "bbox": {
             "x": 931,
-            "y": 1004,
+            "y": 1054,
             "w": 45,
             "h": 45
           },
@@ -2628,7 +2658,7 @@
           "tag": "svg",
           "bbox": {
             "x": 949,
-            "y": 1022,
+            "y": 1071,
             "w": 10,
             "h": 10
           },
@@ -2658,7 +2688,7 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 1074,
+            "y": 1124,
             "w": 535,
             "h": 238
           },
@@ -2688,7 +2718,7 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 1074,
+            "y": 1124,
             "w": 535,
             "h": 238
           },
@@ -2718,7 +2748,7 @@
           "tag": "button",
           "bbox": {
             "x": 835,
-            "y": 1074,
+            "y": 1124,
             "w": 535,
             "h": 49
           },
@@ -2748,7 +2778,7 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 1133,
+            "y": 1183,
             "w": 535,
             "h": 50
           },
@@ -2778,7 +2808,7 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 1133,
+            "y": 1183,
             "w": 535,
             "h": 50
           },
@@ -2808,7 +2838,7 @@
           "tag": "div",
           "bbox": {
             "x": 1031,
-            "y": 1147,
+            "y": 1197,
             "w": 143,
             "h": 22
           },
@@ -2838,7 +2868,7 @@
           "tag": "img",
           "bbox": {
             "x": 1104,
-            "y": 1147,
+            "y": 1197,
             "w": 70,
             "h": 22
           },
@@ -2868,7 +2898,7 @@
           "tag": "div",
           "bbox": {
             "x": 835,
-            "y": 1193,
+            "y": 1243,
             "w": 535,
             "h": 49
           },
@@ -2898,7 +2928,7 @@
           "tag": "button",
           "bbox": {
             "x": 835,
-            "y": 1193,
+            "y": 1243,
             "w": 535,
             "h": 49
           },
@@ -2933,7 +2963,7 @@
             "h": 77
           },
           "domPath": "section#shopify-section-template--19467744116934__main.shopify-section.section>section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>sticky-atc#sticky-atc-template--19467744116934__main.sticky-atc.color-background-1>div.sticky-atc-container.page-width",
-          "text": "NESLEMY™ - Never snore again (8963 Reviews) Regular price $32.99 1x Deep Sleep Posture Transformer 2x Deep Sleep Posture Transformer 3x Deep Sleep Posture Transformer Add to cart",
+          "text": "NESLEMY™ - Never snore again (8963 Reviews) Regular price $32.99 Sale price $99.00 SAVE 66% 1x Deep Sleep Posture Transformer 2x Deep Sleep Posture Transformer 3x Deep Sleep Posture Transformer Add to cart",
           "href": null,
           "src": null,
           "alt": null,
@@ -2993,7 +3023,7 @@
             "h": 77
           },
           "domPath": "section#MainProduct-template--19467744116934__main.page-width.section-template--19467744116934__main-padding>div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>sticky-atc#sticky-atc-template--19467744116934__main.sticky-atc.color-background-1>div.sticky-atc-container.page-width>div.sticky-atc__left",
-          "text": "NESLEMY™ - Never snore again (8963 Reviews) Regular price $32.99 1x Deep Sleep Posture Transformer 2x Deep Sleep Posture Transformer 3x Deep Sleep Posture Transformer",
+          "text": "NESLEMY™ - Never snore again (8963 Reviews) Regular price $32.99 Sale price $99.00 SAVE 66% 1x Deep Sleep Posture Transformer 2x Deep Sleep Posture Transformer 3x Deep Sleep Posture Transformer",
           "href": null,
           "src": null,
           "alt": null,
@@ -3023,7 +3053,7 @@
             "h": 77
           },
           "domPath": "div.product.product--medium>div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>sticky-atc#sticky-atc-template--19467744116934__main.sticky-atc.color-background-1>div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content",
-          "text": "NESLEMY™ - Never snore again (8963 Reviews) Regular price $32.99",
+          "text": "NESLEMY™ - Never snore again (8963 Reviews) Regular price $32.99 Sale price $99.00 SAVE 66%",
           "href": null,
           "src": null,
           "alt": null,
@@ -3233,7 +3263,7 @@
             "h": 27
           },
           "domPath": "div.product__info-wrapper.grid__item>product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>sticky-atc#sticky-atc-template--19467744116934__main.sticky-atc.color-background-1>div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content>div#sticky-atc-separate-price-template--19467744116934__main.sticky-atc__price",
-          "text": "Regular price $32.99",
+          "text": "Regular price $32.99 Sale price $99.00 SAVE 66%",
           "href": null,
           "src": null,
           "alt": null,
@@ -3262,8 +3292,8 @@
             "w": 324,
             "h": 27
           },
-          "domPath": "product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>sticky-atc#sticky-atc-template--19467744116934__main.sticky-atc.color-background-1>div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content>div#sticky-atc-separate-price-template--19467744116934__main.sticky-atc__price>div.price.price--show-badge",
-          "text": "Regular price $32.99",
+          "domPath": "product-info#ProductInfo-template--19467744116934__main.product__info-container.main-product__info-container>sticky-atc#sticky-atc-template--19467744116934__main.sticky-atc.color-background-1>div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content>div#sticky-atc-separate-price-template--19467744116934__main.sticky-atc__price>div.price.price--on-sale",
+          "text": "Regular price $32.99 Sale price $99.00 SAVE 66%",
           "href": null,
           "src": null,
           "alt": null,
@@ -3289,11 +3319,11 @@
           "bbox": {
             "x": 137,
             "y": 960,
-            "w": 80,
+            "w": 134,
             "h": 27
           },
-          "domPath": "sticky-atc#sticky-atc-template--19467744116934__main.sticky-atc.color-background-1>div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content>div#sticky-atc-separate-price-template--19467744116934__main.sticky-atc__price>div.price.price--show-badge>div.price__container",
-          "text": "Regular price $32.99",
+          "domPath": "sticky-atc#sticky-atc-template--19467744116934__main.sticky-atc.color-background-1>div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content>div#sticky-atc-separate-price-template--19467744116934__main.sticky-atc__price>div.price.price--on-sale>div.price__container",
+          "text": "Regular price $32.99 Sale price $99.00",
           "href": null,
           "src": null,
           "alt": null,
@@ -3318,12 +3348,42 @@
           "tag": "div",
           "bbox": {
             "x": 137,
-            "y": 960,
-            "w": 80,
-            "h": 27
+            "y": 961,
+            "w": 134,
+            "h": 25
           },
-          "domPath": "div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content>div#sticky-atc-separate-price-template--19467744116934__main.sticky-atc__price>div.price.price--show-badge>div.price__container>div.price__regular",
-          "text": "Regular price $32.99",
+          "domPath": "div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content>div#sticky-atc-separate-price-template--19467744116934__main.sticky-atc__price>div.price.price--on-sale>div.price__container>div.price__sale",
+          "text": "Regular price $32.99 Sale price $99.00",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "inline",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "27px",
+            "color": "rgb(18, 18, 18)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "svg",
+          "bbox": {
+            "x": 283,
+            "y": 967,
+            "w": 13,
+            "h": 13
+          },
+          "domPath": "div.sticky-atc-container.page-width>div.sticky-atc__left>div.sticky-atc__left__content>div#sticky-atc-separate-price-template--19467744116934__main.sticky-atc__price>div.price.price--on-sale>span.badge.price__badge-sale>svg.[object.SVGAnimatedString]",
+          "text": null,
           "href": null,
           "src": null,
           "alt": null,
@@ -3333,12 +3393,12 @@
             "display": "block",
             "position": "static",
             "fontFamily": "Poppins, sans-serif",
-            "fontSize": "18px",
-            "fontWeight": "400",
-            "lineHeight": "27px",
-            "color": "rgb(18, 18, 18)",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "lineHeight": "22.75px",
+            "color": "rgba(255, 255, 255, 0.9)",
             "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
+            "textAlign": "center",
             "gap": "normal",
             "justifyContent": "normal",
             "alignItems": "normal"
@@ -3497,17 +3557,17 @@
       ]
     },
     {
-      "id": "sec_0f85b56f3e",
+      "id": "sec_3ba83af6fb",
       "order": 3,
       "tag": "section",
       "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_NLwGK6.shopify-section.section",
       "bbox": {
         "x": 0,
-        "y": 1372,
+        "y": 1422,
         "w": 1440,
         "h": 765
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\3_sec_0f85b56f3e.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\03_sec_3ba83af6fb.png",
       "textSample": "Join 100,000 + Happy Customers Today",
       "nodes": [
         {
@@ -3516,10 +3576,10 @@
             "x": 0,
             "y": 232,
             "w": 1440,
-            "h": 8164
+            "h": 8214
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -3544,7 +3604,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 1372,
+            "y": 1422,
             "w": 1440,
             "h": 765
           },
@@ -3574,7 +3634,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 1372,
+            "y": 1422,
             "w": 1440,
             "h": 765
           },
@@ -3604,7 +3664,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 1372,
+            "y": 1422,
             "w": 1440,
             "h": 765
           },
@@ -3634,7 +3694,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 1462,
+            "y": 1512,
             "w": 1440,
             "h": 623
           },
@@ -3664,7 +3724,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 1462,
+            "y": 1512,
             "w": 1440,
             "h": 623
           },
@@ -3694,7 +3754,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 1462,
+            "y": 1512,
             "w": 1440,
             "h": 623
           },
@@ -3724,7 +3784,7 @@
           "tag": "div",
           "bbox": {
             "x": 20,
-            "y": 1462,
+            "y": 1512,
             "w": 1400,
             "h": 48
           },
@@ -3754,7 +3814,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 1462,
+            "y": 1512,
             "w": 1300,
             "h": 48
           },
@@ -3784,7 +3844,7 @@
           "tag": "h2",
           "bbox": {
             "x": 314,
-            "y": 1462,
+            "y": 1512,
             "w": 813,
             "h": 48
           },
@@ -3814,7 +3874,7 @@
           "tag": "button",
           "bbox": {
             "x": 70,
-            "y": 1540,
+            "y": 1590,
             "w": 304,
             "h": 515
           },
@@ -3844,7 +3904,7 @@
           "tag": "svg",
           "bbox": {
             "x": 197,
-            "y": 1785,
+            "y": 1834,
             "w": 50,
             "h": 25
           },
@@ -3874,7 +3934,7 @@
           "tag": "button",
           "bbox": {
             "x": 402,
-            "y": 1540,
+            "y": 1590,
             "w": 304,
             "h": 542
           },
@@ -3904,7 +3964,7 @@
           "tag": "svg",
           "bbox": {
             "x": 529,
-            "y": 1798,
+            "y": 1848,
             "w": 50,
             "h": 25
           },
@@ -3934,7 +3994,7 @@
           "tag": "button",
           "bbox": {
             "x": 734,
-            "y": 1540,
+            "y": 1590,
             "w": 304,
             "h": 542
           },
@@ -3964,7 +4024,7 @@
           "tag": "svg",
           "bbox": {
             "x": 861,
-            "y": 1798,
+            "y": 1848,
             "w": 50,
             "h": 25
           },
@@ -3994,7 +4054,7 @@
           "tag": "button",
           "bbox": {
             "x": 1066,
-            "y": 1540,
+            "y": 1590,
             "w": 304,
             "h": 542
           },
@@ -4024,7 +4084,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1193,
-            "y": 1798,
+            "y": 1848,
             "w": 50,
             "h": 25
           },
@@ -4054,7 +4114,7 @@
           "tag": "button",
           "bbox": {
             "x": 80,
-            "y": 1797,
+            "y": 1847,
             "w": 30,
             "h": 30
           },
@@ -4084,7 +4144,7 @@
           "tag": "svg",
           "bbox": {
             "x": 86,
-            "y": 1803,
+            "y": 1853,
             "w": 18,
             "h": 18
           },
@@ -4114,7 +4174,7 @@
           "tag": "button",
           "bbox": {
             "x": 1330,
-            "y": 1797,
+            "y": 1847,
             "w": 30,
             "h": 30
           },
@@ -4144,7 +4204,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1336,
-            "y": 1803,
+            "y": 1853,
             "w": 18,
             "h": 18
           },
@@ -4169,58 +4229,12 @@
             "justifyContent": "normal",
             "alignItems": "normal"
           }
-        }
-      ]
-    },
-    {
-      "id": "sec_b2d7d9bf27",
-      "order": 4,
-      "tag": "section",
-      "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_w8g7nh.shopify-section.section",
-      "bbox": {
-        "x": 0,
-        "y": 2137,
-        "w": 1440,
-        "h": 719
-      },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\4_sec_b2d7d9bf27.png",
-      "textSample": "Complete Relief: Quiet, Comfortable, Restful Nights Sleep apnea Snoring Neck tension 92% of participants noticed a decrease in their sleep apnea after 2 nights ✅Based on observational study ✅250+ participants per study ✅World class doctors & researchers",
-      "nodes": [
-        {
-          "tag": "main",
-          "bbox": {
-            "x": 0,
-            "y": 232,
-            "w": 1440,
-            "h": 8164
-          },
-          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
         },
         {
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 2137,
+            "y": 2186,
             "w": 1440,
             "h": 719
           },
@@ -4250,7 +4264,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2137,
+            "y": 2186,
             "w": 1440,
             "h": 719
           },
@@ -4280,7 +4294,233 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2137,
+            "y": 2186,
+            "w": 1440,
+            "h": 719
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_w8g7nh.shopify-section.section>div.color-background-1.gradient>div.section-template--19467744116934__custom_liquid_w8g7nh-padding",
+          "text": "Complete Relief: Quiet, Comfortable, Restful Nights Sleep apnea Snoring Neck tension 92% of participants noticed a decrease in their sleep apnea after 2 nights ✅Based on observational study ✅250+ participants per study ✅World class doctors & researchers",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_972d0e05ab",
+      "order": 4,
+      "tag": "section",
+      "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_w8g7nh.shopify-section.section",
+      "bbox": {
+        "x": 0,
+        "y": 2186,
+        "w": 1440,
+        "h": 719
+      },
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\04_sec_972d0e05ab.png",
+      "textSample": "Complete Relief: Quiet, Comfortable, Restful Nights Sleep apnea Snoring Neck tension 92% of participants noticed a decrease in their sleep apnea after 2 nights ✅Based on observational study ✅250+ participants per study ✅World class doctors & researchers",
+      "nodes": [
+        {
+          "tag": "main",
+          "bbox": {
+            "x": 0,
+            "y": 232,
+            "w": 1440,
+            "h": 8214
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "section",
+          "bbox": {
+            "x": 0,
+            "y": 1422,
+            "w": 1440,
+            "h": 765
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_NLwGK6.shopify-section.section",
+          "text": "Join 100,000 + Happy Customers Today",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 0,
+            "y": 1422,
+            "w": 1440,
+            "h": 765
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_NLwGK6.shopify-section.section>div.color-background-1.gradient",
+          "text": "Join 100,000 + Happy Customers Today",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 0,
+            "y": 1422,
+            "w": 1440,
+            "h": 765
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_NLwGK6.shopify-section.section>div.color-background-1.gradient>div.section-template--19467744116934__custom_liquid_NLwGK6-padding",
+          "text": "Join 100,000 + Happy Customers Today",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "section",
+          "bbox": {
+            "x": 0,
+            "y": 2186,
+            "w": 1440,
+            "h": 719
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_w8g7nh.shopify-section.section",
+          "text": "Complete Relief: Quiet, Comfortable, Restful Nights Sleep apnea Snoring Neck tension 92% of participants noticed a decrease in their sleep apnea after 2 nights ✅Based on observational study ✅250+ participants per study ✅World class doctors & researchers",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 0,
+            "y": 2186,
+            "w": 1440,
+            "h": 719
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_w8g7nh.shopify-section.section>div.color-background-1.gradient",
+          "text": "Complete Relief: Quiet, Comfortable, Restful Nights Sleep apnea Snoring Neck tension 92% of participants noticed a decrease in their sleep apnea after 2 nights ✅Based on observational study ✅250+ participants per study ✅World class doctors & researchers",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 0,
+            "y": 2186,
             "w": 1440,
             "h": 719
           },
@@ -4310,7 +4550,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2177,
+            "y": 2226,
             "w": 1440,
             "h": 627
           },
@@ -4340,7 +4580,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2177,
+            "y": 2226,
             "w": 1440,
             "h": 627
           },
@@ -4370,7 +4610,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2177,
+            "y": 2226,
             "w": 1440,
             "h": 627
           },
@@ -4400,7 +4640,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2177,
+            "y": 2226,
             "w": 1440,
             "h": 627
           },
@@ -4430,7 +4670,7 @@
           "tag": "div",
           "bbox": {
             "x": 220,
-            "y": 2177,
+            "y": 2226,
             "w": 1000,
             "h": 627
           },
@@ -4460,7 +4700,7 @@
           "tag": "div",
           "bbox": {
             "x": 270,
-            "y": 2213,
+            "y": 2262,
             "w": 900,
             "h": 149
           },
@@ -4490,7 +4730,7 @@
           "tag": "div",
           "bbox": {
             "x": 270,
-            "y": 2213,
+            "y": 2262,
             "w": 900,
             "h": 101
           },
@@ -4520,7 +4760,7 @@
           "tag": "h2",
           "bbox": {
             "x": 270,
-            "y": 2213,
+            "y": 2262,
             "w": 900,
             "h": 101
           },
@@ -4550,7 +4790,7 @@
           "tag": "div",
           "bbox": {
             "x": 270,
-            "y": 2314,
+            "y": 2364,
             "w": 373,
             "h": 48
           },
@@ -4580,7 +4820,7 @@
           "tag": "button",
           "bbox": {
             "x": 275,
-            "y": 2319,
+            "y": 2369,
             "w": 125,
             "h": 38
           },
@@ -4610,7 +4850,7 @@
           "tag": "button",
           "bbox": {
             "x": 407,
-            "y": 2319,
+            "y": 2369,
             "w": 94,
             "h": 38
           },
@@ -4640,7 +4880,7 @@
           "tag": "button",
           "bbox": {
             "x": 507,
-            "y": 2319,
+            "y": 2369,
             "w": 131,
             "h": 38
           },
@@ -4670,7 +4910,7 @@
           "tag": "div",
           "bbox": {
             "x": 270,
-            "y": 2382,
+            "y": 2431,
             "w": 900,
             "h": 386
           },
@@ -4700,7 +4940,7 @@
           "tag": "div",
           "bbox": {
             "x": 270,
-            "y": 2382,
+            "y": 2431,
             "w": 900,
             "h": 386
           },
@@ -4730,7 +4970,7 @@
           "tag": "img",
           "bbox": {
             "x": 735,
-            "y": 2427,
+            "y": 2476,
             "w": 415,
             "h": 297
           },
@@ -4760,7 +5000,7 @@
           "tag": "div",
           "bbox": {
             "x": 290,
-            "y": 2402,
+            "y": 2451,
             "w": 415,
             "h": 346
           },
@@ -4790,7 +5030,7 @@
           "tag": "h2",
           "bbox": {
             "x": 290,
-            "y": 2402,
+            "y": 2451,
             "w": 415,
             "h": 240
           },
@@ -4820,7 +5060,7 @@
           "tag": "div",
           "bbox": {
             "x": 290,
-            "y": 2662,
+            "y": 2711,
             "w": 415,
             "h": 86
           },
@@ -4850,7 +5090,7 @@
           "tag": "p",
           "bbox": {
             "x": 290,
-            "y": 2662,
+            "y": 2711,
             "w": 415,
             "h": 86
           },
@@ -4879,17 +5119,17 @@
       ]
     },
     {
-      "id": "sec_5fdada6ed1",
+      "id": "sec_90052b4f61",
       "order": 5,
       "tag": "section",
       "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_NdJXUR.shopify-section.section",
       "bbox": {
         "x": 0,
-        "y": 2856,
+        "y": 2905,
         "w": 1440,
         "h": 2413
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\5_sec_5fdada6ed1.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\05_sec_90052b4f61.png",
       "textSample": "Whether you're struggling with snoring issues or sleep apnea, our Deep Sleep Posture Transformer is your answer to a peaceful and tranquil night. With an ergonomic design that conforms to the contours of your neck, this advanced support ensures optimal alignment of the cervical spine during sleep. R",
       "nodes": [
         {
@@ -4898,10 +5138,10 @@
             "x": 0,
             "y": 232,
             "w": 1440,
-            "h": 8164
+            "h": 8214
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -4926,7 +5166,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 2856,
+            "y": 2905,
             "w": 1440,
             "h": 2413
           },
@@ -4956,7 +5196,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2856,
+            "y": 2905,
             "w": 1440,
             "h": 2413
           },
@@ -4986,7 +5226,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2856,
+            "y": 2905,
             "w": 1440,
             "h": 2413
           },
@@ -5016,7 +5256,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2896,
+            "y": 2945,
             "w": 1440,
             "h": 2321
           },
@@ -5046,7 +5286,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2896,
+            "y": 2945,
             "w": 1440,
             "h": 2321
           },
@@ -5076,7 +5316,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2896,
+            "y": 2945,
             "w": 1440,
             "h": 2321
           },
@@ -5106,7 +5346,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 2896,
+            "y": 2945,
             "w": 1440,
             "h": 2321
           },
@@ -5136,7 +5376,7 @@
           "tag": "div",
           "bbox": {
             "x": 20,
-            "y": 2932,
+            "y": 2981,
             "w": 1400,
             "h": 2249
           },
@@ -5166,7 +5406,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 2932,
+            "y": 2981,
             "w": 1300,
             "h": 755
           },
@@ -5196,7 +5436,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 2932,
+            "y": 2981,
             "w": 1300,
             "h": 755
           },
@@ -5226,7 +5466,7 @@
           "tag": "img",
           "bbox": {
             "x": 70,
-            "y": 2984,
+            "y": 3034,
             "w": 650,
             "h": 650
           },
@@ -5256,7 +5496,7 @@
           "tag": "div",
           "bbox": {
             "x": 720,
-            "y": 2932,
+            "y": 2981,
             "w": 650,
             "h": 755
           },
@@ -5286,7 +5526,7 @@
           "tag": "div",
           "bbox": {
             "x": 720,
-            "y": 2932,
+            "y": 2981,
             "w": 650,
             "h": 755
           },
@@ -5316,7 +5556,7 @@
           "tag": "h2",
           "bbox": {
             "x": 790,
-            "y": 2992,
+            "y": 3041,
             "w": 580,
             "h": 288
           },
@@ -5346,7 +5586,7 @@
           "tag": "div",
           "bbox": {
             "x": 790,
-            "y": 3300,
+            "y": 3349,
             "w": 580,
             "h": 317
           },
@@ -5376,7 +5616,7 @@
           "tag": "p",
           "bbox": {
             "x": 790,
-            "y": 3300,
+            "y": 3349,
             "w": 580,
             "h": 317
           },
@@ -5406,7 +5646,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 3727,
+            "y": 3776,
             "w": 1300,
             "h": 650
           },
@@ -5436,7 +5676,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 3727,
+            "y": 3776,
             "w": 1300,
             "h": 650
           },
@@ -5466,7 +5706,7 @@
           "tag": "img",
           "bbox": {
             "x": 720,
-            "y": 3727,
+            "y": 3776,
             "w": 650,
             "h": 650
           },
@@ -5496,7 +5736,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 3727,
+            "y": 3776,
             "w": 650,
             "h": 650
           },
@@ -5526,7 +5766,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 3727,
+            "y": 3776,
             "w": 650,
             "h": 650
           },
@@ -5556,7 +5796,7 @@
           "tag": "h2",
           "bbox": {
             "x": 70,
-            "y": 3801,
+            "y": 3851,
             "w": 580,
             "h": 96
           },
@@ -5586,7 +5826,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 3917,
+            "y": 3967,
             "w": 580,
             "h": 374
           },
@@ -5616,7 +5856,7 @@
           "tag": "p",
           "bbox": {
             "x": 70,
-            "y": 3917,
+            "y": 3967,
             "w": 580,
             "h": 374
           },
@@ -5646,7 +5886,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 4417,
+            "y": 4466,
             "w": 1300,
             "h": 764
           },
@@ -5676,7 +5916,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 4417,
+            "y": 4466,
             "w": 1300,
             "h": 764
           },
@@ -5706,7 +5946,7 @@
           "tag": "img",
           "bbox": {
             "x": 70,
-            "y": 4482,
+            "y": 4532,
             "w": 650,
             "h": 633
           },
@@ -5736,7 +5976,7 @@
           "tag": "div",
           "bbox": {
             "x": 720,
-            "y": 4417,
+            "y": 4466,
             "w": 650,
             "h": 764
           },
@@ -5766,7 +6006,7 @@
           "tag": "div",
           "bbox": {
             "x": 720,
-            "y": 4417,
+            "y": 4466,
             "w": 650,
             "h": 764
           },
@@ -5796,7 +6036,7 @@
           "tag": "h2",
           "bbox": {
             "x": 790,
-            "y": 4477,
+            "y": 4526,
             "w": 580,
             "h": 240
           },
@@ -5826,7 +6066,7 @@
           "tag": "div",
           "bbox": {
             "x": 790,
-            "y": 4737,
+            "y": 4786,
             "w": 580,
             "h": 374
           },
@@ -5856,7 +6096,7 @@
           "tag": "p",
           "bbox": {
             "x": 790,
-            "y": 4737,
+            "y": 4786,
             "w": 580,
             "h": 374
           },
@@ -5885,17 +6125,17 @@
       ]
     },
     {
-      "id": "sec_40f2a1666f",
+      "id": "sec_973f0d2f52",
       "order": 6,
       "tag": "section",
       "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_6aEA4f.shopify-section.section",
       "bbox": {
         "x": 0,
-        "y": 5269,
+        "y": 5318,
         "w": 1440,
         "h": 715
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\6_sec_40f2a1666f.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\06_sec_973f0d2f52.png",
       "textSample": "Not all Deep Sleep Posture Transformer are Created Equal The Deep Sleep Posture Transformer is engineered with advanced ergonomic features not typically found in standard pillows or cheap imitations. No Side Effects Superior Comfort Guaranteed All-Natural Solution Recommended by Experts Breathable 6",
       "nodes": [
         {
@@ -5904,10 +6144,10 @@
             "x": 0,
             "y": 232,
             "w": 1440,
-            "h": 8164
+            "h": 8214
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -5932,7 +6172,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 5269,
+            "y": 5318,
             "w": 1440,
             "h": 715
           },
@@ -5962,7 +6202,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 5269,
+            "y": 5318,
             "w": 1440,
             "h": 715
           },
@@ -5992,7 +6232,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 5269,
+            "y": 5318,
             "w": 1440,
             "h": 715
           },
@@ -6022,7 +6262,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 5309,
+            "y": 5358,
             "w": 1440,
             "h": 623
           },
@@ -6052,7 +6292,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 5309,
+            "y": 5358,
             "w": 1440,
             "h": 623
           },
@@ -6082,7 +6322,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 5309,
+            "y": 5358,
             "w": 1440,
             "h": 623
           },
@@ -6112,7 +6352,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 5349,
+            "y": 5398,
             "w": 1440,
             "h": 531
           },
@@ -6142,7 +6382,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 5349,
+            "y": 5398,
             "w": 1440,
             "h": 531
           },
@@ -6172,7 +6412,7 @@
           "tag": "div",
           "bbox": {
             "x": 20,
-            "y": 5349,
+            "y": 5398,
             "w": 1400,
             "h": 531
           },
@@ -6202,7 +6442,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 5385,
+            "y": 5434,
             "w": 1300,
             "h": 459
           },
@@ -6232,7 +6472,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 5489,
+            "y": 5539,
             "w": 625,
             "h": 250
           },
@@ -6262,7 +6502,7 @@
           "tag": "h2",
           "bbox": {
             "x": 70,
-            "y": 5489,
+            "y": 5539,
             "w": 625,
             "h": 144
           },
@@ -6292,7 +6532,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 5653,
+            "y": 5703,
             "w": 625,
             "h": 86
           },
@@ -6322,7 +6562,7 @@
           "tag": "p",
           "bbox": {
             "x": 70,
-            "y": 5653,
+            "y": 5703,
             "w": 625,
             "h": 86
           },
@@ -6352,7 +6592,7 @@
           "tag": "div",
           "bbox": {
             "x": 808,
-            "y": 5385,
+            "y": 5434,
             "w": 500,
             "h": 459
           },
@@ -6382,7 +6622,7 @@
           "tag": "img",
           "bbox": {
             "x": 1061,
-            "y": 5390,
+            "y": 5439,
             "w": 70,
             "h": 70
           },
@@ -6412,7 +6652,7 @@
           "tag": "img",
           "bbox": {
             "x": 1145,
-            "y": 5405,
+            "y": 5454,
             "w": 70,
             "h": 40
           },
@@ -6442,7 +6682,7 @@
           "tag": "img",
           "bbox": {
             "x": 1230,
-            "y": 5405,
+            "y": 5454,
             "w": 70,
             "h": 40
           },
@@ -6472,7 +6712,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1085,
-            "y": 5479,
+            "y": 5529,
             "w": 20,
             "h": 20
           },
@@ -6502,7 +6742,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1170,
-            "y": 5479,
+            "y": 5529,
             "w": 20,
             "h": 20
           },
@@ -6532,7 +6772,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1255,
-            "y": 5479,
+            "y": 5529,
             "w": 20,
             "h": 20
           },
@@ -6562,7 +6802,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1085,
-            "y": 5542,
+            "y": 5592,
             "w": 20,
             "h": 20
           },
@@ -6592,7 +6832,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1170,
-            "y": 5542,
+            "y": 5592,
             "w": 20,
             "h": 20
           },
@@ -6622,7 +6862,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1255,
-            "y": 5542,
+            "y": 5592,
             "w": 20,
             "h": 20
           },
@@ -6652,7 +6892,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1085,
-            "y": 5605,
+            "y": 5655,
             "w": 20,
             "h": 20
           },
@@ -6682,7 +6922,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1170,
-            "y": 5605,
+            "y": 5655,
             "w": 20,
             "h": 20
           },
@@ -6712,7 +6952,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1255,
-            "y": 5605,
+            "y": 5655,
             "w": 20,
             "h": 20
           },
@@ -6742,7 +6982,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1085,
-            "y": 5669,
+            "y": 5718,
             "w": 20,
             "h": 20
           },
@@ -6772,7 +7012,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1170,
-            "y": 5669,
+            "y": 5718,
             "w": 20,
             "h": 20
           },
@@ -6802,7 +7042,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1255,
-            "y": 5669,
+            "y": 5718,
             "w": 20,
             "h": 20
           },
@@ -6832,7 +7072,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1085,
-            "y": 5732,
+            "y": 5781,
             "w": 20,
             "h": 20
           },
@@ -6862,7 +7102,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1170,
-            "y": 5732,
+            "y": 5781,
             "w": 20,
             "h": 20
           },
@@ -6892,7 +7132,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1255,
-            "y": 5732,
+            "y": 5781,
             "w": 20,
             "h": 20
           },
@@ -6922,7 +7162,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1085,
-            "y": 5795,
+            "y": 5845,
             "w": 20,
             "h": 20
           },
@@ -6952,7 +7192,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1170,
-            "y": 5795,
+            "y": 5845,
             "w": 20,
             "h": 20
           },
@@ -6982,7 +7222,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1255,
-            "y": 5795,
+            "y": 5845,
             "w": 20,
             "h": 20
           },
@@ -7011,17 +7251,17 @@
       ]
     },
     {
-      "id": "sec_bf6a2bdfbe",
+      "id": "sec_c54ffe8094",
       "order": 7,
       "tag": "section",
       "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_zJbUPF.shopify-section.section",
       "bbox": {
         "x": 0,
-        "y": 5984,
+        "y": 6033,
         "w": 1440,
         "h": 785
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\7_sec_bf6a2bdfbe.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\07_sec_c54ffe8094.png",
       "textSample": "Meet the Minds Transforming Stop the ache Vascular Specialist, France NESLEMY™ Deep Sleep Posture Transformer provides excellent products that signifcantly enhance daily wellbeing.\" Dr. Philippe Moreau Sports Medicine Expert, Switzeriand For reliable, drug-free Stop the ache. NESLEMY is my top recom",
       "nodes": [
         {
@@ -7030,10 +7270,10 @@
             "x": 0,
             "y": 232,
             "w": 1440,
-            "h": 8164
+            "h": 8214
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -7058,7 +7298,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 5984,
+            "y": 6033,
             "w": 1440,
             "h": 785
           },
@@ -7088,7 +7328,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 5984,
+            "y": 6033,
             "w": 1440,
             "h": 785
           },
@@ -7118,7 +7358,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 5984,
+            "y": 6033,
             "w": 1440,
             "h": 785
           },
@@ -7148,7 +7388,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 6024,
+            "y": 6073,
             "w": 1440,
             "h": 693
           },
@@ -7178,7 +7418,7 @@
           "tag": "div",
           "bbox": {
             "x": 20,
-            "y": 6024,
+            "y": 6073,
             "w": 1400,
             "h": 693
           },
@@ -7208,7 +7448,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 6024,
+            "y": 6073,
             "w": 1300,
             "h": 48
           },
@@ -7238,7 +7478,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 6024,
+            "y": 6073,
             "w": 1300,
             "h": 48
           },
@@ -7268,7 +7508,7 @@
           "tag": "h2",
           "bbox": {
             "x": 268,
-            "y": 6024,
+            "y": 6073,
             "w": 904,
             "h": 48
           },
@@ -7298,7 +7538,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 6102,
+            "y": 6151,
             "w": 1300,
             "h": 615
           },
@@ -7328,7 +7568,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 6102,
+            "y": 6151,
             "w": 1300,
             "h": 615
           },
@@ -7358,7 +7598,7 @@
           "tag": "li",
           "bbox": {
             "x": 70,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 615
           },
@@ -7388,7 +7628,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 615
           },
@@ -7418,7 +7658,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 615
           },
@@ -7448,7 +7688,7 @@
           "tag": "img",
           "bbox": {
             "x": 70,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 295
           },
@@ -7478,7 +7718,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 6397,
+            "y": 6446,
             "w": 295,
             "h": 320
           },
@@ -7508,7 +7748,7 @@
           "tag": "svg",
           "bbox": {
             "x": 161,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7538,7 +7778,7 @@
           "tag": "svg",
           "bbox": {
             "x": 184,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7568,7 +7808,7 @@
           "tag": "svg",
           "bbox": {
             "x": 207,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7598,7 +7838,7 @@
           "tag": "svg",
           "bbox": {
             "x": 230,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7628,7 +7868,7 @@
           "tag": "svg",
           "bbox": {
             "x": 254,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7658,7 +7898,7 @@
           "tag": "svg",
           "bbox": {
             "x": 161,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7688,7 +7928,7 @@
           "tag": "svg",
           "bbox": {
             "x": 184,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7718,7 +7958,7 @@
           "tag": "svg",
           "bbox": {
             "x": 207,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7748,7 +7988,7 @@
           "tag": "svg",
           "bbox": {
             "x": 230,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7778,7 +8018,7 @@
           "tag": "svg",
           "bbox": {
             "x": 254,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -7808,7 +8048,7 @@
           "tag": "svg",
           "bbox": {
             "x": 306,
-            "y": 6383,
+            "y": 6433,
             "w": 28,
             "h": 28
           },
@@ -7838,7 +8078,7 @@
           "tag": "h3",
           "bbox": {
             "x": 90,
-            "y": 6435,
+            "y": 6485,
             "w": 255,
             "h": 52
           },
@@ -7868,7 +8108,7 @@
           "tag": "div",
           "bbox": {
             "x": 90,
-            "y": 6497,
+            "y": 6547,
             "w": 255,
             "h": 173
           },
@@ -7898,7 +8138,7 @@
           "tag": "p",
           "bbox": {
             "x": 90,
-            "y": 6497,
+            "y": 6547,
             "w": 255,
             "h": 173
           },
@@ -7928,7 +8168,7 @@
           "tag": "div",
           "bbox": {
             "x": 90,
-            "y": 6677,
+            "y": 6727,
             "w": 255,
             "h": 26
           },
@@ -7958,7 +8198,7 @@
           "tag": "p",
           "bbox": {
             "x": 141,
-            "y": 6688,
+            "y": 6738,
             "w": 152,
             "h": 15
           },
@@ -7988,7 +8228,7 @@
           "tag": "li",
           "bbox": {
             "x": 405,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 615
           },
@@ -8018,7 +8258,7 @@
           "tag": "div",
           "bbox": {
             "x": 405,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 557
           },
@@ -8048,7 +8288,7 @@
           "tag": "div",
           "bbox": {
             "x": 405,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 557
           },
@@ -8078,7 +8318,7 @@
           "tag": "img",
           "bbox": {
             "x": 405,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 295
           },
@@ -8108,7 +8348,7 @@
           "tag": "div",
           "bbox": {
             "x": 405,
-            "y": 6397,
+            "y": 6446,
             "w": 295,
             "h": 262
           },
@@ -8138,7 +8378,7 @@
           "tag": "svg",
           "bbox": {
             "x": 496,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8168,7 +8408,7 @@
           "tag": "svg",
           "bbox": {
             "x": 519,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8198,7 +8438,7 @@
           "tag": "svg",
           "bbox": {
             "x": 542,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8228,7 +8468,7 @@
           "tag": "svg",
           "bbox": {
             "x": 565,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8258,7 +8498,7 @@
           "tag": "svg",
           "bbox": {
             "x": 589,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8288,7 +8528,7 @@
           "tag": "svg",
           "bbox": {
             "x": 496,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8318,7 +8558,7 @@
           "tag": "svg",
           "bbox": {
             "x": 519,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8348,7 +8588,7 @@
           "tag": "svg",
           "bbox": {
             "x": 542,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8378,7 +8618,7 @@
           "tag": "svg",
           "bbox": {
             "x": 565,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8408,7 +8648,7 @@
           "tag": "svg",
           "bbox": {
             "x": 589,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8438,7 +8678,7 @@
           "tag": "svg",
           "bbox": {
             "x": 641,
-            "y": 6383,
+            "y": 6433,
             "w": 28,
             "h": 28
           },
@@ -8468,7 +8708,7 @@
           "tag": "h3",
           "bbox": {
             "x": 425,
-            "y": 6435,
+            "y": 6485,
             "w": 255,
             "h": 52
           },
@@ -8498,7 +8738,7 @@
           "tag": "div",
           "bbox": {
             "x": 425,
-            "y": 6497,
+            "y": 6547,
             "w": 255,
             "h": 115
           },
@@ -8528,7 +8768,7 @@
           "tag": "p",
           "bbox": {
             "x": 425,
-            "y": 6497,
+            "y": 6547,
             "w": 255,
             "h": 115
           },
@@ -8558,7 +8798,7 @@
           "tag": "div",
           "bbox": {
             "x": 425,
-            "y": 6620,
+            "y": 6669,
             "w": 255,
             "h": 26
           },
@@ -8588,7 +8828,7 @@
           "tag": "p",
           "bbox": {
             "x": 481,
-            "y": 6631,
+            "y": 6680,
             "w": 144,
             "h": 15
           },
@@ -8618,7 +8858,7 @@
           "tag": "li",
           "bbox": {
             "x": 740,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 615
           },
@@ -8648,7 +8888,7 @@
           "tag": "div",
           "bbox": {
             "x": 740,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 557
           },
@@ -8678,7 +8918,7 @@
           "tag": "div",
           "bbox": {
             "x": 740,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 557
           },
@@ -8708,7 +8948,7 @@
           "tag": "img",
           "bbox": {
             "x": 740,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 295
           },
@@ -8738,7 +8978,7 @@
           "tag": "div",
           "bbox": {
             "x": 740,
-            "y": 6397,
+            "y": 6446,
             "w": 295,
             "h": 262
           },
@@ -8768,7 +9008,7 @@
           "tag": "svg",
           "bbox": {
             "x": 831,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8798,7 +9038,7 @@
           "tag": "svg",
           "bbox": {
             "x": 854,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8828,7 +9068,7 @@
           "tag": "svg",
           "bbox": {
             "x": 877,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8858,7 +9098,7 @@
           "tag": "svg",
           "bbox": {
             "x": 900,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8888,7 +9128,7 @@
           "tag": "svg",
           "bbox": {
             "x": 924,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8918,7 +9158,7 @@
           "tag": "svg",
           "bbox": {
             "x": 831,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8948,7 +9188,7 @@
           "tag": "svg",
           "bbox": {
             "x": 854,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -8978,7 +9218,7 @@
           "tag": "svg",
           "bbox": {
             "x": 877,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9008,7 +9248,7 @@
           "tag": "svg",
           "bbox": {
             "x": 900,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9038,7 +9278,7 @@
           "tag": "svg",
           "bbox": {
             "x": 924,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9068,7 +9308,7 @@
           "tag": "svg",
           "bbox": {
             "x": 976,
-            "y": 6383,
+            "y": 6433,
             "w": 28,
             "h": 28
           },
@@ -9098,7 +9338,7 @@
           "tag": "h3",
           "bbox": {
             "x": 760,
-            "y": 6435,
+            "y": 6485,
             "w": 255,
             "h": 52
           },
@@ -9128,7 +9368,7 @@
           "tag": "div",
           "bbox": {
             "x": 760,
-            "y": 6497,
+            "y": 6547,
             "w": 255,
             "h": 115
           },
@@ -9158,7 +9398,7 @@
           "tag": "p",
           "bbox": {
             "x": 760,
-            "y": 6497,
+            "y": 6547,
             "w": 255,
             "h": 115
           },
@@ -9188,7 +9428,7 @@
           "tag": "div",
           "bbox": {
             "x": 760,
-            "y": 6620,
+            "y": 6669,
             "w": 255,
             "h": 26
           },
@@ -9218,7 +9458,7 @@
           "tag": "p",
           "bbox": {
             "x": 827,
-            "y": 6631,
+            "y": 6680,
             "w": 122,
             "h": 15
           },
@@ -9248,7 +9488,7 @@
           "tag": "li",
           "bbox": {
             "x": 1075,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 615
           },
@@ -9278,7 +9518,7 @@
           "tag": "div",
           "bbox": {
             "x": 1075,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 557
           },
@@ -9308,7 +9548,7 @@
           "tag": "div",
           "bbox": {
             "x": 1075,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 557
           },
@@ -9338,7 +9578,7 @@
           "tag": "img",
           "bbox": {
             "x": 1075,
-            "y": 6102,
+            "y": 6151,
             "w": 295,
             "h": 295
           },
@@ -9368,7 +9608,7 @@
           "tag": "div",
           "bbox": {
             "x": 1075,
-            "y": 6397,
+            "y": 6446,
             "w": 295,
             "h": 262
           },
@@ -9398,7 +9638,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1166,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9428,7 +9668,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1189,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9458,7 +9698,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1212,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9488,7 +9728,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1235,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9518,7 +9758,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1259,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9548,7 +9788,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1166,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9578,7 +9818,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1189,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9608,7 +9848,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1212,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9638,7 +9878,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1235,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9668,7 +9908,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1259,
-            "y": 6409,
+            "y": 6459,
             "w": 21,
             "h": 21
           },
@@ -9698,7 +9938,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1311,
-            "y": 6383,
+            "y": 6433,
             "w": 28,
             "h": 28
           },
@@ -9728,7 +9968,7 @@
           "tag": "h3",
           "bbox": {
             "x": 1095,
-            "y": 6435,
+            "y": 6485,
             "w": 255,
             "h": 52
           },
@@ -9758,7 +9998,7 @@
           "tag": "div",
           "bbox": {
             "x": 1095,
-            "y": 6497,
+            "y": 6547,
             "w": 255,
             "h": 115
           },
@@ -9788,7 +10028,7 @@
           "tag": "p",
           "bbox": {
             "x": 1095,
-            "y": 6497,
+            "y": 6547,
             "w": 255,
             "h": 115
           },
@@ -9818,7 +10058,7 @@
           "tag": "div",
           "bbox": {
             "x": 1095,
-            "y": 6620,
+            "y": 6669,
             "w": 255,
             "h": 26
           },
@@ -9848,7 +10088,7 @@
           "tag": "p",
           "bbox": {
             "x": 1158,
-            "y": 6631,
+            "y": 6680,
             "w": 128,
             "h": 15
           },
@@ -9873,111 +10113,21 @@
             "justifyContent": "normal",
             "alignItems": "normal"
           }
-        },
-        {
-          "tag": "section",
-          "bbox": {
-            "x": 0,
-            "y": 6768,
-            "w": 1440,
-            "h": 789
-          },
-          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_DF9rNn.shopify-section.section",
-          "text": "Why the Deep Sleep Posture Transformer Matters Relieves Neck Pain & Tension Stops Snoring Eases Sleep Apnea Adaptive Memory Foam Portable & Washable Experience a better night’s sleep withNESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while reducing pain, snoring, and sleep apnea symptoms for natural, lasting relief.",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "div",
-          "bbox": {
-            "x": 0,
-            "y": 6768,
-            "w": 1440,
-            "h": 789
-          },
-          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_DF9rNn.shopify-section.section>div.color-background-1.gradient",
-          "text": "Why the Deep Sleep Posture Transformer Matters Relieves Neck Pain & Tension Stops Snoring Eases Sleep Apnea Adaptive Memory Foam Portable & Washable Experience a better night’s sleep withNESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while reducing pain, snoring, and sleep apnea symptoms for natural, lasting relief.",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgb(255, 255, 255)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "div",
-          "bbox": {
-            "x": 0,
-            "y": 6768,
-            "w": 1440,
-            "h": 789
-          },
-          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_DF9rNn.shopify-section.section>div.color-background-1.gradient>div.section-template--19467744116934__custom_liquid_DF9rNn-padding",
-          "text": "Why the Deep Sleep Posture Transformer Matters Relieves Neck Pain & Tension Stops Snoring Eases Sleep Apnea Adaptive Memory Foam Portable & Washable Experience a better night’s sleep withNESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while reducing pain, snoring, and sleep apnea symptoms for natural, lasting relief.",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
         }
       ]
     },
     {
-      "id": "sec_ba1dacb406",
+      "id": "sec_7af17d5bdb",
       "order": 8,
       "tag": "section",
       "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_DF9rNn.shopify-section.section",
       "bbox": {
         "x": 0,
-        "y": 6768,
+        "y": 6818,
         "w": 1440,
         "h": 789
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\8_sec_ba1dacb406.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\08_sec_7af17d5bdb.png",
       "textSample": "Why the Deep Sleep Posture Transformer Matters Relieves Neck Pain & Tension Stops Snoring Eases Sleep Apnea Adaptive Memory Foam Portable & Washable Experience a better night’s sleep withNESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while reducing pain, snoring, an",
       "nodes": [
         {
@@ -9986,10 +10136,10 @@
             "x": 0,
             "y": 232,
             "w": 1440,
-            "h": 8164
+            "h": 8214
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -10014,97 +10164,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 5984,
-            "w": 1440,
-            "h": 785
-          },
-          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_zJbUPF.shopify-section.section",
-          "text": "Meet the Minds Transforming Stop the ache Vascular Specialist, France NESLEMY™ Deep Sleep Posture Transformer provides excellent products that signifcantly enhance daily wellbeing.\" Dr. Philippe Moreau Sports Medicine Expert, Switzeriand For reliable, drug-free Stop the ache. NESLEMY is my top recommendation. Prof. Lukas Fischer Pain Management specialist, Germany I confdently recommend NESLEMY for safe, effective Stop the ache Dr. Clara Maller Clinical Pain Researcher, Spain \"NESLEMY stands out with clinically supported, non-invasive pain solutions. Dr. Sofa Navarro",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "div",
-          "bbox": {
-            "x": 0,
-            "y": 5984,
-            "w": 1440,
-            "h": 785
-          },
-          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_zJbUPF.shopify-section.section>div.color-background-1.gradient",
-          "text": "Meet the Minds Transforming Stop the ache Vascular Specialist, France NESLEMY™ Deep Sleep Posture Transformer provides excellent products that signifcantly enhance daily wellbeing.\" Dr. Philippe Moreau Sports Medicine Expert, Switzeriand For reliable, drug-free Stop the ache. NESLEMY is my top recommendation. Prof. Lukas Fischer Pain Management specialist, Germany I confdently recommend NESLEMY for safe, effective Stop the ache Dr. Clara Maller Clinical Pain Researcher, Spain \"NESLEMY stands out with clinically supported, non-invasive pain solutions. Dr. Sofa Navarro",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgb(255, 255, 255)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "div",
-          "bbox": {
-            "x": 0,
-            "y": 5984,
-            "w": 1440,
-            "h": 785
-          },
-          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_zJbUPF.shopify-section.section>div.color-background-1.gradient>div.section-template--19467744116934__custom_liquid_zJbUPF-padding",
-          "text": "Meet the Minds Transforming Stop the ache Vascular Specialist, France NESLEMY™ Deep Sleep Posture Transformer provides excellent products that signifcantly enhance daily wellbeing.\" Dr. Philippe Moreau Sports Medicine Expert, Switzeriand For reliable, drug-free Stop the ache. NESLEMY is my top recommendation. Prof. Lukas Fischer Pain Management specialist, Germany I confdently recommend NESLEMY for safe, effective Stop the ache Dr. Clara Maller Clinical Pain Researcher, Spain \"NESLEMY stands out with clinically supported, non-invasive pain solutions. Dr. Sofa Navarro",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "section",
-          "bbox": {
-            "x": 0,
-            "y": 6768,
+            "y": 6818,
             "w": 1440,
             "h": 789
           },
@@ -10134,7 +10194,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 6768,
+            "y": 6818,
             "w": 1440,
             "h": 789
           },
@@ -10164,7 +10224,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 6768,
+            "y": 6818,
             "w": 1440,
             "h": 789
           },
@@ -10194,7 +10254,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 6808,
+            "y": 6858,
             "w": 1440,
             "h": 697
           },
@@ -10224,7 +10284,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 6808,
+            "y": 6858,
             "w": 1440,
             "h": 697
           },
@@ -10254,7 +10314,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 6808,
+            "y": 6858,
             "w": 1440,
             "h": 697
           },
@@ -10284,7 +10344,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 6848,
+            "y": 6898,
             "w": 1440,
             "h": 605
           },
@@ -10314,7 +10374,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 6848,
+            "y": 6898,
             "w": 1440,
             "h": 605
           },
@@ -10344,7 +10404,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 6848,
+            "y": 6898,
             "w": 1440,
             "h": 605
           },
@@ -10374,7 +10434,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 6888,
+            "y": 6938,
             "w": 1440,
             "h": 513
           },
@@ -10404,7 +10464,7 @@
           "tag": "div",
           "bbox": {
             "x": 45,
-            "y": 6888,
+            "y": 6938,
             "w": 1350,
             "h": 513
           },
@@ -10434,7 +10494,7 @@
           "tag": "img",
           "bbox": {
             "x": 770,
-            "y": 6937,
+            "y": 6986,
             "w": 595,
             "h": 415
           },
@@ -10464,7 +10524,7 @@
           "tag": "div",
           "bbox": {
             "x": 75,
-            "y": 6918,
+            "y": 6968,
             "w": 595,
             "h": 453
           },
@@ -10494,7 +10554,7 @@
           "tag": "h2",
           "bbox": {
             "x": 75,
-            "y": 6918,
+            "y": 6968,
             "w": 595,
             "h": 90
           },
@@ -10524,7 +10584,7 @@
           "tag": "div",
           "bbox": {
             "x": 75,
-            "y": 7028,
+            "y": 7078,
             "w": 595,
             "h": 130
           },
@@ -10554,7 +10614,7 @@
           "tag": "div",
           "bbox": {
             "x": 75,
-            "y": 7028,
+            "y": 7078,
             "w": 595,
             "h": 130
           },
@@ -10584,7 +10644,7 @@
           "tag": "p",
           "bbox": {
             "x": 75,
-            "y": 7058,
+            "y": 7108,
             "w": 110,
             "h": 89
           },
@@ -10614,7 +10674,7 @@
           "tag": "img",
           "bbox": {
             "x": 111,
-            "y": 7058,
+            "y": 7108,
             "w": 38,
             "h": 38
           },
@@ -10644,7 +10704,7 @@
           "tag": "p",
           "bbox": {
             "x": 196,
-            "y": 7066,
+            "y": 7116,
             "w": 110,
             "h": 73
           },
@@ -10674,7 +10734,7 @@
           "tag": "img",
           "bbox": {
             "x": 232,
-            "y": 7066,
+            "y": 7116,
             "w": 38,
             "h": 38
           },
@@ -10704,7 +10764,7 @@
           "tag": "p",
           "bbox": {
             "x": 318,
-            "y": 7058,
+            "y": 7108,
             "w": 110,
             "h": 89
           },
@@ -10734,7 +10794,7 @@
           "tag": "img",
           "bbox": {
             "x": 354,
-            "y": 7058,
+            "y": 7108,
             "w": 38,
             "h": 38
           },
@@ -10764,7 +10824,7 @@
           "tag": "p",
           "bbox": {
             "x": 439,
-            "y": 7058,
+            "y": 7108,
             "w": 110,
             "h": 89
           },
@@ -10794,7 +10854,7 @@
           "tag": "img",
           "bbox": {
             "x": 475,
-            "y": 7058,
+            "y": 7108,
             "w": 38,
             "h": 38
           },
@@ -10824,7 +10884,7 @@
           "tag": "p",
           "bbox": {
             "x": 560,
-            "y": 7058,
+            "y": 7108,
             "w": 110,
             "h": 89
           },
@@ -10854,7 +10914,7 @@
           "tag": "img",
           "bbox": {
             "x": 596,
-            "y": 7058,
+            "y": 7108,
             "w": 38,
             "h": 38
           },
@@ -10884,7 +10944,7 @@
           "tag": "p",
           "bbox": {
             "x": 173,
-            "y": 7198,
+            "y": 7248,
             "w": 400,
             "h": 173
           },
@@ -10909,58 +10969,12 @@
             "justifyContent": "normal",
             "alignItems": "normal"
           }
-        }
-      ]
-    },
-    {
-      "id": "sec_3b852c9642",
-      "order": 9,
-      "tag": "section",
-      "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_gJADiz.shopify-section.section",
-      "bbox": {
-        "x": 0,
-        "y": 7557,
-        "w": 1440,
-        "h": 612
-      },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\9_sec_3b852c9642.png",
-      "textSample": "Frequently Asked Questions check_box How long does it take to see results with the NESLEMY™ Deep Sleep Posture Transformer? Experiences may vary, but many users report an improvement in sleep quality and a reduction in snoring issues after just a few nights. However, it may take some time for the bo",
-      "nodes": [
-        {
-          "tag": "main",
-          "bbox": {
-            "x": 0,
-            "y": 232,
-            "w": 1440,
-            "h": 8164
-          },
-          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
         },
         {
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 7557,
+            "y": 7606,
             "w": 1440,
             "h": 612
           },
@@ -10990,7 +11004,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 7557,
+            "y": 7606,
             "w": 1440,
             "h": 612
           },
@@ -11020,7 +11034,233 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 7557,
+            "y": 7606,
+            "w": 1440,
+            "h": 612
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_gJADiz.shopify-section.section>div.color-background-1.gradient>div.section-template--19467744116934__custom_liquid_gJADiz-padding",
+          "text": "Frequently Asked Questions check_box How long does it take to see results with the NESLEMY™ Deep Sleep Posture Transformer? Experiences may vary, but many users report an improvement in sleep quality and a reduction in snoring issues after just a few nights. However, it may take some time for the body to fully adjust to the new sleeping position. check_box Is the NESLEMY™ Deep Sleep Posture Transformer effective for all forms of snoring? While every individual is different, many users have reported positive results in reducing snoring issues with the Deep Sleep Posture Transformer. It aids in ",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_c4a13e67e6",
+      "order": 9,
+      "tag": "section",
+      "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_gJADiz.shopify-section.section",
+      "bbox": {
+        "x": 0,
+        "y": 7606,
+        "w": 1440,
+        "h": 612
+      },
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\09_sec_c4a13e67e6.png",
+      "textSample": "Frequently Asked Questions check_box How long does it take to see results with the NESLEMY™ Deep Sleep Posture Transformer? Experiences may vary, but many users report an improvement in sleep quality and a reduction in snoring issues after just a few nights. However, it may take some time for the bo",
+      "nodes": [
+        {
+          "tag": "main",
+          "bbox": {
+            "x": 0,
+            "y": 232,
+            "w": 1440,
+            "h": 8214
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "section",
+          "bbox": {
+            "x": 0,
+            "y": 6818,
+            "w": 1440,
+            "h": 789
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_DF9rNn.shopify-section.section",
+          "text": "Why the Deep Sleep Posture Transformer Matters Relieves Neck Pain & Tension Stops Snoring Eases Sleep Apnea Adaptive Memory Foam Portable & Washable Experience a better night’s sleep withNESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while reducing pain, snoring, and sleep apnea symptoms for natural, lasting relief.",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 0,
+            "y": 6818,
+            "w": 1440,
+            "h": 789
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_DF9rNn.shopify-section.section>div.color-background-1.gradient",
+          "text": "Why the Deep Sleep Posture Transformer Matters Relieves Neck Pain & Tension Stops Snoring Eases Sleep Apnea Adaptive Memory Foam Portable & Washable Experience a better night’s sleep withNESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while reducing pain, snoring, and sleep apnea symptoms for natural, lasting relief.",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 0,
+            "y": 6818,
+            "w": 1440,
+            "h": 789
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_DF9rNn.shopify-section.section>div.color-background-1.gradient>div.section-template--19467744116934__custom_liquid_DF9rNn-padding",
+          "text": "Why the Deep Sleep Posture Transformer Matters Relieves Neck Pain & Tension Stops Snoring Eases Sleep Apnea Adaptive Memory Foam Portable & Washable Experience a better night’s sleep withNESLEMY Deep Sleep Posture Transformer. Our innovative design supports your neck while reducing pain, snoring, and sleep apnea symptoms for natural, lasting relief.",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "section",
+          "bbox": {
+            "x": 0,
+            "y": 7606,
+            "w": 1440,
+            "h": 612
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_gJADiz.shopify-section.section",
+          "text": "Frequently Asked Questions check_box How long does it take to see results with the NESLEMY™ Deep Sleep Posture Transformer? Experiences may vary, but many users report an improvement in sleep quality and a reduction in snoring issues after just a few nights. However, it may take some time for the body to fully adjust to the new sleeping position. check_box Is the NESLEMY™ Deep Sleep Posture Transformer effective for all forms of snoring? While every individual is different, many users have reported positive results in reducing snoring issues with the Deep Sleep Posture Transformer. It aids in ",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 0,
+            "y": 7606,
+            "w": 1440,
+            "h": 612
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__custom_liquid_gJADiz.shopify-section.section>div.color-background-1.gradient",
+          "text": "Frequently Asked Questions check_box How long does it take to see results with the NESLEMY™ Deep Sleep Posture Transformer? Experiences may vary, but many users report an improvement in sleep quality and a reduction in snoring issues after just a few nights. However, it may take some time for the body to fully adjust to the new sleeping position. check_box Is the NESLEMY™ Deep Sleep Posture Transformer effective for all forms of snoring? While every individual is different, many users have reported positive results in reducing snoring issues with the Deep Sleep Posture Transformer. It aids in ",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 0,
+            "y": 7606,
             "w": 1440,
             "h": 612
           },
@@ -11050,7 +11290,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 7597,
+            "y": 7646,
             "w": 1440,
             "h": 520
           },
@@ -11080,7 +11320,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 7597,
+            "y": 7646,
             "w": 1440,
             "h": 520
           },
@@ -11110,7 +11350,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 7597,
+            "y": 7646,
             "w": 1440,
             "h": 520
           },
@@ -11140,7 +11380,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 7637,
+            "y": 7686,
             "w": 1440,
             "h": 428
           },
@@ -11170,7 +11410,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 7637,
+            "y": 7686,
             "w": 1440,
             "h": 428
           },
@@ -11200,7 +11440,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 7637,
+            "y": 7686,
             "w": 1440,
             "h": 428
           },
@@ -11230,7 +11470,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 7637,
+            "y": 7686,
             "w": 1440,
             "h": 428
           },
@@ -11260,7 +11500,7 @@
           "tag": "div",
           "bbox": {
             "x": 353,
-            "y": 7673,
+            "y": 7722,
             "w": 734,
             "h": 356
           },
@@ -11290,7 +11530,7 @@
           "tag": "div",
           "bbox": {
             "x": 373,
-            "y": 7673,
+            "y": 7722,
             "w": 694,
             "h": 48
           },
@@ -11320,7 +11560,7 @@
           "tag": "h2",
           "bbox": {
             "x": 373,
-            "y": 7673,
+            "y": 7722,
             "w": 694,
             "h": 48
           },
@@ -11350,7 +11590,7 @@
           "tag": "div",
           "bbox": {
             "x": 373,
-            "y": 7751,
+            "y": 7800,
             "w": 694,
             "h": 278
           },
@@ -11380,7 +11620,7 @@
           "tag": "div",
           "bbox": {
             "x": 373,
-            "y": 7751,
+            "y": 7800,
             "w": 694,
             "h": 278
           },
@@ -11410,7 +11650,7 @@
           "tag": "div",
           "bbox": {
             "x": 373,
-            "y": 7751,
+            "y": 7800,
             "w": 694,
             "h": 65
           },
@@ -11440,7 +11680,7 @@
           "tag": "div",
           "bbox": {
             "x": 373,
-            "y": 7764,
+            "y": 7814,
             "w": 694,
             "h": 38
           },
@@ -11470,7 +11710,7 @@
           "tag": "h2",
           "bbox": {
             "x": 406,
-            "y": 7764,
+            "y": 7814,
             "w": 634,
             "h": 38
           },
@@ -11500,7 +11740,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1039,
-            "y": 7782,
+            "y": 7831,
             "w": 13,
             "h": 8
           },
@@ -11530,7 +11770,7 @@
           "tag": "p",
           "bbox": {
             "x": 379,
-            "y": 7815,
+            "y": 7865,
             "w": 682,
             "h": 115
           },
@@ -11560,7 +11800,7 @@
           "tag": "div",
           "bbox": {
             "x": 373,
-            "y": 7816,
+            "y": 7866,
             "w": 694,
             "h": 64
           },
@@ -11590,7 +11830,7 @@
           "tag": "div",
           "bbox": {
             "x": 373,
-            "y": 7829,
+            "y": 7878,
             "w": 694,
             "h": 38
           },
@@ -11620,7 +11860,7 @@
           "tag": "h2",
           "bbox": {
             "x": 406,
-            "y": 7829,
+            "y": 7878,
             "w": 634,
             "h": 38
           },
@@ -11650,157 +11890,7 @@
           "tag": "svg",
           "bbox": {
             "x": 1039,
-            "y": 7846,
-            "w": 13,
-            "h": 8
-          },
-          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>svg.[object.SVGAnimatedString]",
-          "text": null,
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "absolute",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "16px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "p",
-          "bbox": {
-            "x": 379,
-            "y": 7880,
-            "w": 682,
-            "h": 115
-          },
-          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>div.accordion__content-wrapper>div#CollapsibleAccordion-collapsible_row_PqBctH-template--19894679699642__collapsible_content_KL7akL.accordion__content.rte>p",
-          "text": "While every individual is different, many users have reported positive results in reducing snoring issues with the Deep Sleep Posture Transformer. It aids in improving airway openings and preventing blockages that often lead to snoring.",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "div",
-          "bbox": {
-            "x": 373,
-            "y": 7881,
-            "w": 694,
-            "h": 49
-          },
-          "domPath": "div.color-scheme-template--19894679699642__collapsible_content_KL7akL.color-background-1>div.collapsible-content.collapsible-none-layout>div.collapsible-content__wrapper.section-template--19894679699642__collapsible_content_KL7akL-padding>div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item",
-          "text": "check_box What are the of this product compared to other Stop snoring solutions? This product is non-invasive, requires no surgery or medication, and can easily be integrated into your sleep routine. It's a simple solution that provides comfort while being effective at the same time.",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "28.8px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "div",
-          "bbox": {
-            "x": 373,
-            "y": 7893,
-            "w": 694,
-            "h": 23
-          },
-          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>div.summary__title",
-          "text": "check_box What are the of this product compared to other Stop snoring solutions?",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "flex",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "16px",
-            "color": "rgba(18, 18, 18, 0.9)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "center"
-          }
-        },
-        {
-          "tag": "h2",
-          "bbox": {
-            "x": 406,
             "y": 7895,
-            "w": 622,
-            "h": 19
-          },
-          "domPath": "div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>div.summary__title>h2.h4.accordion__title",
-          "text": "What are the of this product compared to other Stop snoring solutions?",
-          "href": null,
-          "src": null,
-          "alt": null,
-          "ariaLabel": null,
-          "bgUrl": null,
-          "style": {
-            "display": "block",
-            "position": "static",
-            "fontFamily": "Poppins, sans-serif",
-            "fontSize": "15.6px",
-            "fontWeight": "700",
-            "lineHeight": "19.2px",
-            "color": "rgb(18, 18, 18)",
-            "backgroundColor": "rgba(0, 0, 0, 0)",
-            "textAlign": "start",
-            "gap": "normal",
-            "justifyContent": "normal",
-            "alignItems": "normal"
-          }
-        },
-        {
-          "tag": "svg",
-          "bbox": {
-            "x": 1039,
-            "y": 7903,
             "w": 13,
             "h": 8
           },
@@ -11832,10 +11922,10 @@
             "x": 379,
             "y": 7929,
             "w": 682,
-            "h": 86
+            "h": 115
           },
-          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>div.accordion__content-wrapper>div#CollapsibleAccordion-collapsible_row_GFPnic-template--19894679699642__collapsible_content_KL7akL.accordion__content.rte>p",
-          "text": "This product is non-invasive, requires no surgery or medication, and can easily be integrated into your sleep routine. It's a simple solution that provides comfort while being effective at the same time.",
+          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>div.accordion__content-wrapper>div#CollapsibleAccordion-collapsible_row_PqBctH-template--19894679699642__collapsible_content_KL7akL.accordion__content.rte>p",
+          "text": "While every individual is different, many users have reported positive results in reducing snoring issues with the Deep Sleep Posture Transformer. It aids in improving airway openings and preventing blockages that often lead to snoring.",
           "href": null,
           "src": null,
           "alt": null,
@@ -11865,7 +11955,7 @@
             "h": 49
           },
           "domPath": "div.color-scheme-template--19894679699642__collapsible_content_KL7akL.color-background-1>div.collapsible-content.collapsible-none-layout>div.collapsible-content__wrapper.section-template--19894679699642__collapsible_content_KL7akL-padding>div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item",
-          "text": "check_box Is this product suitable for everyone? It is designed for anyone experiencing snoring, sleep apnea, neck pain or other neck complaints. The product features an adjustable strap at the back, making it accessible to everyone.",
+          "text": "check_box What are the of this product compared to other Stop snoring solutions? This product is non-invasive, requires no surgery or medication, and can easily be integrated into your sleep routine. It's a simple solution that provides comfort while being effective at the same time.",
           "href": null,
           "src": null,
           "alt": null,
@@ -11895,7 +11985,7 @@
             "h": 23
           },
           "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>div.summary__title",
-          "text": "check_box Is this product suitable for everyone?",
+          "text": "check_box What are the of this product compared to other Stop snoring solutions?",
           "href": null,
           "src": null,
           "alt": null,
@@ -11921,11 +12011,11 @@
           "bbox": {
             "x": 406,
             "y": 7945,
-            "w": 325,
+            "w": 622,
             "h": 19
           },
           "domPath": "div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>div.summary__title>h2.h4.accordion__title",
-          "text": "Is this product suitable for everyone?",
+          "text": "What are the of this product compared to other Stop snoring solutions?",
           "href": null,
           "src": null,
           "alt": null,
@@ -11980,12 +12070,12 @@
           "tag": "p",
           "bbox": {
             "x": 379,
-            "y": 7978,
+            "y": 7979,
             "w": 682,
             "h": 86
           },
-          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>div.accordion__content-wrapper>div#CollapsibleAccordion-collapsible_row_NbaN4w-template--19894679699642__collapsible_content_KL7akL.accordion__content.rte>p",
-          "text": "It is designed for anyone experiencing snoring, sleep apnea, neck pain or other neck complaints. The product features an adjustable strap at the back, making it accessible to everyone.",
+          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>div.accordion__content-wrapper>div#CollapsibleAccordion-collapsible_row_GFPnic-template--19894679699642__collapsible_content_KL7akL.accordion__content.rte>p",
+          "text": "This product is non-invasive, requires no surgery or medication, and can easily be integrated into your sleep routine. It's a simple solution that provides comfort while being effective at the same time.",
           "href": null,
           "src": null,
           "alt": null,
@@ -12010,12 +12100,12 @@
           "tag": "div",
           "bbox": {
             "x": 373,
-            "y": 7979,
+            "y": 7980,
             "w": 694,
             "h": 49
           },
           "domPath": "div.color-scheme-template--19894679699642__collapsible_content_KL7akL.color-background-1>div.collapsible-content.collapsible-none-layout>div.collapsible-content__wrapper.section-template--19894679699642__collapsible_content_KL7akL-padding>div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item",
-          "text": "check_box How often should I use it? Use the Deep Sleep Posture Transformer wherever and whenever you want to fall asleep without snoring. Use it daily to correct your posture.",
+          "text": "check_box Is this product suitable for everyone? It is designed for anyone experiencing snoring, sleep apnea, neck pain or other neck complaints. The product features an adjustable strap at the back, making it accessible to everyone.",
           "href": null,
           "src": null,
           "alt": null,
@@ -12045,7 +12135,7 @@
             "h": 23
           },
           "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>div.summary__title",
-          "text": "check_box How often should I use it?",
+          "text": "check_box Is this product suitable for everyone?",
           "href": null,
           "src": null,
           "alt": null,
@@ -12071,11 +12161,11 @@
           "bbox": {
             "x": 406,
             "y": 7994,
-            "w": 221,
+            "w": 325,
             "h": 19
           },
           "domPath": "div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>div.summary__title>h2.h4.accordion__title",
-          "text": "How often should I use it?",
+          "text": "Is this product suitable for everyone?",
           "href": null,
           "src": null,
           "alt": null,
@@ -12132,6 +12222,156 @@
             "x": 379,
             "y": 8028,
             "w": 682,
+            "h": 86
+          },
+          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>div.accordion__content-wrapper>div#CollapsibleAccordion-collapsible_row_NbaN4w-template--19894679699642__collapsible_content_KL7akL.accordion__content.rte>p",
+          "text": "It is designed for anyone experiencing snoring, sleep apnea, neck pain or other neck complaints. The product features an adjustable strap at the back, making it accessible to everyone.",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 373,
+            "y": 8029,
+            "w": 694,
+            "h": 49
+          },
+          "domPath": "div.color-scheme-template--19894679699642__collapsible_content_KL7akL.color-background-1>div.collapsible-content.collapsible-none-layout>div.collapsible-content__wrapper.section-template--19894679699642__collapsible_content_KL7akL-padding>div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item",
+          "text": "check_box How often should I use it? Use the Deep Sleep Posture Transformer wherever and whenever you want to fall asleep without snoring. Use it daily to correct your posture.",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "div",
+          "bbox": {
+            "x": 373,
+            "y": 8041,
+            "w": 694,
+            "h": 23
+          },
+          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>div.summary__title",
+          "text": "check_box How often should I use it?",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "flex",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "16px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "center"
+          }
+        },
+        {
+          "tag": "h2",
+          "bbox": {
+            "x": 406,
+            "y": 8044,
+            "w": 221,
+            "h": 19
+          },
+          "domPath": "div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>div.summary__title>h2.h4.accordion__title",
+          "text": "How often should I use it?",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "15.6px",
+            "fontWeight": "700",
+            "lineHeight": "19.2px",
+            "color": "rgb(18, 18, 18)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "svg",
+          "bbox": {
+            "x": 1039,
+            "y": 8051,
+            "w": 13,
+            "h": 8
+          },
+          "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>details.accordion__details>summary.accordion__summary>svg.[object.SVGAnimatedString]",
+          "text": null,
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "absolute",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "16px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
+        {
+          "tag": "p",
+          "bbox": {
+            "x": 379,
+            "y": 8077,
+            "w": 682,
             "h": 58
           },
           "domPath": "div.collapsible-content-wrapper-narrow>div.grid.grid--1-col>div.grid__item>div.accordion.animate-item>div.accordion__content-wrapper>div#CollapsibleAccordion-collapsible_row_PJ9yiq-template--19894679699642__collapsible_content_KL7akL.accordion__content.rte>p",
@@ -12159,17 +12399,17 @@
       ]
     },
     {
-      "id": "sec_de6d5393c7",
+      "id": "sec_5daff9d20a",
       "order": 10,
       "tag": "section",
       "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none>section#shopify-section-template--19467744116934__1731581320343b343e.shopify-section.section",
       "bbox": {
         "x": 0,
-        "y": 8169,
+        "y": 8218,
         "w": 1440,
         "h": 167
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\10_sec_de6d5393c7.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\10_sec_5daff9d20a.png",
       "textSample": null,
       "nodes": [
         {
@@ -12178,10 +12418,10 @@
             "x": 0,
             "y": 232,
             "w": 1440,
-            "h": 8164
+            "h": 8214
           },
           "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
-          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 3x Deep Sleep Posture Transformer $59.99 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NESLEMY™ - Never snore again ADD TO CART Pa",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
           "href": null,
           "src": null,
           "alt": null,
@@ -12206,7 +12446,7 @@
           "tag": "section",
           "bbox": {
             "x": 0,
-            "y": 8169,
+            "y": 8218,
             "w": 1440,
             "h": 167
           },
@@ -12235,24 +12475,54 @@
       ]
     },
     {
-      "id": "sec_948a029afb",
+      "id": "sec_2caa011ac6",
       "order": 11,
       "tag": "footer",
       "domPath": "html.js>body.gradient.link-btns--arrow>div#shopify-section-sections--17448606367942__footer.shopify-section.shopify-section-group-footer-group>footer.footer.color-scheme-sections--17448606367942__footer",
       "bbox": {
         "x": 0,
-        "y": 8396,
+        "y": 8445,
         "w": 1440,
         "h": 451
       },
-      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\sections\\11_sec_948a029afb.png",
+      "cropPath": "C:\\Cursor project\\Shopify\\workspace\\screenshots\\latest\\sections\\11_sec_2caa011ac6.png",
       "textSample": "About US Contact Us FAQs Privacy Policy Return & Refund Policy Shipping & Delivery Terms of service Subscribe to our emails Join our email list for exclusive offers and the latest news. Email Sign up ",
       "nodes": [
+        {
+          "tag": "main",
+          "bbox": {
+            "x": 0,
+            "y": 232,
+            "w": 1440,
+            "h": 8214
+          },
+          "domPath": "html.js>body.gradient.link-btns--arrow>main#MainContent.content-for-layout.focus-none",
+          "text": "Skip to product information NESLEMY™ - Never snore again (8963 Reviews) check_circle The NESLEMY™ Deep Sleep Posture Transformer stops snoring and sleep apnea because it addresses the root cause of the problem! check_circle Join thousands of customers who have gotten rid of snoring and sleep apnea. Regular price $32.99 Sale price $99.00 SAVE 66% BUNDLE & SAVE 1x Deep Sleep Posture Transformer $32.99 $99 🔥Most popular🔥 2x Deep Sleep Posture Transformer $49.99 $198 3x Deep Sleep Posture Transformer $59.99 $297 Quantity Decrease quantity for NESLEMY™ - Never snore again Increase quantity for NE",
+          "href": null,
+          "src": null,
+          "alt": null,
+          "ariaLabel": null,
+          "bgUrl": null,
+          "style": {
+            "display": "block",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "28.8px",
+            "color": "rgba(18, 18, 18, 0.9)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "textAlign": "start",
+            "gap": "normal",
+            "justifyContent": "normal",
+            "alignItems": "normal"
+          }
+        },
         {
           "tag": "svg",
           "bbox": {
             "x": 0,
-            "y": 8337,
+            "y": 8386,
             "w": 1440,
             "h": 60
           },
@@ -12282,7 +12552,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 8396,
+            "y": 8445,
             "w": 1440,
             "h": 451
           },
@@ -12312,7 +12582,7 @@
           "tag": "footer",
           "bbox": {
             "x": 0,
-            "y": 8396,
+            "y": 8445,
             "w": 1440,
             "h": 451
           },
@@ -12342,7 +12612,7 @@
           "tag": "div",
           "bbox": {
             "x": 20,
-            "y": 8428,
+            "y": 8477,
             "w": 1400,
             "h": 293
           },
@@ -12372,7 +12642,7 @@
           "tag": "div",
           "bbox": {
             "x": 50,
-            "y": 8428,
+            "y": 8477,
             "w": 1340,
             "h": 243
           },
@@ -12402,7 +12672,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 8428,
+            "y": 8477,
             "w": 406,
             "h": 243
           },
@@ -12432,7 +12702,7 @@
           "tag": "li",
           "bbox": {
             "x": 70,
-            "y": 8428,
+            "y": 8477,
             "w": 391,
             "h": 32
           },
@@ -12462,7 +12732,7 @@
           "tag": "a",
           "bbox": {
             "x": 70,
-            "y": 8430,
+            "y": 8479,
             "w": 71,
             "h": 30
           },
@@ -12492,7 +12762,7 @@
           "tag": "li",
           "bbox": {
             "x": 70,
-            "y": 8460,
+            "y": 8510,
             "w": 391,
             "h": 35
           },
@@ -12522,7 +12792,7 @@
           "tag": "a",
           "bbox": {
             "x": 70,
-            "y": 8460,
+            "y": 8510,
             "w": 87,
             "h": 35
           },
@@ -12552,7 +12822,7 @@
           "tag": "li",
           "bbox": {
             "x": 70,
-            "y": 8495,
+            "y": 8545,
             "w": 391,
             "h": 35
           },
@@ -12582,7 +12852,7 @@
           "tag": "a",
           "bbox": {
             "x": 70,
-            "y": 8495,
+            "y": 8545,
             "w": 39,
             "h": 35
           },
@@ -12612,7 +12882,7 @@
           "tag": "li",
           "bbox": {
             "x": 70,
-            "y": 8530,
+            "y": 8580,
             "w": 391,
             "h": 35
           },
@@ -12642,7 +12912,7 @@
           "tag": "a",
           "bbox": {
             "x": 70,
-            "y": 8530,
+            "y": 8580,
             "w": 108,
             "h": 35
           },
@@ -12672,7 +12942,7 @@
           "tag": "li",
           "bbox": {
             "x": 70,
-            "y": 8566,
+            "y": 8615,
             "w": 391,
             "h": 35
           },
@@ -12702,7 +12972,7 @@
           "tag": "a",
           "bbox": {
             "x": 70,
-            "y": 8566,
+            "y": 8615,
             "w": 178,
             "h": 35
           },
@@ -12732,7 +13002,7 @@
           "tag": "li",
           "bbox": {
             "x": 70,
-            "y": 8601,
+            "y": 8650,
             "w": 391,
             "h": 35
           },
@@ -12762,7 +13032,7 @@
           "tag": "a",
           "bbox": {
             "x": 70,
-            "y": 8601,
+            "y": 8650,
             "w": 153,
             "h": 35
           },
@@ -12792,7 +13062,7 @@
           "tag": "li",
           "bbox": {
             "x": 70,
-            "y": 8636,
+            "y": 8686,
             "w": 406,
             "h": 35
           },
@@ -12822,7 +13092,7 @@
           "tag": "a",
           "bbox": {
             "x": 70,
-            "y": 8636,
+            "y": 8686,
             "w": 129,
             "h": 35
           },
@@ -12852,7 +13122,7 @@
           "tag": "div",
           "bbox": {
             "x": 516,
-            "y": 8428,
+            "y": 8477,
             "w": 406,
             "h": 228
           },
@@ -12882,7 +13152,7 @@
           "tag": "h2",
           "bbox": {
             "x": 516,
-            "y": 8428,
+            "y": 8477,
             "w": 406,
             "h": 29
           },
@@ -12912,7 +13182,7 @@
           "tag": "div",
           "bbox": {
             "x": 516,
-            "y": 8477,
+            "y": 8526,
             "w": 406,
             "h": 180
           },
@@ -12942,7 +13212,7 @@
           "tag": "div",
           "bbox": {
             "x": 516,
-            "y": 8477,
+            "y": 8526,
             "w": 406,
             "h": 58
           },
@@ -12972,7 +13242,7 @@
           "tag": "p",
           "bbox": {
             "x": 516,
-            "y": 8477,
+            "y": 8526,
             "w": 406,
             "h": 58
           },
@@ -13002,7 +13272,7 @@
           "tag": "div",
           "bbox": {
             "x": 516,
-            "y": 8550,
+            "y": 8600,
             "w": 406,
             "h": 47
           },
@@ -13032,7 +13302,7 @@
           "tag": "div",
           "bbox": {
             "x": 516,
-            "y": 8550,
+            "y": 8600,
             "w": 406,
             "h": 47
           },
@@ -13062,7 +13332,7 @@
           "tag": "button",
           "bbox": {
             "x": 516,
-            "y": 8607,
+            "y": 8657,
             "w": 406,
             "h": 49
           },
@@ -13092,7 +13362,7 @@
           "tag": "div",
           "bbox": {
             "x": 0,
-            "y": 8721,
+            "y": 8771,
             "w": 1440,
             "h": 105
           },
@@ -13122,7 +13392,7 @@
           "tag": "div",
           "bbox": {
             "x": 20,
-            "y": 8752,
+            "y": 8802,
             "w": 1400,
             "h": 39
           },
@@ -13152,7 +13422,7 @@
           "tag": "div",
           "bbox": {
             "x": 70,
-            "y": 8752,
+            "y": 8802,
             "w": 1300,
             "h": 39
           },
@@ -13182,7 +13452,7 @@
           "tag": "div",
           "bbox": {
             "x": 557,
-            "y": 8767,
+            "y": 8817,
             "w": 326,
             "h": 24
           },
@@ -13212,7 +13482,7 @@
           "tag": "svg",
           "bbox": {
             "x": 557,
-            "y": 8767,
+            "y": 8817,
             "w": 38,
             "h": 24
           },
@@ -13242,7 +13512,7 @@
           "tag": "svg",
           "bbox": {
             "x": 605,
-            "y": 8767,
+            "y": 8817,
             "w": 38,
             "h": 24
           },
@@ -13272,7 +13542,7 @@
           "tag": "svg",
           "bbox": {
             "x": 653,
-            "y": 8767,
+            "y": 8817,
             "w": 38,
             "h": 24
           },
@@ -13302,7 +13572,7 @@
           "tag": "svg",
           "bbox": {
             "x": 701,
-            "y": 8767,
+            "y": 8817,
             "w": 38,
             "h": 24
           },
@@ -13332,7 +13602,7 @@
           "tag": "svg",
           "bbox": {
             "x": 749,
-            "y": 8767,
+            "y": 8817,
             "w": 38,
             "h": 24
           },
@@ -13362,7 +13632,7 @@
           "tag": "svg",
           "bbox": {
             "x": 797,
-            "y": 8767,
+            "y": 8817,
             "w": 38,
             "h": 24
           },
@@ -13392,7 +13662,7 @@
           "tag": "svg",
           "bbox": {
             "x": 845,
-            "y": 8767,
+            "y": 8817,
             "w": 38,
             "h": 24
           },
@@ -13422,7 +13692,7 @@
           "tag": "div",
           "bbox": {
             "x": 20,
-            "y": 8791,
+            "y": 8841,
             "w": 1400,
             "h": 35
           },
@@ -13452,7 +13722,7 @@
           "tag": "div",
           "bbox": {
             "x": 606,
-            "y": 8806,
+            "y": 8856,
             "w": 227,
             "h": 20
           },
@@ -13482,7 +13752,7 @@
           "tag": "a",
           "bbox": {
             "x": 655,
-            "y": 8808,
+            "y": 8858,
             "w": 54,
             "h": 16
           },
@@ -13512,7 +13782,7 @@
     }
   ],
   "diagnostics": {
-    "totalDigestNodes": 471,
+    "totalDigestNodes": 473,
     "totalSectionCandidates": 11,
     "emittedSections": 11,
     "notes": [

@@ -1,0 +1,43 @@
+{
+  "runId": "run_1769013515970_a601",
+  "startedAt": "2026-01-21T16:38:35.973Z",
+  "steps": {
+    "capture-pack": {
+      "startedAt": "2026-01-21T16:38:35.997Z",
+      "durationMs": 4592,
+      "ok": true,
+      "endedAt": "2026-01-21T16:38:40.588Z"
+    },
+    "deep-inspector": {
+      "startedAt": "2026-01-21T16:38:40.617Z",
+      "durationMs": 3584,
+      "ok": true,
+      "endedAt": "2026-01-21T16:38:44.200Z"
+    },
+    "theme.capabilities": {
+      "startedAt": "2026-01-21T16:38:44.215Z",
+      "durationMs": 2563,
+      "ok": true,
+      "endedAt": "2026-01-21T16:38:46.777Z"
+    },
+    "knowledge.capsule": {
+      "startedAt": "2026-01-21T16:38:46.790Z",
+      "durationMs": 5,
+      "ok": true,
+      "endedAt": "2026-01-21T16:38:46.795Z"
+    },
+    "plan.v7": {
+      "startedAt": "2026-01-21T16:38:46.808Z",
+      "durationMs": 10,
+      "ok": true,
+      "endedAt": "2026-01-21T16:38:46.818Z"
+    },
+    "template-builder": {
+      "startedAt": "2026-01-21T16:38:46.830Z",
+      "durationMs": 3089,
+      "ok": false,
+      "endedAt": "2026-01-21T16:38:49.918Z"
+    }
+  },
+  "counters": {}
+}

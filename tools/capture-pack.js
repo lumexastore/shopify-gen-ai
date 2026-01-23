@@ -5,10 +5,12 @@ const crypto = require('crypto');
 
 const WORKSPACE_DIR = path.resolve(__dirname, '../workspace');
 const SCREENSHOTS_DIR = path.join(WORKSPACE_DIR, 'screenshots');
-const SECTIONS_DIR = path.join(SCREENSHOTS_DIR, 'sections');
+const LATEST_DIR = path.join(SCREENSHOTS_DIR, 'latest');
+const SECTIONS_DIR = path.join(LATEST_DIR, 'sections');
 const OUTPUT_FILE = path.join(WORKSPACE_DIR, 'capture_pack.v6.json');
 
 fs.ensureDirSync(SCREENSHOTS_DIR);
+fs.ensureDirSync(LATEST_DIR);
 fs.ensureDirSync(SECTIONS_DIR);
 
 function sha1(x) {
@@ -63,7 +65,8 @@ async function capturePack(url) {
   await autoScroll(page);
 
   // Full page screenshot
-  const fullPath = path.join(SCREENSHOTS_DIR, `donor_full_v6_${Date.now()}.png`);
+  // Write into screenshots/latest (overwrite), so workspace doesn't grow over time
+  const fullPath = path.join(LATEST_DIR, 'donor_full_v6.png');
   await page.screenshot({ path: fullPath, fullPage: true });
 
   const raw = await page.evaluate(() => {
@@ -210,12 +213,14 @@ async function capturePack(url) {
 
   const sections = [];
   const maxSections = 22; // keep cost bounded; QA loop can request rerun with higher cap
+  // Clear previous crops in screenshots/latest/sections to prevent accumulation
+  fs.emptyDirSync(SECTIONS_DIR);
   for (let i = 0; i < Math.min(maxSections, raw.sectionCandidates.length); i++) {
     const s = raw.sectionCandidates[i];
     const id = `sec_${sha1(`${url}|${s.domPath}|${s.bbox.x}|${s.bbox.y}|${s.bbox.w}|${s.bbox.h}`).slice(0, 10)}`;
 
     const bbox = clampBBox(s.bbox, pageW, pageH);
-    const cropPath = path.join(SECTIONS_DIR, `${i + 1}_${id}.png`);
+    const cropPath = path.join(SECTIONS_DIR, `${String(i + 1).padStart(2, '0')}_${id}.png`);
 
     // Clip screenshot (must be within viewport coordinate system of full-page screenshot; Puppeteer accepts clip in page coords)
     try {

@@ -1,0 +1,49 @@
+{
+  "runId": "run_1769164483668_8e12",
+  "startedAt": "2026-01-23T10:34:43.670Z",
+  "steps": {
+    "capture-pack": {
+      "startedAt": "2026-01-23T10:34:43.681Z",
+      "durationMs": 23283,
+      "ok": true,
+      "endedAt": "2026-01-23T10:35:06.964Z"
+    },
+    "deep-inspector": {
+      "startedAt": "2026-01-23T10:35:06.972Z",
+      "durationMs": 54716,
+      "ok": true,
+      "endedAt": "2026-01-23T10:36:01.687Z"
+    },
+    "create-product": {
+      "startedAt": "2026-01-23T10:36:01.697Z",
+      "durationMs": 7150,
+      "ok": true,
+      "endedAt": "2026-01-23T10:36:08.846Z"
+    },
+    "theme.capabilities": {
+      "startedAt": "2026-01-23T10:36:08.854Z",
+      "durationMs": 2084,
+      "ok": true,
+      "endedAt": "2026-01-23T10:36:10.938Z"
+    },
+    "knowledge.capsule": {
+      "startedAt": "2026-01-23T10:36:10.946Z",
+      "durationMs": 4,
+      "ok": true,
+      "endedAt": "2026-01-23T10:36:10.950Z"
+    },
+    "plan.v7": {
+      "startedAt": "2026-01-23T10:36:10.957Z",
+      "durationMs": 181802,
+      "ok": true,
+      "endedAt": "2026-01-23T10:39:12.759Z"
+    },
+    "template-builder": {
+      "startedAt": "2026-01-23T10:39:12.770Z",
+      "durationMs": 4299,
+      "ok": false,
+      "endedAt": "2026-01-23T10:39:17.068Z"
+    }
+  },
+  "counters": {}
+}

@@ -16,9 +16,11 @@ const {
 // Paths
 const WORKSPACE_DIR = path.resolve(__dirname, '../workspace');
 const SCREENSHOTS_DIR = path.join(WORKSPACE_DIR, 'screenshots');
+const LATEST_DIR = path.join(SCREENSHOTS_DIR, 'latest');
 const OUTPUT_FILE_V5 = path.join(WORKSPACE_DIR, 'donor_passport.v5.json');
 
 fs.ensureDirSync(SCREENSHOTS_DIR);
+fs.ensureDirSync(LATEST_DIR);
 
 async function autoScroll(page, maxScrolls = 12) {
   await page.evaluate(async (max) => {
@@ -204,35 +206,36 @@ function roleForAsset({ sectionType, asset, inHeader }) {
 }
 
 async function deepInspector(url) {
-  if (!url) {
+    if (!url) {
     console.error('Please provide a URL as an argument.');
-    process.exit(1);
-  }
+        process.exit(1);
+    }
 
   console.log(`🕵️ V5 Deep Inspector launching for: ${url}`);
-  const browser = await puppeteer.launch({
+    const browser = await puppeteer.launch({
     headless: 'new',
     defaultViewport: { width: 1920, height: 1080, deviceScaleFactor: 1 },
-  });
+    });
 
-  const page = await browser.newPage();
+    const page = await browser.newPage();
   await ensureHashHelpers(page);
 
-  try {
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-  } catch (e) {
-    console.warn(`Initial load warning: ${e.message}. Continuing...`);
-  }
+    try {
+        await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+    } catch (e) {
+        console.warn(`Initial load warning: ${e.message}. Continuing...`);
+    }
 
   // Best-effort: load lazy sections/images
   await autoScroll(page);
 
-  const screenshotPath = path.join(SCREENSHOTS_DIR, `donor_full_${Date.now()}.png`);
-  await page.screenshot({ path: screenshotPath, fullPage: true });
+  // Write into screenshots/latest (overwrite), so workspace doesn't grow over time
+  const screenshotPath = path.join(LATEST_DIR, 'donor_full_v5.png');
+    await page.screenshot({ path: screenshotPath, fullPage: true });
   console.log(`📸 Full-page screenshot saved to: ${screenshotPath}`);
 
   const raw = await page.evaluate(() => {
-    const getStyle = (el, prop) => window.getComputedStyle(el).getPropertyValue(prop);
+        const getStyle = (el, prop) => window.getComputedStyle(el).getPropertyValue(prop);
 
     const isVisible = (el) => {
       if (!el) return false;
@@ -265,21 +268,21 @@ async function deepInspector(url) {
     };
 
     // --- design tokens (basic) ---
-    let primaryButton = null;
+        let primaryButton = null;
     const buttons = Array.from(document.querySelectorAll('button, a.btn, a.button, input[type="submit"], a[role="button"]'));
     const viableButtons = buttons.filter((b) => {
-      const bg = window.getComputedStyle(b).backgroundColor;
-      return bg !== 'rgba(0, 0, 0, 0)' && bg !== 'rgb(255, 255, 255)' && bg !== 'transparent';
-    });
+            const bg = window.getComputedStyle(b).backgroundColor;
+            return bg !== 'rgba(0, 0, 0, 0)' && bg !== 'rgb(255, 255, 255)' && bg !== 'transparent';
+        });
     if (viableButtons.length > 0) primaryButton = window.getComputedStyle(viableButtons[0]).backgroundColor;
 
-    const bodyBg = getStyle(document.body, 'background-color');
+        const bodyBg = getStyle(document.body, 'background-color');
     const bodyColor = getStyle(document.body, 'color');
     const bodyFont = getStyle(document.body, 'font-family');
-    const h1 = document.querySelector('h1');
-    const h2 = document.querySelector('h2');
-    const h1Font = h1 ? getStyle(h1, 'font-family') : null;
-    const h2Font = h2 ? getStyle(h2, 'font-family') : null;
+        const h1 = document.querySelector('h1');
+        const h2 = document.querySelector('h2');
+        const h1Font = h1 ? getStyle(h1, 'font-family') : null;
+        const h2Font = h2 ? getStyle(h2, 'font-family') : null;
 
     const domSnapshot = {
       title: document.title || null,
@@ -486,14 +489,14 @@ async function deepInspector(url) {
     // Sort by vertical position
     candidates.sort((a, b) => (a.bbox?.y || 0) - (b.bbox?.y || 0));
 
-    return {
+        return {
       domSnapshot,
       viewport: { width: window.innerWidth, height: window.innerHeight, deviceScaleFactor: window.devicePixelRatio || 1 },
       designTokens: {
         colors: {
           background: bodyBg,
           text: bodyColor,
-          primaryButtonColor: primaryButton,
+                primaryButtonColor: primaryButton,
         },
         typography: { body: bodyFont, h1: h1Font, h2: h2Font },
       },
@@ -640,7 +643,7 @@ async function deepInspector(url) {
     sections.push(sectionNode);
   }
 
-  const passport = {
+    const passport = {
     passportVersion: PASSPORT_VERSION,
     url,
     scannedAt: new Date().toISOString(),
@@ -676,8 +679,8 @@ async function deepInspector(url) {
 }
 
 if (require.main === module) {
-  const targetUrl = process.argv[2];
-  deepInspector(targetUrl);
+    const targetUrl = process.argv[2];
+    deepInspector(targetUrl);
 }
 
 module.exports = { deepInspector };

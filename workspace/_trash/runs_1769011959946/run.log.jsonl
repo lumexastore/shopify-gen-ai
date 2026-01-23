@@ -1,0 +1,3 @@
+{"ts":"2026-01-21T16:07:22.434Z","level":"info","runId":"run_1769011642415_d280","step":null,"msg":"run.start","data":{"mode":"openrouter_smoke","url":"about:blank","targetId":"smoke","suffix":"smoke"}}
+{"ts":"2026-01-21T16:07:22.437Z","level":"info","runId":"run_1769011642415_d280","step":"openrouter.models","msg":"step.start","data":{"name":"openrouter.models"}}
+{"ts":"2026-01-21T16:07:22.439Z","level":"error","runId":"run_1769011642415_d280","step":"openrouter.models","msg":"step.error","data":{"name":"openrouter.models","durationMs":1,"message":"OPENROUTER_API_KEY is missing (set it in .env)"}}

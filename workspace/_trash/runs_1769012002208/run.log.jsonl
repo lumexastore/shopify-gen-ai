@@ -1,0 +1,4 @@
+{"ts":"2026-01-21T16:12:39.977Z","level":"info","runId":"run_1769011959959_3eec","step":null,"msg":"run.start","data":{"mode":"theme_unlock","url":null,"targetId":null,"suffix":null}}
+{"ts":"2026-01-21T16:12:39.978Z","level":"info","runId":"run_1769011959959_3eec","step":"theme.unlock","msg":"step.start","data":{"name":"theme.unlock"}}
+{"ts":"2026-01-21T16:12:40.501Z","level":"info","runId":"run_1769011959959_3eec","step":"theme.unlock","msg":"using theme","data":{"themeId":144417357866,"themeName":"test-data"}}
+{"ts":"2026-01-21T16:12:40.929Z","level":"error","runId":"run_1769011959959_3eec","step":"theme.unlock","msg":"step.error","data":{"name":"theme.unlock","durationMs":951,"message":"Shopify API Error: unknown"}}

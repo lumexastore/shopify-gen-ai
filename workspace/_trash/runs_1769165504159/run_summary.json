@@ -1,0 +1,29 @@
+{
+  "runId": "run_1769164483668_8e12",
+  "startedAt": "2026-01-23T10:34:43.670Z",
+  "endedAt": null,
+  "ok": null,
+  "mode": "clone_product",
+  "url": "https://www.haphoriz.com/products/necksupportw",
+  "targetId": null,
+  "suffix": "haphoriz-cloned-v4",
+  "nodeVersion": "v22.20.0",
+  "models": {
+    "VISION_PRO": "openai/gpt-4o",
+    "ARCHITECT": "openai/gpt-4o",
+    "BUILDER": "anthropic/claude-3.5-sonnet"
+  },
+  "outputs": {
+    "capturePackPath": "C:\\Cursor project\\Shopify\\workspace\\capture_pack.v6.json",
+    "capturedUrl": "https://www.haphoriz.com/products/necksupportw",
+    "passportV5Path": "C:\\Cursor project\\Shopify\\workspace\\donor_passport.v5.json",
+    "v7PlanPath": "C:\\Cursor project\\Shopify\\workspace\\dawn_layout_plan.v7.json"
+  },
+  "qa": null,
+  "errors": [
+    {
+      "step": "template-builder",
+      "message": "Shopify API Error: 422 unknown - {\"errors\":{\"asset\":[\"Setting 'text' is invalid. All top level nodes must be '<p>', '<ul>', '<ol>' or '<h1>'-'<h6>' tags\"]}}"
+    }
+  ]
+}

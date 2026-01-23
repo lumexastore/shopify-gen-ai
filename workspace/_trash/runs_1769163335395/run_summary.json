@@ -1,0 +1,49 @@
+{
+  "runId": "run_1769162642957_461f",
+  "startedAt": "2026-01-23T10:04:02.958Z",
+  "endedAt": "2026-01-23T10:08:09.157Z",
+  "ok": true,
+  "mode": "clone_product",
+  "url": "https://www.haphoriz.com/products/necksupportw",
+  "targetId": null,
+  "suffix": "haphoriz-cloned-v2",
+  "nodeVersion": "v22.20.0",
+  "models": {
+    "VISION_PRO": "openai/gpt-4o",
+    "ARCHITECT": "openai/gpt-4o",
+    "BUILDER": "anthropic/claude-3.5-sonnet",
+    "CRITIC": "openai/gpt-4o"
+  },
+  "outputs": {
+    "capturePackPath": "C:\\Cursor project\\Shopify\\workspace\\capture_pack.v6.json",
+    "capturedUrl": "https://www.haphoriz.com/products/necksupportw",
+    "passportV5Path": "C:\\Cursor project\\Shopify\\workspace\\donor_passport.v5.json",
+    "v7PlanPath": "C:\\Cursor project\\Shopify\\workspace\\dawn_layout_plan.v7.json"
+  },
+  "qa": {
+    "ok": true,
+    "reportPath": "C:\\Cursor project\\Shopify\\workspace\\runs\\latest\\qa_report.json",
+    "report": {
+      "overall": "fail",
+      "topDiscrepancies": [
+        {
+          "issue": "Missing sections in Image B",
+          "severity": 9,
+          "hint": "Image B lacks the detailed sections like customer testimonials, product comparisons, and FAQs present in Image A."
+        },
+        {
+          "issue": "Different layout and design",
+          "severity": 8,
+          "hint": "Image B has a simpler layout without the structured grids and badges found in Image A."
+        },
+        {
+          "issue": "Absence of trust badges and detailed feature descriptions",
+          "severity": 7,
+          "hint": "Image B does not include the trust badges and detailed feature descriptions that are prominent in Image A."
+        }
+      ],
+      "cssPatch": ""
+    }
+  },
+  "errors": []
+}

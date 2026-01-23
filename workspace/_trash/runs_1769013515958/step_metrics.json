@@ -1,0 +1,37 @@
+{
+  "runId": "run_1769013116725_5127",
+  "startedAt": "2026-01-21T16:31:56.729Z",
+  "steps": {
+    "capture-pack": {
+      "startedAt": "2026-01-21T16:31:56.746Z",
+      "durationMs": 6050,
+      "ok": true,
+      "endedAt": "2026-01-21T16:32:02.795Z"
+    },
+    "deep-inspector": {
+      "startedAt": "2026-01-21T16:32:02.809Z",
+      "durationMs": 3698,
+      "ok": true,
+      "endedAt": "2026-01-21T16:32:06.506Z"
+    },
+    "theme.capabilities": {
+      "startedAt": "2026-01-21T16:32:06.520Z",
+      "durationMs": 2677,
+      "ok": true,
+      "endedAt": "2026-01-21T16:32:09.196Z"
+    },
+    "knowledge.capsule": {
+      "startedAt": "2026-01-21T16:32:09.210Z",
+      "durationMs": 6,
+      "ok": true,
+      "endedAt": "2026-01-21T16:32:09.215Z"
+    },
+    "plan.v7": {
+      "startedAt": "2026-01-21T16:32:09.228Z",
+      "durationMs": 8,
+      "ok": false,
+      "endedAt": "2026-01-21T16:32:09.236Z"
+    }
+  },
+  "counters": {}
+}

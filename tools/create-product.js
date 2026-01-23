@@ -63,7 +63,8 @@ async function createProduct() {
 
         if (passportFormat === 'v5') {
             // Only gallery/illustration assets should become product images.
-            const allowedRoles = new Set(['gallery', 'illustration']);
+            // Added 'hero_bg' because some product galleries are detected as hero backgrounds
+            const allowedRoles = new Set(['gallery', 'illustration', 'hero_bg']);
             const usageList = Array.isArray(assets.usages) ? assets.usages : [];
             const allowedAssetIds = new Set(
                 usageList.filter(u => allowedRoles.has(u.role)).map(u => u.assetId)
@@ -71,7 +72,7 @@ async function createProduct() {
 
             images = Array.from(allowedAssetIds)
                 .map(assetId => assets.items?.[assetId])
-                .filter(item => item && item.kind === 'image' && item.sourceUrl)
+                .filter(item => item && item.kind === 'image' && item.sourceUrl && !item.sourceUrl.startsWith('data:'))
                 .filter(item => {
                     if ((item.width || 0) < 500) return false;
                     const url = item.normalizedUrl || item.sourceUrl.split('?')[0];
@@ -79,7 +80,7 @@ async function createProduct() {
                     seenUrls.add(url);
                     return true;
                 })
-                .map(item => ({ src: item.sourceUrl }));
+                .map(item => ({ src: item.sourceUrl.split('?')[0] }));
         } else {
             images = (assets.detectedImages || [])
                 .filter(img => {

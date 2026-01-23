@@ -1,0 +1,15 @@
+{
+  "runId": "run_1769011524240_4b06",
+  "startedAt": "2026-01-21T16:05:24.243Z",
+  "endedAt": "2026-01-21T16:05:27.001Z",
+  "ok": true,
+  "mode": "capsule_smoke",
+  "url": "about:blank",
+  "targetId": "smoke",
+  "suffix": "smoke",
+  "nodeVersion": "v22.20.0",
+  "models": {},
+  "outputs": {},
+  "qa": null,
+  "errors": []
+}

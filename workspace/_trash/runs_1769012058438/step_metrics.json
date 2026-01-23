@@ -1,0 +1,13 @@
+{
+  "runId": "run_1769012036187_597e",
+  "startedAt": "2026-01-21T16:13:56.190Z",
+  "steps": {
+    "theme.unlock": {
+      "startedAt": "2026-01-21T16:13:56.221Z",
+      "durationMs": 1358,
+      "ok": true,
+      "endedAt": "2026-01-21T16:13:57.578Z"
+    }
+  },
+  "counters": {}
+}

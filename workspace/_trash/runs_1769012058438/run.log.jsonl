@@ -1,0 +1,7 @@
+{"ts":"2026-01-21T16:13:56.218Z","level":"info","runId":"run_1769012036187_597e","step":null,"msg":"run.start","data":{"mode":"theme_unlock","url":null,"targetId":null,"suffix":null}}
+{"ts":"2026-01-21T16:13:56.220Z","level":"info","runId":"run_1769012036187_597e","step":"theme.unlock","msg":"step.start","data":{"name":"theme.unlock"}}
+{"ts":"2026-01-21T16:13:56.762Z","level":"info","runId":"run_1769012036187_597e","step":"theme.unlock","msg":"using theme","data":{"themeId":144417357866,"themeName":"test-data"}}
+{"ts":"2026-01-21T16:13:57.053Z","level":"success","runId":"run_1769012036187_597e","step":"theme.unlock","msg":"uploaded asset","data":{"key":"sections/ai-super-canvas.liquid","source":"c:\\Cursor project\\Shopify\\tools\\v7\\theme\\sections\\ai-super-canvas.liquid"}}
+{"ts":"2026-01-21T16:13:57.577Z","level":"success","runId":"run_1769012036187_597e","step":"theme.unlock","msg":"uploaded asset","data":{"key":"sections/smart-grid.liquid","source":"c:\\Cursor project\\Shopify\\tools\\v7\\theme\\sections\\smart-grid.liquid"}}
+{"ts":"2026-01-21T16:13:57.578Z","level":"success","runId":"run_1769012036187_597e","step":"theme.unlock","msg":"step.end","data":{"name":"theme.unlock","durationMs":1358}}
+{"ts":"2026-01-21T16:13:57.602Z","level":"info","runId":"run_1769012036187_597e","step":"finalize","msg":"run.finalize","data":{"ok":true,"qa":null}}

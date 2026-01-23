@@ -4,59 +4,14 @@
         {
             "sectionId": "sec_1dbf36e393",
             "target": {
-                "type": "main-product",
+                "type": "featured-product",
                 "settings": {
-                    "enable_sticky_info": true,
-                    "gallery_layout": "thumbnail",
-                    "media_size": "large",
-                    "mobile_thumbnails": "show",
-                    "hide_variants": false
-                },
-                "blocks": [
-                    {
-                        "type": "title",
-                        "settings": {}
-                    },
-                    {
-                        "type": "price",
-                        "settings": {}
-                    },
-                    {
-                        "type": "variant_picker",
-                        "settings": {
-                            "picker_type": "button"
-                        }
-                    },
-                    {
-                        "type": "quantity_selector",
-                        "settings": {}
-                    },
-                    {
-                        "type": "buy_buttons",
-                        "settings": {}
-                    },
-                    {
-                        "type": "description",
-                        "settings": {}
-                    },
-                    {
-                        "type": "rating",
-                        "settings": {}
-                    }
-                ],
-                "blockOrder": [
-                    "title",
-                    "price",
-                    "variant_picker",
-                    "buy_buttons",
-                    "description"
-                ]
+                    "color_scheme": "scheme-1"
+                }
             },
-            "assetUploads": [],
             "qaExpectations": [
-                "Product title matches",
-                "Price visible",
-                "Add to cart works"
+                "Product title and price visible",
+                "Buy buttons present"
             ]
         },
         {
@@ -64,10 +19,8 @@
             "target": {
                 "type": "rich-text",
                 "settings": {
-                    "color_scheme": "background-1",
-                    "full_width": true,
-                    "padding_top": 36,
-                    "padding_bottom": 36
+                    "color_scheme": "scheme-1",
+                    "full_width": true
                 },
                 "blocks": [
                     {
@@ -79,65 +32,84 @@
                     }
                 ]
             },
-            "assetUploads": [],
             "qaExpectations": [
-                "Heading visible"
+                "Large heading visible"
             ]
         },
         {
-            "sectionId": "sec_testimonials_slider",
+            "sectionId": "sec_b2d7d9bf27",
+            "target": {
+                "type": "image-with-text",
+                "settings": {
+                    "layout": "image_first",
+                    "color_scheme": "scheme-1"
+                }
+            },
+            "qaExpectations": [
+                "Image left, text right"
+            ]
+        },
+        {
+            "sectionId": "sec_5fdada6ed1",
+            "target": {
+                "type": "image-with-text",
+                "settings": {
+                    "layout": "text_first",
+                    "color_scheme": "scheme-2"
+                }
+            },
+            "qaExpectations": [
+                "Text left, Image right"
+            ]
+        },
+        {
+            "sectionId": "sec_40f2a1666f",
             "target": {
                 "type": "multicolumn",
                 "settings": {
-                    "title": "What Experts Say",
-                    "image_width": "full",
-                    "image_ratio": "adapt",
                     "columns_desktop": 3,
-                    "swipe_on_mobile": true
-                },
-                "blocks": [
-                    {
-                        "type": "column",
-                        "settings": {
-                            "title": "Prof. Lukas Fischer",
-                            "text": "<p>Sports Medicine Expert, Switzerland. NESLEMY is my top recommendation.</p>"
-                        }
-                    },
-                    {
-                        "type": "column",
-                        "settings": {
-                            "title": "Dr. Clara Maller",
-                            "text": "<p>Pain Management specialist, Germany. Safe, effective.</p>"
-                        }
-                    }
-                ]
+                    "image_width": "full"
+                }
             },
-            "assetUploads": [],
             "qaExpectations": [
-                "Testimonials visible"
+                "Comparison columns"
             ]
         },
         {
-            "sectionId": "sec_faq",
+            "sectionId": "sec_bf6a2bdfbe",
+            "target": {
+                "type": "image-with-text",
+                "settings": {
+                    "layout": "image_first"
+                }
+            },
+            "qaExpectations": [
+                "Doctor/Expert image"
+            ]
+        },
+        {
+            "sectionId": "sec_ba1dacb406",
+            "target": {
+                "type": "multicolumn",
+                "settings": {
+                    "heading": "Why the Deep Sleep Posture Transformer Matters",
+                    "columns_desktop": 3
+                }
+            },
+            "qaExpectations": [
+                "Benefits list"
+            ]
+        },
+        {
+            "sectionId": "sec_3b852c9642",
             "target": {
                 "type": "collapsible-content",
                 "settings": {
-                    "heading": "Frequently Asked Questions",
-                    "layout": "row"
-                },
-                "blocks": [
-                    {
-                        "type": "collapsible_row",
-                        "settings": {
-                            "heading": "How does it work?",
-                            "row_content": "It aligns your neck..."
-                        }
-                    }
-                ]
+                    "heading": "Frequently Asked Questions"
+                }
             },
-            "assetUploads": [],
             "qaExpectations": [
-                "FAQ expandable"
+                "Expandable FAQ items"
             ]
         }
     ],

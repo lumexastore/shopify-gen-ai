@@ -4,6 +4,7 @@ const path = require('path');
 const shopifyClient = require('../src/services/shopifyClient');
 const config = require('../src/config');
 const { initSession } = require('./session-init');
+const { cleanupWorkspace } = require('./cleanup-workspace');
 
 const WORKSPACE_DIR = path.resolve(__dirname, '../workspace');
 const PLAN_PATH = path.join(WORKSPACE_DIR, 'dawn_layout_plan.json');
@@ -13,9 +14,13 @@ function parseArgs(argv) {
   const out = {};
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
-    if (a === '--productId') out.productId = argv[++i];
+    if (a === '--mode') out.mode = argv[++i];
+    else if (a === '--productId') out.productId = argv[++i];
+    else if (a === '--pageId') out.pageId = argv[++i];
     else if (a === '--themeId') out.themeId = argv[++i];
     else if (a === '--suffix') out.suffix = argv[++i];
+    else if (a === '--planPath') out.planPath = argv[++i];
+    else if (a === '--passportPath') out.passportPath = argv[++i];
   }
   return out;
 }
@@ -231,8 +236,27 @@ function compileSectionFromIntent({ sectionPlan, schema, assetRefMap }) {
     const realSettings = {};
     const bsSettings = bs?.settings || [];
     for (const [k, v] of Object.entries(desiredSettings || {})) {
-      const id = pickTextSettingId(bsSettings, [k]);
-      if (id) realSettings[id] = v;
+      // Find matching setting
+      let hit = bsSettings.find((s) => s.id === k);
+      if (!hit) {
+        // loose match heuristics
+        if (k === 'text') hit = bsSettings.find((s) => ['text', 'richtext', 'inline_richtext', 'textarea'].includes(s.type) && (s.id === 'text' || s.id === 'content' || s.id === 'description' || s.id === 'answer'));
+        else if (k === 'heading') hit = bsSettings.find((s) => ['text', 'inline_richtext'].includes(s.type) && (s.id === 'heading' || s.id === 'title' || s.id === 'question'));
+      }
+
+      if (hit) {
+        let val = v;
+        const needsWrapping = hit.type === 'richtext' && val && !val.trim().startsWith('<');
+        if (needsWrapping) {
+          console.log(`[DEBUG] Wrapping richtext for ${blockType}.${hit.id}: ${val.slice(0, 20)}...`);
+          val = `<p>${val}</p>`;
+        } else if (hit.type === 'richtext') {
+          console.log(`[DEBUG] Skipped wrapping for ${blockType}.${hit.id} (already wrapped or empty):`, val);
+        }
+        realSettings[hit.id] = val;
+      } else {
+        console.log(`[DEBUG] No schema hit for ${blockType} setting: ${k}`);
+      }
     }
     const id = `${blockType}_${block_order.length + 1}`;
     blocks[id] = { type: blockType, settings: realSettings };
@@ -281,8 +305,8 @@ function compileSectionFromIntent({ sectionPlan, schema, assetRefMap }) {
 
     const rowType =
       blockTypes.has('collapsible_row') ? 'collapsible_row' :
-      blockTypes.has('collapsible-row') ? 'collapsible-row' :
-      (Array.from(blockTypes)[0] || null);
+        blockTypes.has('collapsible-row') ? 'collapsible-row' :
+          (Array.from(blockTypes)[0] || null);
 
     if (rowType) {
       const bs = blockSchemaByType[rowType];
@@ -301,8 +325,8 @@ function compileSectionFromIntent({ sectionPlan, schema, assetRefMap }) {
   } else if (type === 'slideshow' && intent.kind === 'slideshow') {
     const slideType =
       blockTypes.has('slide') ? 'slide' :
-      blockTypes.has('slideshow_slide') ? 'slideshow_slide' :
-      (Array.from(blockTypes)[0] || null);
+        blockTypes.has('slideshow_slide') ? 'slideshow_slide' :
+          (Array.from(blockTypes)[0] || null);
 
     if (slideType) {
       const bs = blockSchemaByType[slideType];
@@ -321,6 +345,54 @@ function compileSectionFromIntent({ sectionPlan, schema, assetRefMap }) {
         block_order.push(bid);
       }
     }
+  } else if (type === 'ai-super-canvas' && intent.kind === 'custom_html') {
+    // Our joker section has simple schema: html + custom_css
+    const htmlSettingId = (schema?.settings || []).find((s) => s.id === 'html')?.id || pickTextSettingId(schema?.settings || [], ['html']);
+    const cssSettingId = (schema?.settings || []).find((s) => s.id === 'custom_css')?.id || null;
+
+    if (htmlSettingId) settings[htmlSettingId] = intent.html || '';
+    if (cssSettingId) settings[cssSettingId] = intent.custom_css || '';
+
+  } else if (type === 'smart-grid' && (intent.kind === 'smart_grid' || intent.kind === 'features')) {
+    // V7 custom grid: schema-driven settings + blocks
+    const sSettings = schema?.settings || [];
+    const setIf = (id, v) => {
+      if (v === undefined || v === null) return;
+      const has = sSettings.find((s) => s.id === id);
+      if (has) settings[id] = v;
+    };
+
+    setIf('heading', intent.heading || intent.title || '');
+    setIf('heading_size', intent.heading_size || 'h1');
+    setIf('columns_desktop', intent.columns_desktop || intent.columns || 3);
+    setIf('columns_mobile', intent.columns_mobile || 1);
+    setIf('gap', intent.gap || 16);
+    setIf('padding_y', intent.padding_y || 24);
+    setIf('custom_css', intent.custom_css || '');
+
+    const itemType = blockTypes.has('item') ? 'item' : (Array.from(blockTypes)[0] || null);
+    if (itemType) {
+      const bs = blockSchemaByType[itemType];
+      const bsSettings = bs?.settings || [];
+      const imgId = bsSettings.find((s) => s.type === 'image_picker')?.id || 'image';
+      const titleId = pickTextSettingId(bsSettings, ['title']) || 'title';
+      const textId = pickTextSettingId(bsSettings, ['text']) || 'text';
+      const linkLabelId = pickTextSettingId(bsSettings, ['link_label']) || 'link_label';
+      const linkUrlId = (bsSettings || []).find((s) => s.type === 'url')?.id || 'link_url';
+
+      for (const it of (intent.items || []).slice(0, Math.min(24, maxBlocks))) {
+        const bid = `${itemType}_${block_order.length + 1}`;
+        const bSettings = {};
+        const imgRef = assetRefMap[it.imageAssetId || it.iconAssetId];
+        if (imgId && imgRef) bSettings[imgId] = imgRef;
+        if (titleId && it.title) bSettings[titleId] = it.title;
+        if (textId && it.text) bSettings[textId] = it.text;
+        if (linkLabelId && it.link_label) bSettings[linkLabelId] = it.link_label;
+        if (linkUrlId && it.link_url) bSettings[linkUrlId] = it.link_url;
+        blocks[bid] = { type: itemType, settings: bSettings };
+        block_order.push(bid);
+      }
+    }
   } else {
     // fallback: empty section (keeps template valid) or could switch to rich-text
   }
@@ -329,36 +401,72 @@ function compileSectionFromIntent({ sectionPlan, schema, assetRefMap }) {
   if (block_order.length) {
     out.blocks = blocks;
     out.block_order = block_order;
+
+    // Post-process blocks to sanitize richtext (fix for 422)
+    for (const [bid, block] of Object.entries(blocks)) {
+      const bs = blockSchemaByType[block.type];
+      const bsSettings = bs?.settings || [];
+      const realSettings = block.settings || {};
+      for (const [k, v] of Object.entries(realSettings)) {
+        if (!v || typeof v !== 'string') continue;
+        const sDef = bsSettings.find((s) => s.id === k);
+        if (sDef && sDef.type === 'richtext') {
+          if (!v.trim().startsWith('<')) {
+            realSettings[k] = `<p>${v}</p>`;
+          }
+        }
+      }
+    }
   }
   return out;
 }
 
-async function templateBuilder() {
-  const args = parseArgs(process.argv);
+async function templateBuilder({ argv = null } = {}) {
+  const args = parseArgs(argv || process.argv);
+  const mode = (args.mode || (args.pageId ? 'page' : 'product')).toLowerCase();
   const suffix = args.suffix || 'cloned-v1';
 
-  if (!fs.existsSync(PLAN_PATH) || !fs.existsSync(PASSPORT_V5_PATH)) {
+  const planPath = args.planPath || PLAN_PATH;
+  const passportPath = args.passportPath || PASSPORT_V5_PATH;
+
+  if (!fs.existsSync(planPath) || !fs.existsSync(passportPath)) {
     console.error('❌ Missing inputs. Ensure you ran: deep-inspector (V5) and structure-mapper.');
-    console.error(`- ${PASSPORT_V5_PATH}`);
-    console.error(`- ${PLAN_PATH}`);
+    console.error(`- ${passportPath}`);
+    console.error(`- ${planPath}`);
     process.exit(1);
   }
 
-  const plan = await fs.readJson(PLAN_PATH);
-  const passport = await fs.readJson(PASSPORT_V5_PATH);
+  const plan = await fs.readJson(planPath);
+  const passport = await fs.readJson(passportPath);
 
-  // Determine productId (CLI -> legacy passport fallback)
-  let productId = args.productId;
-  if (!productId) {
-    const legacyPath = path.join(WORKSPACE_DIR, 'donor_passport.json');
-    if (fs.existsSync(legacyPath)) {
-      const legacy = await fs.readJson(legacyPath);
-      productId = legacy.createdProductId;
+  if (!['product', 'page'].includes(mode)) {
+    console.error('❌ Invalid mode. Use --mode product|page');
+    process.exit(1);
+  }
+
+  let productId = null;
+  let pageId = null;
+
+  if (mode === 'product') {
+    // Determine productId (CLI -> legacy passport fallback)
+    productId = args.productId;
+    if (!productId) {
+      const legacyPath = path.join(WORKSPACE_DIR, 'donor_passport.json');
+      if (fs.existsSync(legacyPath)) {
+        const legacy = await fs.readJson(legacyPath);
+        productId = legacy.createdProductId;
+      }
     }
-  }
-  if (!productId) {
-    console.error('❌ Missing productId. Provide: node tools/template-builder.js --productId <id>');
-    process.exit(1);
+    if (!productId) {
+      console.error('❌ Missing productId. Provide: node tools/template-builder.js --mode product --productId <id>');
+      process.exit(1);
+    }
+  } else {
+    pageId = args.pageId;
+    if (!pageId) {
+      console.error('❌ Missing pageId. Provide: node tools/template-builder.js --mode page --pageId <id>');
+      process.exit(1);
+    }
   }
 
   // Init REST client for theme assets + product update
@@ -385,8 +493,9 @@ async function templateBuilder() {
   }
   const shopifyRefPrefix = deriveShopifyRefPrefixFromThemeTemplates(templateVals);
 
-  // Load base product template json (if missing, create minimal)
-  const baseTemplateStr = await fetchThemeAsset(themeId, 'templates/product.json');
+  // Load base template json (if missing, create minimal)
+  const baseTemplateKey = mode === 'page' ? 'templates/page.json' : 'templates/product.json';
+  const baseTemplateStr = await fetchThemeAsset(themeId, baseTemplateKey);
   const baseTemplate = safeJsonParse(baseTemplateStr) || { sections: {}, order: [] };
 
   // Gather assetIds we need to upload (from intents)
@@ -395,6 +504,7 @@ async function templateBuilder() {
     const intent = s.intent || {};
     if (intent.heroBgAssetId) neededAssetIds.push(intent.heroBgAssetId);
     if (Array.isArray(intent.items)) intent.items.forEach((it) => it.iconAssetId && neededAssetIds.push(it.iconAssetId));
+    if (Array.isArray(intent.items)) intent.items.forEach((it) => it.imageAssetId && neededAssetIds.push(it.imageAssetId));
     if (Array.isArray(intent.slides)) intent.slides.forEach((sl) => sl.imageAssetId && neededAssetIds.push(sl.imageAssetId));
   }
 
@@ -402,9 +512,26 @@ async function templateBuilder() {
   const assetRefMap = await uploadFilesAndGetRefs({ assetIds: neededAssetIds, passport, shopifyRefPrefix });
 
   // Compile sections using real schema from current theme
-  const newSections = { ...(baseTemplate.sections || {}) };
-  const newOrder = Array.isArray(baseTemplate.order) ? [...baseTemplate.order] : [];
+  const newSections = {};
+  const newOrder = [];
 
+  // 1. Retain ONLY the 'main' product section from the base template (essential for Add to Cart)
+  //    Discard 'related-products', 'recommendations', and other noise.
+  if (baseTemplate.sections) {
+    for (const [key, val] of Object.entries(baseTemplate.sections)) {
+      if (val.type === 'main-product' || key === 'main') {
+        newSections[key] = val;
+        // Ensure it's in the order
+        if (baseTemplate.order && baseTemplate.order.includes(key)) {
+          newOrder.push(key);
+        } else if (!newOrder.includes(key)) {
+          newOrder.push(key);
+        }
+      }
+    }
+  }
+
+  // 2. Append AI-generated sections
   let idx = 0;
   for (const sectionPlan of (plan.sections || [])) {
     idx += 1;
@@ -427,7 +554,9 @@ async function templateBuilder() {
     order: newOrder,
   };
 
-  const templateKey = `templates/product.${suffix}.json`;
+  const templateKey = mode === 'page'
+    ? `templates/page.${suffix}.json`
+    : `templates/product.${suffix}.json`;
   console.log(`📤 Uploading template: ${templateKey} ...`);
   await shopifyClient.put(`/themes/${themeId}/assets.json`, {
     asset: {
@@ -436,22 +565,42 @@ async function templateBuilder() {
     },
   });
 
-  console.log(`🧩 Assigning template_suffix="${suffix}" to product ${productId} ...`);
-  await shopifyClient.put(`/products/${productId}.json`, {
-    product: {
-      id: productId,
-      template_suffix: suffix,
-    },
-  });
+  if (mode === 'page') {
+    console.log(`🧩 Assigning template_suffix="${suffix}" to page ${pageId} ...`);
+    await shopifyClient.put(`/pages/${pageId}.json`, {
+      page: {
+        id: pageId,
+        template_suffix: suffix,
+      },
+    });
+  } else {
+    console.log(`🧩 Assigning template_suffix="${suffix}" to product ${productId} ...`);
+    await shopifyClient.put(`/products/${productId}.json`, {
+      product: {
+        id: productId,
+        template_suffix: suffix,
+      },
+    });
+  }
 
   console.log('✅ Template applied successfully.');
   console.log(`   - themeId: ${themeId}`);
-  console.log(`   - productId: ${productId}`);
+  console.log(`   - mode: ${mode}`);
+  if (mode === 'page') console.log(`   - pageId: ${pageId}`);
+  else console.log(`   - productId: ${productId}`);
   console.log(`   - suffix: ${suffix}`);
+
+  // Post-run cleanup (safe): move old generated screenshots/legacy dirs into workspace/_trash
+  try {
+    const res = await cleanupWorkspace({ mode: 'post_run', keepDays: 7, purgeTrash: true });
+    console.log('🧹 Workspace cleanup:', JSON.stringify(res.movedSummary));
+  } catch (e) {
+    console.warn('⚠️ cleanup-workspace warning:', e?.message || e);
+  }
 }
 
 if (require.main === module) {
-  templateBuilder().catch((err) => {
+  templateBuilder({ argv: process.argv }).catch((err) => {
     console.error('❌ template-builder failed:', err?.message || err);
     if (err?.response?.data) console.error('API Response:', JSON.stringify(err.response.data, null, 2));
     process.exit(1);
