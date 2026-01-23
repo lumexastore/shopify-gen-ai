@@ -1,4 +1,0 @@
-{
-  "ok": false,
-  "error": "OPENROUTER_API_KEY is missing (set it in .env)"
-}

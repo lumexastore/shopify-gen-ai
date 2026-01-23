@@ -1,5 +1,0 @@
-{"ts":"2026-01-21T17:38:17.012Z","level":"info","runId":"run_1769017096983_93a5","step":null,"msg":"run.start","data":{"mode":"clone_product","url":"https://www.haphoriz.com/products/necksupportw","targetId":null,"suffix":"haphoriz-neslemy"}}
-{"ts":"2026-01-21T17:38:17.013Z","level":"info","runId":"run_1769017096983_93a5","step":"capture-pack","msg":"step.start","data":{"name":"capture-pack"}}
-{"ts":"2026-01-21T17:38:48.895Z","level":"success","runId":"run_1769017096983_93a5","step":"capture-pack","msg":"capture-pack complete","data":{"path":"C:\\Cursor project\\Shopify\\workspace\\capture_pack.v6.json","emittedSections":11,"sections":11,"packUrl":"https://www.haphoriz.com/products/necksupportw"}}
-{"ts":"2026-01-21T17:38:48.948Z","level":"success","runId":"run_1769017096983_93a5","step":"capture-pack","msg":"step.end","data":{"name":"capture-pack","durationMs":31935}}
-{"ts":"2026-01-21T17:38:48.963Z","level":"info","runId":"run_1769017096983_93a5","step":"deep-inspector","msg":"step.start","data":{"name":"deep-inspector"}}
